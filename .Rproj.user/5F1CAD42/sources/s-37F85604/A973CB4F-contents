@@ -1,8 +1,0 @@
-theme = "hugo-theme-novela"
-baseURL = "http://ids.works"
-languageCode = "en-us"
-title = "Dmitrii Storozhenko"
-  [taxonomies]
-      tag = "tags"
-      author = "authors"
-      preserveTaxonomyNames = true
