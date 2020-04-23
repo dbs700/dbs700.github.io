@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dmitrii Storozhenko</title>
+    <link>/authors/hugo-authors/</link>
+    <description>Recent content on Dmitrii Storozhenko</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/authors/hugo-authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aggregate marketing system simulator for different scenarios and channels</title>
+      <link>/post/aggregate-marketing-system-simulator/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/aggregate-marketing-system-simulator/</guid>
+      <description>Preface Running a business is like running a race, and in this term every item is important, so if you have powerful tools and bright minds, you will definitely get in a better position. Google are not only well-known for producing high quality products for users, but also for producing tools that helps us gain lot of insights from any type of data.
+Today we&amp;rsquo;ll explore one of them for simulating aggregated marketing times series data.</description>
+    </item>
+    
+    <item>
+      <title>On advertising performance evaluation with Data Science in mind</title>
+      <link>/post/ads/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ads/</guid>
+      <description>Preface Imagine that you are the CEO of the company, who clearly see that competitors are actively expanding in a market nevertheless tough times (and when was it different?). Your company produces a handy product or service. At the next meeting, together with the marketing and advertising department, you decided to launch an advertising company aimed to increase sales and brand awareness at the same time.
+You have chosen specific types of advertising, deciding to go for both offline and online.</description>
+    </item>
+    
+    <item>
+      <title>Analysis of customer behavior. From segmentation to recommendation</title>
+      <link>/post/basket/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/basket/</guid>
+      <description>This is an automated Google Translation from my russian version of website. Please visit later for better experience.
+Preface Vasily loves when they pay attention to him, he has thousands of subscribers on social networks. His girlfriend, Maria, believes that life is meaningless for show, so she carefully selects the news feed and friends, she does not eat sweets because it is bad for the figure, and buys more vegetables and fruits, plus household goods.</description>
+    </item>
+    
+    <item>
+      <title>Houston, we have a problems, or when you should pay attention to the quality of analytical data</title>
+      <link>/post/huston/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/huston/</guid>
+      <description>This is an automated Google Translation from my russian version of website. Please visit later for better experience.
+Preface Suppose your company has a long history and you, or say our mocked hero Ivan Petrovich, is a vivid example of a modern leader who has already heard words such as Big Data, algorithms or artificial intelligence in the media.
+The company works like a clock, although of course there are moments of turbulence.</description>
+    </item>
+    
+  </channel>
+</rss>
