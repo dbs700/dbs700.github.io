@@ -47,3 +47,5 @@ Also, we could calculate marginal Return on Ad Spent by setting budget proportio
 
 So, summing it all up, and keeping in mind that this is unofficial Google product, it still helps us to create a really useful insights from simulated data before we actually spend any money.
 
+
+{{<subscribe email = "your@email.com">}}
