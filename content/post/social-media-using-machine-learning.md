@@ -20,7 +20,7 @@ VK aims to cover all the needs of its users and is actively developing the open 
 
 Based on the latest financial report, the strategy for 2020-22 will be focused on the formation of the ecosystem via cross-selling and deeper integration of the Group’s assets. Mail.ru Group is transforming VK into the heart of its ecosystem. A VK account will be the foundation for the Group ID, and VK Pay is being scaled across the Group, VK Mini Apps will turn into a unified Group platform for developers, and the VK Super App Software Development Kit will be the technology uniting all these initiatives.*
 
-So keeping it all in mind, I decided to dive into the biggest and the most popular news page at VK - RIA Novosti. RIA is a state-operated domestic news agency with 2,488,455 followers on Vkontakte. This followers base represents 3,5% of total Monthly Active Users on Vkontakte.
+So keeping it all in mind, I decided to dive into the biggest and the most popular news page at VK - RIA Novosti. RIA is a state-operated domestic news agency with almost 2.5M followers on Vkontakte. This followers base represents 3,5% of total Monthly Active Users on Vkontakte.
 
 ## Uncovering real numbers
 
