@@ -43,9 +43,9 @@ And now, we could sweep the data available for an IP address related to 1stfinan
 
 So what we have for now.
 
-Current DNS A record: 128.199.247.119 (AS14061 - DIGITALOCEAN-ASN, US)
-Domain created: January 30th 2020, 12:39:01 (UTC)
-Domain registrar: NameCheap, Inc. 
+* Current DNS A record: 128.199.247.119 (AS14061 - DIGITALOCEAN-ASN, US)
+* Domain created: January 30th 2020, 12:39:01 (UTC)
+* Domain registrar: NameCheap, Inc. 
 
 Suspicious domain with almost insecure content but with Mckinsey corporate website design and logo. Nice try! 
 
