@@ -6,10 +6,20 @@
     <description>Recent content on Dmitrii Storozhenko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/hugo-authors/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to get insights from a security point of view using R</title>
+      <link>/post/how-to-get-insights-from-a-security-point-of-view-using-r/</link>
+      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/how-to-get-insights-from-a-security-point-of-view-using-r/</guid>
+      <description>Recently I came across some cyber security articles written by Mckinsey but then I suddenly remembered one of the brilliant resource focused on R and cybersecurity research, DFIR, risk analysis, and much more. The person behind this resource is Bob Rudis who wrote a book along with Jay Jacobs - Data, Driven Security: Analysis, Visualization and Dashboards
+ Uncover hidden patterns of data and respond with countermeasures Security professionals need all the tools at their disposal to increase their visibility in order to prevent security breaches and attacks.</description>
+    </item>
     
     <item>
       <title>How to get insights from Social Media using Machine Learning or why you shouldn&#39;t trust everything you see</title>
