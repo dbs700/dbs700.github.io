@@ -1,5 +1,5 @@
 ---
-title: How to get insights from a security point of view using R
+title: How to get insights from a security point of view using R and packages for cybersecurity research
 authors:
 - Hugo Authors
 date: '2020-05-06'
@@ -47,4 +47,4 @@ Current DNS A record: 128.199.247.119 (AS14061 - DIGITALOCEAN-ASN, US)
 Domain created: January 30th 2020, 12:39:01 (UTC)
 Domain registrar: NameCheap, Inc. 
 
-Suspicious domain with almost insecure content but with Mckinsey corporate website design and logo. Nice try!
+Suspicious domain with almost insecure content but with Mckinsey corporate website design and logo. Nice try! 
