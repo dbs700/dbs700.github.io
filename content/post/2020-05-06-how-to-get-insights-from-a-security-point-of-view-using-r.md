@@ -7,7 +7,7 @@ slug: how-to-get-insights-from-a-security-point-of-view-using-r
 categories: []
 tags: []
 hero: /images/hero-12.jpg
-excerpt: ~
+excerpt: Recently I came across some cybersecurity articles written by Mckinsey, but then I suddenly remembered one of the brilliant resources focused on R and cybersecurity research
 ---
 
 Recently I came across some cybersecurity articles written by Mckinsey, but then I suddenly remembered one of the brilliant resources focused on R and cybersecurity research, DFIR, risk analysis, and much more. The person behind this resource is Bob Rudis who wrote a book along with Jay Jacobs - "Data, Driven Security: Analysis, Visualization and Dashboards"
