@@ -1,5 +1,5 @@
 ---
-title: How to get insights from a security point of view using R and packages for cybersecurity research
+title: Checking websites for hidden artifacts from a cybersecurity point of view using R, with packages developed by top influencers in IT security
 authors:
 - Hugo Authors
 date: '2020-05-06'
