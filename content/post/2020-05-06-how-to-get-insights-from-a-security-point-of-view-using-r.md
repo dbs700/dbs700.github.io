@@ -10,7 +10,7 @@ hero: /images/hero-12.jpg
 excerpt: Recently I came across some cybersecurity articles written by Mckinsey, but then I suddenly remembered one of the brilliant resources focused on R and cybersecurity research
 ---
 
-Recently I came across some cybersecurity articles written by Mckinsey, but then I suddenly remembered one of the brilliant resources focused on R and cybersecurity research, DFIR, risk analysis, and much more. The person behind this resource is Bob Rudis who wrote a book along with Jay Jacobs - "Data, Driven Security: Analysis, Visualization and Dashboards"
+Recently I came across some cybersecurity articles written by Mckinsey, but then I suddenly remembered one of the brilliant resources focused on R and cybersecurity research, DFIR, risk analysis, and much more. The person behind this resource is Bob Rudis* who wrote a book along with Jay Jacobs - "Data, Driven Security: Analysis, Visualization and Dashboards"
 
 >From safeguarding corporate data to keeping e-commerce transactions secure, today’s IT professionals are tasked with enormous and complex data security responsibilities. In Data-Driven Security, Jay Jacobs and Bob Rudis draw together three of the most important topics in IT―security, data analysis, and visualization―to present a real-world security strategy to defend your networks. Turning their backs on insufficient security based on hunches and best practices, the authors help you access the world of security data analysis and visualization, where real data drives security decisions, and they teach you to apply the principles of that security with real-world cases. 
 
@@ -48,3 +48,5 @@ Domain created: January 30th 2020, 12:39:01 (UTC)
 Domain registrar: NameCheap, Inc. 
 
 Suspicious domain with almost insecure content but with Mckinsey corporate website design and logo. Nice try! 
+
+Bob Rudis is the Director of Enterprise Information Security & IT Risk Management at Liberty Mutual Insurance and was named one of the Top 25 Influencers in Information Security by Tripwire.
