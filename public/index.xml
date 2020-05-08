@@ -12,13 +12,12 @@
     
     
     <item>
-      <title>How to get insights from a security point of view using R</title>
+      <title>Checking websites for hidden artifacts from a cybersecurity point of view using R, with packages developed by top influencers in IT security</title>
       <link>/post/how-to-get-insights-from-a-security-point-of-view-using-r/</link>
       <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/how-to-get-insights-from-a-security-point-of-view-using-r/</guid>
-      <description>Recently I came across some cyber security articles written by Mckinsey but then I suddenly remembered one of the brilliant resource focused on R and cybersecurity research, DFIR, risk analysis, and much more. The person behind this resource is Bob Rudis who wrote a book along with Jay Jacobs - Data, Driven Security: Analysis, Visualization and Dashboards
- Uncover hidden patterns of data and respond with countermeasures Security professionals need all the tools at their disposal to increase their visibility in order to prevent security breaches and attacks.</description>
+      <description>Recently I came across some cybersecurity articles written by Mckinsey, but then I suddenly remembered one of the brilliant resources focused on R and cybersecurity research, DFIR, risk analysis, and much more. The person behind this resource is Bob Rudis* who wrote a book along with Jay Jacobs - &amp;ldquo;Data, Driven Security: Analysis, Visualization and Dashboards&amp;rdquo;. Bob Rudis is the Director of Enterprise Information Security &amp;amp; IT Risk Management at Liberty Mutual Insurance and was named one of the Top 25 Influencers in Information Security by Tripwire.</description>
     </item>
     
     <item>
