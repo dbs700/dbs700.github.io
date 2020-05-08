@@ -56,5 +56,5 @@ Let's check outgoing links. These are links going to different origins than the 
 
 Suspicious domain with almost insecure content but with Mckinsey corporate website design, logo and fake sign-in links. Nice try! 
 
-I submitted this report to Mckinsey, so I hope that they're fix the problem soon.
+I submitted this report to Mckinsey, so I hope that they fix the problem soon.
 
