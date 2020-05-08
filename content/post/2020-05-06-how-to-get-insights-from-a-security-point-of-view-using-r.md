@@ -41,7 +41,7 @@ And now, we could sweep the data available for an IP address related to 1stfinan
 
 ![](/post/2020-05-06-how-to-get-insights-from-a-security-point-of-view-using-r_files/1fin_domains_ip.png)
 
-So what we have for now.
+So what we have for now:
 
 * Current DNS A record: 128.199.247.119 (AS14061 - DIGITALOCEAN-ASN, US)
 * Domain created: January 30th 2020, 12:39:01 (UTC)
