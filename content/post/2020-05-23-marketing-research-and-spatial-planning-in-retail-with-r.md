@@ -32,13 +32,13 @@ MCI2 package was made more user friendly, but the overall approach is still the 
 
 The second function that is more engaging I think, is predicting the market share. Since we predict the share, we could change variables to see the difference. For example, we could analyze the impact of a change in the competitive environment: what if some store increased it's square by 10% ? How will, purchasing power flows with respect to this supplier and to all other stores change?
 
-We have to create the interaction matrix first, then, we calculate the total customers and expenditures and the overall market shares. We have also add travel times and grocery stores characteristics. Adding 
+We have to create the interaction matrix first, then, we calculate the total customers and expenditures and the overall market shares. We have also add travel times and grocery stores characteristics.
 
 So the main prediction would look like this:
 
 ![](/post/2020-05-23-marketing-research-and-spatial-planning-in-retail-with-r_files/first.png)
 
-And if we'll change the sales area of REAL by increasing it, let's say by 10%,the overall market share changes like that:
+And if we'll change the sales area of REAL by increasing it, let's say by 10%, the overall market share changes like that:
 
 ![](/post/2020-05-23-marketing-research-and-spatial-planning-in-retail-with-r_files/second.png)
 

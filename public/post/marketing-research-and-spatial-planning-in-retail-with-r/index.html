@@ -195,10 +195,10 @@ This type of data could tell us a lot about consumer preferences and behaviour, 
 <p>MCI2 package was made more user friendly, but the overall approach is still the same. Generally, to get distance decay result, we need to reshape our data to interactions matrix first, then create zones of empricial market shares by driving time and after that we could fit distance decay function.</p>
 <p><img src="/post/2020-05-23-marketing-research-and-spatial-planning-in-retail-with-r_files/km.png" alt=""></p>
 <p>The second function that is more engaging I think, is predicting the market share. Since we predict the share, we could change variables to see the difference. For example, we could analyze the impact of a change in the competitive environment: what if some store increased it&rsquo;s square by 10% ? How will, purchasing power flows with respect to this supplier and to all other stores change?</p>
-<p>We have to create the interaction matrix first, then, we calculate the total customers and expenditures and the overall market shares. We have also add travel times and grocery stores characteristics. Adding</p>
+<p>We have to create the interaction matrix first, then, we calculate the total customers and expenditures and the overall market shares. We have also add travel times and grocery stores characteristics.</p>
 <p>So the main prediction would look like this:</p>
 <p><img src="/post/2020-05-23-marketing-research-and-spatial-planning-in-retail-with-r_files/first.png" alt=""></p>
-<p>And if we&rsquo;ll change the sales area of REAL by increasing it, let&rsquo;s say by 10%,the overall market share changes like that:</p>
+<p>And if we&rsquo;ll change the sales area of REAL by increasing it, let&rsquo;s say by 10%, the overall market share changes like that:</p>
 <p><img src="/post/2020-05-23-marketing-research-and-spatial-planning-in-retail-with-r_files/second.png" alt=""></p>
 <p>As the conclusion, I&rsquo;ve wanted to point out that the article written by Dr. Wieland helps a lot with market share prediction, and covers different situations like dealing with the problem of fitting the Huff Model on condition that no empirically observed store choices, market shares and market areas are available and many others things. If you&rsquo;re interested in this topic, please check the following link <a href="https://www.researchgate.net/publication/329389548_MCI2_Market_Area_Models_for_Retail_and_Service_Locations_R_package_v100_R_package_documentation_httpsCRANR-projectorgpackageMCI2">here</a>.</p>
 
