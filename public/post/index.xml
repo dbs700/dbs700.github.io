@@ -6,13 +6,23 @@
     <description>Recent content in Posts on Dmitrii Storozhenko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Checking websites for hidden artifacts from a cybersecurity point of view using R, with packages developed by top influencers in IT security</title>
+      <title>Marketing research and spatial planning in retail with R. Glimpse on a MCI/MCI2 packages - market area models for retail and service locations</title>
+      <link>/post/marketing-research-and-spatial-planning-in-retail-with-r/</link>
+      <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/marketing-research-and-spatial-planning-in-retail-with-r/</guid>
+      <description>Every time when we go to the grocery store or any other shop, we leave some data. On a micro scale this includes any checkout at a retail store. On a macro scale data is collected from groups of retailers. Generally, the point of sale data is collected by a business when some transaction happens.
+This type of data could tell us a lot about consumer preferences and behaviour, but also we could imply market area models.</description>
+    </item>
+    
+    <item>
+      <title>Checking websites for hidden artifacts using R, with packages developed by top influencers in IT security</title>
       <link>/post/how-to-get-insights-from-a-security-point-of-view-using-r/</link>
       <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
       

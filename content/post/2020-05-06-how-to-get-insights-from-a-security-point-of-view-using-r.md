@@ -1,5 +1,5 @@
 ---
-title: Checking websites for hidden artifacts from a cybersecurity point of view using R, with packages developed by top influencers in IT security
+title: Checking websites for hidden artifacts using R, with packages developed by top influencers in IT security
 authors:
 - Hugo Authors
 date: '2020-05-06'
@@ -58,3 +58,7 @@ Suspicious domain with almost insecure content but with Mckinsey corporate websi
 
 I submitted this report to Mckinsey, so I hope that they fix the problem soon.
 
+
+
+
+{{<subscribe email = "your@email.com">}}
