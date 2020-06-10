@@ -8,10 +8,10 @@ slug: how-netflix-and-youtube-builts-recommendation-and-personalization-systems-
 categories: []
 tags: []
 hero: /images/hero-610.jpg
-excerpt: While analyzing some of YouTube channel we discovered that suggested videos takes 60% of total views and in this case it could be good to know, how this type of algorithms works and how we could benefit from it.
+excerpt: While analyzing some of YouTube channels, we discovered that suggested videos take 60% of total views, and in this case, it could be useful to know how this type of algorithm works and how we could benefit from it.
 ---
 
-While analyzing some of YouTube channel we discovered that suggested videos takes 60% of total views and in this case it could be good to know, how this type of algorithms works and how we could benefit from it.
+While analyzing some of YouTube channels, we discovered that suggested videos take 60% of total views, and in this case, it could be useful to know how this type of algorithm works and how we could benefit from it.
 
 So what we should expect in future? 
 
