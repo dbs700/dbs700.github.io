@@ -6,13 +6,24 @@
     <description>Recent content in Posts on Dmitrii Storozhenko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Marketing research and spatial planning in retail with R. Glimpse on a MCI/MCI2 packages - market area models for retail and service locations</title>
+      <title>How Netflix and YouTube built recommendation and personalization systems with Machine Learning</title>
+      <link>/post/how-netflix-and-youtube-builts-recommendation-and-personalization-systems-with-machine-learning/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/how-netflix-and-youtube-builts-recommendation-and-personalization-systems-with-machine-learning/</guid>
+      <description>While analyzing some of YouTube channel we discovered that suggested videos takes 60% of total views and in this case it could be good to know, how this type of algorithms works and how we could benefit from it.
+So what we should expect in future?
+In nearest future, we could expect that the share of suggested views may grow up to 80% (as it already turned out for Netflix). Taking both YouTube and Netflix as they compete for the same audience, for the same watch time, we may see that they have the same ecosystem and works on the same problems related to content suggestions and personalizations but on different scales.</description>
+    </item>
+    
+    <item>
+      <title>Glimpse on a MCI/MCI2 packages - market area models for retail and service locations</title>
       <link>/post/marketing-research-and-spatial-planning-in-retail-with-r/</link>
       <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
       

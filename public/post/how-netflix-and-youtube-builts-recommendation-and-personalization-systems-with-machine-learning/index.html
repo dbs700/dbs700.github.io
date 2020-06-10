@@ -38,30 +38,33 @@ if (!doNotTrack) {
 
 
 
-<title>Glimpse on a MCI/MCI2 packages - market area models for retail and service locations | Dmitrii Storozhenko</title>
-<meta name="description" content="Every time when we go to the grocery store or any other shop, we leave some data. On a micro scale this includes any checkout at a retail store. On a macro scale data is collected from groups of retailers. Generally, the point of sale data is collected by a business when some transaction happens.
-This type of data could tell us a lot about consumer preferences and behaviour, but also we could imply market area models.">
-<meta property="og:title" content="Glimpse on a MCI/MCI2 packages - market area models for retail and service locations | Dmitrii Storozhenko">
+<title>How Netflix and YouTube built recommendation and personalization systems with Machine Learning | Dmitrii Storozhenko</title>
+<meta name="description" content="While analyzing some of YouTube channel we discovered that suggested videos takes 60% of total views and in this case it could be good to know, how this type of algorithms works and how we could benefit from it.
+So what we should expect in future?
+In nearest future, we could expect that the share of suggested views may grow up to 80% (as it already turned out for Netflix). Taking both YouTube and Netflix as they compete for the same audience, for the same watch time, we may see that they have the same ecosystem and works on the same problems related to content suggestions and personalizations but on different scales.">
+<meta property="og:title" content="How Netflix and YouTube built recommendation and personalization systems with Machine Learning | Dmitrii Storozhenko">
 <meta property="og:site_name" content="Dmitrii Storozhenko">
-<meta property="og:description" content="Every time when we go to the grocery store or any other shop, we leave some data. On a micro scale this includes any checkout at a retail store. On a macro scale data is collected from groups of retailers. Generally, the point of sale data is collected by a business when some transaction happens.
-This type of data could tell us a lot about consumer preferences and behaviour, but also we could imply market area models.">
-<meta property="og:url" content="/post/marketing-research-and-spatial-planning-in-retail-with-r/">
+<meta property="og:description" content="While analyzing some of YouTube channel we discovered that suggested videos takes 60% of total views and in this case it could be good to know, how this type of algorithms works and how we could benefit from it.
+So what we should expect in future?
+In nearest future, we could expect that the share of suggested views may grow up to 80% (as it already turned out for Netflix). Taking both YouTube and Netflix as they compete for the same audience, for the same watch time, we may see that they have the same ecosystem and works on the same problems related to content suggestions and personalizations but on different scales.">
+<meta property="og:url" content="/post/how-netflix-and-youtube-builts-recommendation-and-personalization-systems-with-machine-learning/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content='/images/hero-27.jpg'><meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Glimpse on a MCI/MCI2 packages - market area models for retail and service locations | Dmitrii Storozhenko">
+<meta property="og:image" content='/images/hero-610.jpg'><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How Netflix and YouTube built recommendation and personalization systems with Machine Learning | Dmitrii Storozhenko">
 
-	<link rel="canonical" href="/post/marketing-research-and-spatial-planning-in-retail-with-r/">
+	<link rel="canonical" href="/post/how-netflix-and-youtube-builts-recommendation-and-personalization-systems-with-machine-learning/">
 
 
 	<meta name="twitter:site" content="@https://twitter.com/dbs700">
 	<meta name="twitter:creator" content="@https://twitter.com/dbs700">
 
-	<meta name="twitter:description" content="Every time when we go to the grocery store or any other shop, we leave some data. On a micro scale this includes any checkout at a retail store. On a macro scale data is collected from groups of retailers. Generally, the point of sale data is collected by a business when some transaction happens.
-This type of data could tell us a lot about consumer preferences and behaviour, but also we could imply market area models.">
-<meta name="twitter:image" content="/images/hero-27.jpg">
-<meta property="article:published_time" content="2020-05-23T00:00:00&#43;00:00">
-	<meta property="article:updated_time" content="2020-05-23T00:00:00&#43;00:00">
+	<meta name="twitter:description" content="While analyzing some of YouTube channel we discovered that suggested videos takes 60% of total views and in this case it could be good to know, how this type of algorithms works and how we could benefit from it.
+So what we should expect in future?
+In nearest future, we could expect that the share of suggested views may grow up to 80% (as it already turned out for Netflix). Taking both YouTube and Netflix as they compete for the same audience, for the same watch time, we may see that they have the same ecosystem and works on the same problems related to content suggestions and personalizations but on different scales.">
+<meta name="twitter:image" content="/images/hero-610.jpg">
+<meta property="article:published_time" content="2020-06-10T00:00:00&#43;00:00">
+	<meta property="article:updated_time" content="2020-06-10T00:00:00&#43;00:00">
 
 
 
@@ -130,7 +133,7 @@ This type of data could tell us a lot about consumer preferences and behaviour, 
     <section id="articleHero" class="section narrow">
     <div class="article-hero">
         <header class="article-header">
-            <h1 class="article-hero-heading">Glimpse on a MCI/MCI2 packages - market area models for retail and service locations</h1>
+            <h1 class="article-hero-heading">How Netflix and YouTube built recommendation and personalization systems with Machine Learning</h1>
             <div class="article-hero-subtitle">
                 <div class="article-meta">
                     
@@ -153,14 +156,14 @@ This type of data could tell us a lot about consumer preferences and behaviour, 
 
 
 <script src="/js/collapseAuthors.js"></script>
-                    May 23, 2020
-                    • 4 min read
+                    June 10, 2020
+                    • 5 min read
                 </div>
             </div>
         </header>
         
         <div class="article-hero-image" id="ArticleImage__Hero">
-            <img src="/images/hero-27.jpg">
+            <img src="/images/hero-610.jpg">
         </div>
         
     </div>
@@ -184,23 +187,33 @@ This type of data could tell us a lot about consumer preferences and behaviour, 
 
 
     <article  id="articleContent" class="post-content" style="position:relative;">
-        <p>Every time when we go to the grocery store or any other shop, we leave some data. On a micro scale this includes any checkout at a retail store. On a macro scale data is collected from groups of retailers. Generally, the point of sale data is collected by a business when some transaction happens.</p>
-<p>This type of data could tell us a lot about consumer preferences and behaviour, but also we could imply market area models. Developed by Thomas Wieland, MCI package provides this type of analysis and the output can be interpreted like any other linear model ﬁtted by lm(), which is easy to understand. Market area models can be used in retail location analysis to ﬁnd new locations, to evaluate the existing outlets or to assess the impact of changes in the competitive landscape.</p>
-<p>Market areas of retail locations result from the consumer spatial shopping behaviour, more precisely, their store choice. Thus, a market area is inﬂuenced by many factors such as the transport costs (e.g. distance, travel time) between customers and locations and, of course, the characteristics of the competitors (e.g. perceived &ldquo;attraction&rdquo;, pricing, image or the opportunity for multi-purpose and comparison shopping). Mostly, the market areas of competing supply locations overlap, which means that they are in spatial competition (Rodrigue et al., 2006; Wieland, 2015a).</p>
-<p>Traditionally, market area analysis includes the delineation and segmentation of market areas and can be divided into inductive-empirical and deductive-theoretical approaches. The ﬁrst type consists of constructing market areas based on empirical observations such as point-of-sale (POS) surveys (customer spotting), while in the latter approach this work is done by using mathematical market area models (Löfﬂer, 1998).</p>
-<p>Modern market area analyses are mostly a combination of both, especially when using econometric market area models which are ﬁtted by empirical data (Wieland, 2015a). Market area models can be used in retail location analysis to ﬁnd new locations, to evaluate the existing outlets or to assess the impact of changes in the competitive landscape (Berman and Evans, 2013; Huff and McCallum, 2008). The usage of market area models can also be transferred to other service locations, such as health services (Jia et al., 2015).</p>
-<p>So, let&rsquo;s try MCI R package. It comes with prebuilt dataset based on a survey conducted at two supply locations in the east of Karlsruhe, Germany, in May 2016. There are a couple of data including spatial (produced with ggmap), information about the city districts, grocery data, general shopping behaviour.</p>
-<p><img src="/post/2020-05-23-marketing-research-and-spatial-planning-in-retail-with-r_files/skim1.png" alt=""></p>
-<p>The first thing that we want to know is how much of the customers and expenditures come from origins with a maximal travel time of 10,20,30 and more than 30 minutes. After some data wrangling, we&rsquo;ve got the model with not so good R2, but we could improve it with optimization that is also covered in the research article (Thomas Wieland, The R Journal Vol. 9/1, June 2017 ISSN 2073-4859.)</p>
-<p>MCI2 package was made more user friendly, but the overall approach is still the same. Generally, to get distance decay result, we need to reshape our data to interactions matrix first, then create zones of empricial market shares by driving time and after that we could fit distance decay function.</p>
-<p><img src="/post/2020-05-23-marketing-research-and-spatial-planning-in-retail-with-r_files/km.png" alt=""></p>
-<p>The second function that is more engaging I think, is predicting the market share. Since we predict the share, we could change variables to see the difference. For example, we could analyze the impact of a change in the competitive environment: what if some store increased it&rsquo;s square by 10% ? How will, purchasing power flows with respect to this supplier and to all other stores change?</p>
-<p>We have to create the interaction matrix first, then, we calculate the total customers and expenditures and the overall market shares. We have also add travel times and grocery stores characteristics.</p>
-<p>So the main prediction would look like this:</p>
-<p><img src="/post/2020-05-23-marketing-research-and-spatial-planning-in-retail-with-r_files/first.png" alt=""></p>
-<p>And if we&rsquo;ll change the sales area of REAL by increasing it, let&rsquo;s say by 10%, the overall market share changes like that:</p>
-<p><img src="/post/2020-05-23-marketing-research-and-spatial-planning-in-retail-with-r_files/second.png" alt=""></p>
-<p>As the conclusion, I&rsquo;ve wanted to point out that the article written by Dr. Wieland helps a lot with market share prediction, and covers different situations like dealing with the problem of fitting the Huff Model on condition that no empirically observed store choices, market shares and market areas are available and many others things. If you&rsquo;re interested in this topic, please check the following link <a href="https://www.researchgate.net/publication/329389548_MCI2_Market_Area_Models_for_Retail_and_Service_Locations_R_package_v100_R_package_documentation_httpsCRANR-projectorgpackageMCI2">here</a>.</p>
+        <p>While analyzing some of YouTube channel we discovered that suggested videos takes 60% of total views and in this case it could be good to know, how this type of algorithms works and how we could benefit from it.</p>
+<p>So what we should expect in future?</p>
+<p>In nearest future, we could expect that the share of suggested views may grow up to 80% (as it already turned out for Netflix). Taking both YouTube and Netflix as they compete for the same audience, for the same watch time, we may see that they have the same ecosystem and works on the same problems related to content suggestions and personalizations but on different scales.</p>
+<p>For example, YouTube&rsquo;s recommendation system is comprised of two neural networks: one for candidate generation and one for ranking. The candidate generation network takes events from the user’s YouTube activity history as input and retrieves a small subset (hundreds) of videos from a large corpus. These candidates are intended to be generally relevant to the user with high precision. The candidate generation network only provides broad personalization via collaborative filtering. The similarity between users is expressed in terms of features such as IDs of video watches, search query tokens and demographics. Demographic features are important for providing priors so that the recommendations behave reasonably for new users. The user’s geographic region and device are embedded and concatenated.</p>
+<h2 id="netflix-recommender-system">Netflix recommender system</h2>
+<p>Netflix is well-known for inventing Internet TV. Netflix uses multiple algorithms that rely on statistical and machine learning techniques: supervised (classification, regression) and unsupervised approaches (dimensionality reduction through clustering or compression).</p>
+<blockquote>
+<p>Consumer research suggests that a typical Netflix member loses interest after perhaps 60 to 90 seconds of choosing, having reviewed 10 to 20 titles (perhaps 3 in detail) on one or two screens. The user either finds something of interest or the risk of the user
+abandoning our service increases substantially. The recommender problem is to make sure that on those two screens each member in our diverse pool will find something compelling to view, and will understand why it might be of interest.</p>
+</blockquote>
+<p>Netflix is an amazing place in terms of personalization. Take for example personalized video ranker (PVR) algorithm. As its name suggests, this algorithm orders the entire catalog of videos for each member profile in a personalized way.
+Netflix has also found that shorter-term temporal trends are powerful predictors of videos that the members will watch, especially when combined with the right dose of personalization, which is used in trending ranker algorithm. Netflix also uses so-called the continue watching ranker algorithm that sorts the subset of recently viewed titles based on an estimate of whether the member intends to resume watching or rewatch, or whether the member has abandoned something not as interesting as anticipated.</p>
+<p>Then, they also have a Video-Video similarity algorithm that is an unpersonalized algorithm that computes a ranked list of videos the similars for every video in the catalog. And in the end, all these outputs used in the page generation algorithm that constructs every single page of recommendations, taking into account the relevance of each row to the member as well as the diversity of the page.</p>
+<p>What are the limitations?
+The algorithm does a satisfactory job helping users who have some history on the platform, since all the predictions based on historical data. As for new users, it&rsquo;s still a pretty big room for improvement. That&rsquo;s why you&rsquo;re passing some surveys during the sign-up (used by Quora, Netflix, and others).</p>
+<h2 id="how-users-may-improve-the-performance-of-the-youtube-channel">How users may improve the performance of the YouTube channel?</h2>
+<p>Based on multiple research papers from the YouTube developers and Netflix technology team, thumbnail pictures are the only influencer to a user&rsquo;s decision to watch content. So, if you want to improve your channel performance, you should keep this in mind and focus not only on content and titles itself but also on thumbnails. Recommendation algorithm weights this feature (for example, how a user may watch a given video with high probability generally but is unlikely to click on the specific homepage impression due to the choice of thumbnail image). Experimenting with different layouts and designs will definitely improve the performance of the channel (A/B tests).</p>
+<p>We shouldn&rsquo;t take the YouTube search result page for the specific topic as the model of how videos should look like since search result pages have different algorithms and doesn&rsquo;t have straight connections to the recommendation algorithm.</p>
+<p>Great stories travel &ndash; but regional nuances can be powerful. This was one of the findings from Netflix research. It means that regional differences still exist and are important for some titles and imagery, what works good in one region, not necesarely meand that it would work for other regions or countries.</p>
+<p>Another finding was that images that have expressive facial emotion or that conveys the tone of the title do particularly well. Images featuring recognizable or polarizing characters from the title tend to do well too, the same for actions - if emotions or characters are not applicable. 
+They&rsquo;ve also proved in research papers that thumbnail image performs well only when it contained no more than 3 people.</p>
+<p>Also, we shouldn&rsquo;t try to create clickbait only videos since YouTube works against it. On the other hand, it&rsquo;s no good to pay too much attention to optimizing view duration only. The best way is to try to find a balance between CTR/average view duration of the video. This could be possible with A/B tests that are still considered as the best tool on the market.</p>
+<p>And the last, the most important signals are those that describe a user’s previous interaction with the item itself and other similar items. That means that if Service could propose additional content to the audience after or while they watch the video on the channel, this will undoubtfully boost chances to be placed higher in suggested videos scrollbar.</p>
+<p>Based on:</p>
+<p><a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf">Deep Neural Networks for YouTube Recommendations</a></p>
+<p><a href="https://dl.acm.org/doi/pdf/10.1145/2843948">The Netflix Recommender System: Algorithms, Business Value, and Innovation</a></p>
+<p><a href="https://www.slideshare.net/justinbasilico/recent-trends-in-personalization-a-netflix-perspective">Recent Trends in Personalization: A Netflix Perspective</a></p>
 
   
 
@@ -268,8 +281,28 @@ This type of data could tell us a lot about consumer preferences and behaviour, 
     <div class="next-articles-grid" numberOfArticles={numberOfArticles}>
         <div class="post-row">
             
-                <a href="/post/how-to-get-insights-from-a-security-point-of-view-using-r/" class="article-link"
+                <a href="/post/marketing-research-and-spatial-planning-in-retail-with-r/" class="article-link"
                  id="article-link-bigger">
+                    <div>
+                        <div class="image-container">
+                            <img src="/images/hero-27.jpg" class="article-image" />
+                        </div>
+                        <div>
+                            <h2 class="article-title">
+                                Glimpse on a MCI/MCI2 packages - market area models for retail and service locations
+                            </h2>
+                            <p class="article-excerpt">
+                                Market area models can be used in retail location analysis to ﬁnd new locations, to evaluate the existing outlets or to assess the impact of changes in the competitive landscape
+                            </p>
+                            <div class="article-metadata">
+                                May 5, 2020 · 4 min read
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            
+                <a href="/post/how-to-get-insights-from-a-security-point-of-view-using-r/" class="article-link"
+                >
                     <div>
                         <div class="image-container">
                             <img src="/images/hero-12.jpg" class="article-image" />
@@ -283,26 +316,6 @@ This type of data could tell us a lot about consumer preferences and behaviour, 
                             </p>
                             <div class="article-metadata">
                                 May 5, 2020 · 3 min read
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            
-                <a href="/post/social-media-using-machine-learning/" class="article-link"
-                >
-                    <div>
-                        <div class="image-container">
-                            <img src="/images/hero-16.jpg" class="article-image" />
-                        </div>
-                        <div>
-                            <h2 class="article-title">
-                                How to get insights from Social Media using Machine Learning or why you shouldn&#39;t trust everything you see
-                            </h2>
-                            <p class="article-excerpt">
-                                Wikipedia says influencer marketing is a form of social media marketing involving endorsements and product placement from influencers, people and organizations who have a purported expert level of knowledge or social influence in their field.
-                            </p>
-                            <div class="article-metadata">
-                                May 5, 2020 · 5 min read
                             </div>
                         </div>
                     </div>

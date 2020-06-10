@@ -1,5 +1,5 @@
 ---
-title: Marketing research and spatial planning in retail with R. Glimpse on a MCI/MCI2 packages - market area models for retail and service locations
+title: Glimpse on a MCI/MCI2 packages - market area models for retail and service locations
 authors:
 - Hugo Authors
 date: '2020-05-23'
