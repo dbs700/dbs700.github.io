@@ -48,7 +48,7 @@ They've also proved in research papers that thumbnail image performs well only w
 
 Also, we shouldn't try to create clickbait only videos since YouTube works against it. On the other hand, it's no good to pay too much attention to optimizing view duration only. The best way is to try to find a balance between CTR/average view duration of the video. This could be possible with A/B tests that are still considered as the best tool on the market. 
 
-And the last, the most important signals are those that describe a user’s previous interaction with the item itself and other similar items. That means that if Service could propose additional content to the audience after or while they watch the video on the channel, this will undoubtfully boost chances to be placed higher in suggested videos scrollbar.
+And the last, the most important signals are those that describe a user’s previous interaction with the item itself and other similar items. That means that if you could propose additional content to the audience after or while they watch the video on the channel, this will undoubtfully boost chances to be placed higher in suggested videos scrollbar.
 
 Based on:
 
