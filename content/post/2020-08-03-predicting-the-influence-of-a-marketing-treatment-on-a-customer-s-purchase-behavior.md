@@ -17,9 +17,9 @@ Based on Wikipedia - Uplift modeling, also known as incremental modeling, true l
 
 ## What models do we have?
 
-Look-alike model (Probability based on similarity)
-Response model (Probability based on afterward action)
-Uplift model (Probability of action with treatment - Probability of action without treatment)
+- Look-alike model (Probability based on similarity)
+- Response model (Probability based on afterward action)
+- Uplift model (Probability of action with treatment - Probability of action without treatment)
 
 
 So when its better to use uplift instead of other models? If we want to advertise a well-known and popular product, but at the same time, we do not want to spend the budget on customers who will buy this product even without any advertisement.
@@ -34,9 +34,15 @@ Researchers from Humboldt-University of Berlin made a great work on comparing di
 
 ![UpliftRF](/post/2020-08-03-predicting-the-influence-of-a-marketing-treatment-on-a-customer-s-purchase-behavior_files/upliftRF.png)
 
-The picture above shows the Qini coefficients for Hillström dataset. This dataset contains 64,000 customers who last purchased within twelve months. The customers were involved in an e-mail test. 1/3 were randomly chosen to receive an e-mail campaign featuring Men's merchandise. 1/3 were randomly chosen to receive an e-mail campaign featuring Women's merchandise. 1/3 were randomly chosen to not receive an e-mail campaign. This plot shows a natural generalization of the Gini coefficient to the case of uplift. Qini is defined as the area between the actual incremental gains curve from the fitted model and the area under the diagonal corresponding to random targeting.
+The picture above shows the Qini coefficients for Hillström dataset. This dataset contains 64,000 customers who last purchased within twelve months. The customers were involved in an e-mail test. 
 
-Another widespread approach is to use casual trees. The causalTree function (comes with causalTree R package) builds a regression model and returns a rpart object, which is the object derived from rpart package, implementing many ideas in the CART (Classification and Regression Trees), written by Breiman, Friedman, Olshen, and Stone. Like rpart, causalTree builds a binary regression tree model in two stages but focuses on estimating heterogeneous causal effect.
+- 1/3 were randomly chosen to receive an e-mail campaign featuring Men's merchandise
+- 1/3 were randomly chosen to receive an e-mail campaign featuring Women's merchandise 
+- 1/3 were randomly chosen to not receive an e-mail campaign 
+
+This plot shows a natural generalization of the Gini coefficient to the case of uplift. Qini is defined as the area between the actual incremental gains curve from the fitted model and the area under the diagonal corresponding to random targeting.
+
+Another widespread approach is to use causal trees. The causalTree function (comes with causalTree R package) builds a regression model and returns a rpart object, which is the object derived from rpart package, implementing many ideas in the CART (Classification and Regression Trees), written by Breiman, Friedman, Olshen, and Stone. Like rpart, causalTree builds a binary regression tree model in two stages but focuses on estimating heterogeneous causal effect.
 
 ![Causaltree](/post/2020-08-03-predicting-the-influence-of-a-marketing-treatment-on-a-customer-s-purchase-behavior_files/causaltreepruned.png)
 
