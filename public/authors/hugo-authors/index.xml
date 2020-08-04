@@ -6,10 +6,20 @@
     <description>Recent content on Dmitrii Storozhenko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/hugo-authors/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Predicting the influence of a marketing treatment on a customer&#39;s purchase behavior</title>
+      <link>/post/predicting-the-influence-of-a-marketing-treatment-on-a-customer-s-purchase-behavior/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/predicting-the-influence-of-a-marketing-treatment-on-a-customer-s-purchase-behavior/</guid>
+      <description>Usually, the promotion of products occurs through communication with the client via various channels: push, SMS messages, etc. The formation of segments for promotion is solved by using machine learning. Today we will cover some of these approaches that solve the issue.
+Based on Wikipedia - Uplift modeling, also known as incremental modeling, true lift modeling, or net modeling is a predictive modeling technique that directly models the incremental impact of a treatment (such as a direct marketing action) on an individual&amp;rsquo;s behavior.</description>
+    </item>
     
     <item>
       <title>How Netflix and YouTube built recommendation and personalization systems with Machine Learning</title>
@@ -18,8 +28,8 @@
       
       <guid>/post/how-netflix-and-youtube-builts-recommendation-and-personalization-systems-with-machine-learning/</guid>
       <description>While analyzing some of YouTube channels, we discovered that suggested videos take 60% of total views, and in this case, it could be useful to know how this type of algorithm works and how we could benefit from it.
-So what we should expect in future?
-In nearest future, we could expect that the share of suggested views may grow up to 80% (as it already turned out for Netflix). Taking both YouTube and Netflix as they compete for the same audience, for the same watch time, we may see that they have the same ecosystem and works on the same problems related to content suggestions and personalizations but on different scales.</description>
+So what should we expect in the future?
+In the nearest future, we could expect that the share of suggested views may grow up to 80% (as it already turned out for Netflix).</description>
     </item>
     
     <item>
