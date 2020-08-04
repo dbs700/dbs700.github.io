@@ -30,7 +30,7 @@ Single model approach. This is the simplest and most intuitive solution: the mod
 
 Two models approach. It's the most popular and here we separately predict the probability for 2 groups with a communication flag equal to 1 and equal to 0.  Then, we calculate the difference in the probability estimates.
 
-Researchers from Humboldt-University of Berlin made a great research on comparing different algorithms with different types of datasets in 2019. The main finding was that the way how marketing campaign was built is heavily affecting the uplifts. However, we are able to increase model profits with uplift instead of random sampling. Even the simple upliftRF function which comes with uplift R package and implements Random Forests with split criteria designed for binary uplift modeling tasks doing better than random selection.
+Researchers from Humboldt-University of Berlin made a great work on comparing different algorithms with various types of data in 2019. They found that design of marketing campaign and goals were heavily affected the uplifts. However, we are able to increase model profits with uplift instead of random sampling. Even the simple upliftRF function which comes with uplift R package and implements Random Forests with split criteria designed for binary uplift modeling tasks doing better than random selection.
 
 ![UpliftRF](/post/2020-08-03-predicting-the-influence-of-a-marketing-treatment-on-a-customer-s-purchase-behavior_files/upliftRF.png)
 
