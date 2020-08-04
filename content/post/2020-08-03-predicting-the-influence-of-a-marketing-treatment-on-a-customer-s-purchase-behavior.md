@@ -15,7 +15,7 @@ Usually, the promotion of products occurs through communication with the client 
 
 Based on Wikipedia - Uplift modeling, also known as incremental modeling, true lift modeling, or net modeling is a predictive modeling technique that directly models the incremental impact of a treatment (such as a direct marketing action) on an individual's behavior. Uplift modeling has applications in customer relationship management for up-sell, cross-sell, and retention modeling. It has also been applied to the political election and personalized medicine. Unlike the related Differential Prediction concept in psychology, Uplift Modelling assumes an active agent.
 
-##What models do we have?
+## What models do we have?
 
 Look-alike model (Probability based on similarity)
 Response model (Probability based on afterward action)
@@ -42,7 +42,6 @@ Another widespread approach is to use casual trees. The causalTree function (com
 
 
 
-
 Speaking of more complicated models, it was well described in 'Uplift Regression: The R Package tools4uplift' research paper as well:
 
 >Interaction model considers the relationship among three or more variables and describes a situation in which the simultaneous influence of two variables on a third is not additive. Other approaches to uplift modeling try to directly model the difference in conditional success probabilities between the treatment and control groups. Most current active research is in this direction. 
@@ -57,5 +56,5 @@ At this point, I would like to finish a brief explanation on this topic but we h
  
 [Susan Athey, Guido Imbens. Recursive Partitioning for Heterogeneous Causal Effects.](http://arxiv.org/abs/1504.01132)
 
-[Mouloud Belbahri, Alejandro Murua1, Olivier Gandouet, and Vahid Partovi Nia. Uplift Regression: The R Package tools4uplift](https://dms.umontreal.ca/~murua/research/UpliftRegression.pdf)
+[Mouloud Belbahri, Alejandro Murua, Olivier Gandouet, and Vahid Partovi Nia. Uplift Regression: The R Package tools4uplift](https://dms.umontreal.ca/~murua/research/UpliftRegression.pdf)
 
