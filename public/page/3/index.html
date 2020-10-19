@@ -1,6 +1,7 @@
 <html>
 
 <head>
+	<meta name="generator" content="Hugo 0.69.0" />
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -32,36 +33,33 @@ if (!doNotTrack) {
 
 
 
-
 	
 
 
 
 
-<title>Predicting the influence of a marketing treatment on a customer&#39;s purchase behavior. Uplift R packages overview | Dmitrii Storozhenko</title>
-<meta name="description" content="Usually, the promotion of products occurs through communication with the client via various channels: push, SMS messages, etc. The formation of segments for promotion is solved by using machine learning. Today we will cover some of these approaches that solve the issue.
-Based on Wikipedia - Uplift modeling, also known as incremental modeling, true lift modeling, or net modeling is a predictive modeling technique that directly models the incremental impact of a treatment (such as a direct marketing action) on an individual&rsquo;s behavior.">
-<meta property="og:title" content="Predicting the influence of a marketing treatment on a customer&#39;s purchase behavior. Uplift R packages overview | Dmitrii Storozhenko">
+
+<title>Dmitrii Storozhenko</title>
+<meta name="description" content="">
+<meta property="og:title" content="Dmitrii Storozhenko">
 <meta property="og:site_name" content="Dmitrii Storozhenko">
-<meta property="og:description" content="Usually, the promotion of products occurs through communication with the client via various channels: push, SMS messages, etc. The formation of segments for promotion is solved by using machine learning. Today we will cover some of these approaches that solve the issue.
-Based on Wikipedia - Uplift modeling, also known as incremental modeling, true lift modeling, or net modeling is a predictive modeling technique that directly models the incremental impact of a treatment (such as a direct marketing action) on an individual&rsquo;s behavior.">
-<meta property="og:url" content="/post/predicting-the-influence-of-a-marketing-treatment-on-a-customer-s-purchase-behavior/">
+<meta property="og:description" content="">
+<meta property="og:url" content="/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content='/images/hero-0555.jpg'><meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Predicting the influence of a marketing treatment on a customer&#39;s purchase behavior. Uplift R packages overview | Dmitrii Storozhenko">
+<meta property="og:image" content='/images/hero-16.jpg'><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dmitrii Storozhenko">
 
-	<link rel="canonical" href="/post/predicting-the-influence-of-a-marketing-treatment-on-a-customer-s-purchase-behavior/">
+	<link rel="canonical" href="/">
 
 
 	<meta name="twitter:site" content="@https://twitter.com/dbs700">
 	<meta name="twitter:creator" content="@https://twitter.com/dbs700">
 
-	<meta name="twitter:description" content="Usually, the promotion of products occurs through communication with the client via various channels: push, SMS messages, etc. The formation of segments for promotion is solved by using machine learning. Today we will cover some of these approaches that solve the issue.
-Based on Wikipedia - Uplift modeling, also known as incremental modeling, true lift modeling, or net modeling is a predictive modeling technique that directly models the incremental impact of a treatment (such as a direct marketing action) on an individual&rsquo;s behavior.">
-<meta name="twitter:image" content="/images/hero-0555.jpg">
-<meta property="article:published_time" content="2020-08-03T00:00:00&#43;00:00">
-	<meta property="article:updated_time" content="2020-08-03T00:00:00&#43;00:00">
+	<meta name="twitter:description" content="">
+<meta name="twitter:image" content="/images/hero-16.jpg">
+<meta property="article:published_time" content="2020-10-19T00:00:00&#43;00:00">
+	<meta property="article:updated_time" content="2020-10-19T00:00:00&#43;00:00">
 
 
 
@@ -125,174 +123,142 @@ Based on Wikipedia - Uplift modeling, also known as incremental modeling, true l
 
         
 
-<section class="section narrow">
-
-    <section id="articleHero" class="section narrow">
-    <div class="article-hero">
-        <header class="article-header">
-            <h1 class="article-hero-heading">Predicting the influence of a marketing treatment on a customer&#39;s purchase behavior. Uplift R packages overview</h1>
-            <div class="article-hero-subtitle">
-                <div class="article-meta">
-                    
-
-
-    
-            <a href="/authors/hugo-authors/" class="article-author-link">
+<Section class="section" relative id="Articles__Hero">
+    <div class="heading-container" style="maxWidth: 652px;">
+        <h1 class="hero-heading">Making the right data-driven decisions.</h1>
+    </div>
+    <div class="subheading-container">
+            <div class="bio-container">
+        
+            
                 
-                    <div class="article-author-avatar">
-                        <img src="/images/profile.jpg" />
-                    </div>
+                    <a href="/authors/hugo-authors/" class="bio-link">
+                        
+                            <div class="bio-avatar">
+                                <div class="bio-avatar-inner">
+                                    <img class="author-avatar" src="/images/profile.jpg" />
+                                </div>
+                            </div>
+                        
+                        
+                            <p class="bio-text">Hello, my name is Dmitrii Storozhenko. I am passionate about Data Analytics, R, and Business Intelligence. Here I would try to share some  ideas, analytical approaches and technologies that could be implemented with common sense to the real-world problems. 
+</p>
+                        
+                    </a>
                 
-                
-                <strong>Dmitrii Storozhenko</strong>
-                
-                <span class="hide-on-mobile">,&nbsp;</span>
-            </a>
-    
+            
+        
+    </div>
+        <div class="grid-controls-container">
+            <button id="btnGrid" class="grid-button">
+                <svg 
+width="26"
+height="26"
+viewBox="0 0 26 26"
+fill="none"
+xmlns="http://www.w3.org/2000/svg"
+>
+<path id="tiles"
+  fill="#000"
+  d="M4.33337 13.8424H12.0371V5.4165H4.33337V13.8424ZM4.33337 20.5832H12.0371V15.5276H4.33337V20.5832ZM13.963 20.5832H21.6667V12.1572H13.963V20.5832ZM13.963 5.4165V10.4721H21.6667V5.4165H13.963Z"
+/>
+</svg>
+            </button>
+            <button id="btnRows" class="grid-button">
+                <svg 
+width="26"
+height="26"
+viewBox="0 0 26 26"
+fill="none"
+xmlns="http://www.w3.org/2000/svg"
+>
+<path id="rows"
+  fill="#000"
+  d="M4.33331 15.1665H8.41174V10.8332H4.33331V15.1665ZM4.33331 20.5832H8.41174V16.2498H4.33331V20.5832ZM4.33331 9.74984H8.41174V5.4165H4.33331V9.74984ZM9.43135 15.1665H21.6666V10.8332H9.43135V15.1665ZM9.43135 20.5832H21.6666V16.2498H9.43135V20.5832ZM9.43135 5.4165V9.74984H21.6666V5.4165H9.43135Z"
+/>
+</svg>
+            </button>
+        </div>
+    </div>
+</Section>
 
 
+<script src="/js/toggleLayout.js"></script>
 
-<script src="/js/collapseAuthors.js"></script>
-                    August 3, 2020
-                    • 4 min read
+<Section className="section narrow">
+  <section class="section nartrow">
+    <div id="articlesList" class="articles-list-container show-details">
+        
+        
+        
+        
+        
+            
+            
+                <div class="post-row">
+            
+            <a href="/post/huston/" class="article-link"
+            
+              
+                id="article-link-bigger"
+                
+              
+            >
+              <div class="article-data-outer">
+                <div class="image-container">
+                  <img src="/images/hero-20.jpg" class="article-image" />
                 </div>
-            </div>
-        </header>
-        
-        <div class="article-hero-image" id="ArticleImage__Hero">
-            <img src="/images/hero-0555.jpg">
-        </div>
-        
-    </div>
-</section>
-
-
-    <aside id="progressBar" class="aside-container">
-    <div class="aside-align">
-      <div>
-        <div class="overlap-container">
-        </div>
-      </div>
-    </div>
-
-    <div class="progress-container" tabIndex={-1}>
-        <div class="track-line" aria-hidden="true">
-            <div id="progressIndicator" class="progress-line"></div>
-        </div>
-    </div>
-</aside>
-
-
-    <article  id="articleContent" class="post-content" style="position:relative;">
-        <p>Usually, the promotion of products occurs through communication with the client via various channels: push, SMS messages, etc. The formation of segments for promotion is solved by using machine learning. Today we will cover some of these approaches that solve the issue.</p>
-<p>Based on Wikipedia - Uplift modeling, also known as incremental modeling, true lift modeling, or net modeling is a predictive modeling technique that directly models the incremental impact of a treatment (such as a direct marketing action) on an individual&rsquo;s behavior. Uplift modeling has applications in customer relationship management for up-sell, cross-sell, and retention modeling. It has also been applied to the political election and personalized medicine. Unlike the related Differential Prediction concept in psychology, Uplift Modelling assumes an active agent.</p>
-<h2 id="what-models-do-we-have">What models do we have?</h2>
-<ul>
-<li>Look-alike model (Probability based on similarity)</li>
-<li>Response model (Probability based on afterward action)</li>
-<li>Uplift model (Probability of action with treatment - Probability of action without treatment)</li>
-</ul>
-<p>So when its better to use uplift instead of other models? If we want to advertise a well-known and popular product, but at the same time, we do not want to spend the budget on customers who will buy this product even without any advertisement.</p>
-<p>There are various research articles on uplift modeling whereas each defends the specific approach, but at the end of the day, we could sum up all with a list of uplift models:</p>
-<p>Single model approach. This is the simplest and most intuitive solution: the model is trained simultaneously on two groups, while the binary variable related to ads acts as an additional feature. We rate each object from the test sample twice: with the communication flag equal to 1 and equal to 0. Subtracting the probabilities for each observation, we obtain the required uplift.</p>
-<p>Two models approach. It&rsquo;s the most popular and here we separately predict the probability for 2 groups with a communication flag equal to 1 and equal to 0.  Then, we calculate the difference in the probability estimates.</p>
-<p>Researchers from Humboldt-University of Berlin made a great work on comparing different algorithms with various types of data in 2019. They found that design of marketing campaign and goals were heavily affected the uplifts. However, we are able to increase model profits with uplift instead of random sampling. Even the simple upliftRF function which comes with uplift R package and implements Random Forests with split criteria designed for binary uplift modeling tasks doing better than random selection.</p>
-<p><img src="/post/2020-08-03-predicting-the-influence-of-a-marketing-treatment-on-a-customer-s-purchase-behavior_files/upliftRF.png" alt="UpliftRF"></p>
-<p>The picture above shows the Qini coefficients for Hillström dataset. This dataset contains 64,000 customers who last purchased within twelve months. The customers were involved in an e-mail test.</p>
-<ul>
-<li>1/3 were randomly chosen to receive an e-mail campaign featuring Men&rsquo;s merchandise</li>
-<li>1/3 were randomly chosen to receive an e-mail campaign featuring Women&rsquo;s merchandise</li>
-<li>1/3 were randomly chosen to not receive an e-mail campaign</li>
-</ul>
-<p>This plot shows a natural generalization of the Gini coefficient to the case of uplift. Qini is defined as the area between the actual incremental gains curve from the fitted model and the area under the diagonal corresponding to random targeting.</p>
-<p>Another widespread approach is to use causal trees. The causalTree function (comes with causalTree R package) builds a regression model and returns a rpart object, which is the object derived from rpart package, implementing many ideas in the CART (Classification and Regression Trees), written by Breiman, Friedman, Olshen, and Stone. Like rpart, causalTree builds a binary regression tree model in two stages but focuses on estimating heterogeneous causal effect.</p>
-<p><img src="/post/2020-08-03-predicting-the-influence-of-a-marketing-treatment-on-a-customer-s-purchase-behavior_files/causaltreepruned.png" alt="Causaltree"></p>
-<p>Speaking of more complicated models, it was well described in &lsquo;Uplift Regression: The R Package tools4uplift&rsquo; research paper as well:</p>
-<blockquote>
-<p>Interaction model considers the relationship among three or more variables and describes a situation in which the simultaneous influence of two variables on a third is not additive. Other approaches to uplift modeling try to directly model the difference in conditional success probabilities between the treatment and control groups. Most current active research is in this direction.</p>
-</blockquote>
-<blockquote>
-<p>Such methods are mainly adaptation of three types of machine learning algorithms: 
-a) decision tree learners (Rzepakowski and Jaroszewicz (2010), Radcliffe and Surry (2011), Guelman et al. (2015), So ltys et al. (2015) or Zhao et al. (2017))
-b) regression models adapted to the uplift (Radcliffe (2007) or Jaskowski and Jaroszewicz (2012)) 
-c) support vector machines for uplift (Zaniewicz and Jaroszewicz (2013), Kuusisto et al. (2014) or Zaniewicz and Jaroszewicz (2017))</p>
-</blockquote>
-<p>At this point, I would like to finish a brief explanation on this topic but we have to keep an eye on uplift as the undoubtful helper for optimization problems in marketing. Uplift modeling is useful for well-established companies that have been on the market for a long time with a developed base of clients. This method allows the business to build better customer interactions and increase profits.</p>
-<p><a href="http://arxiv.org/abs/1504.01132">Susan Athey, Guido Imbens. Recursive Partitioning for Heterogeneous Causal Effects.</a></p>
-<p><a href="https://dms.umontreal.ca/~murua/research/UpliftRegression.pdf">Mouloud Belbahri, Alejandro Murua, Olivier Gandouet, and Vahid Partovi Nia. Uplift Regression: The R Package tools4uplift</a></p>
-
-    </article>
-
-
-    
-
-
-
-
-
-    
-    
-    
-        
-    
-
-
-
-
-<section id="articleNext" class="section nartrow">
-    <h3 class="footer-next-heading">More articles from Dmitrii Storozhenko</h3>
-    <div class="footer-spacer"></div>
-    <div class="next-articles-grid" numberOfArticles={numberOfArticles}>
-        <div class="post-row">
+                <div class="article-data">
+                  <h2 class="article-title">
+                    Houston, we have a problems, or when you should pay attention to the quality of analytical data
+                  </h2>
+                  <p class="article-excerpt">
+                    Suppose your company has a long history and you want to be among the high-tech in your field.
+                  </p>
+                  <div class="article-metadata">
+                    April 18, 2020 • 2 min read
+                  </div>
+                </div>
+              </div>
+            </a>
             
-                <a href="/post/how-netflix-and-youtube-builts-recommendation-and-personalization-systems-with-machine-learning/" class="article-link"
-                 id="article-link-bigger">
-                    <div>
-                        <div class="image-container">
-                            <img src="/images/hero-610.jpg" class="article-image" />
-                        </div>
-                        <div>
-                            <h2 class="article-title">
-                                How Netflix and YouTube built recommendation and personalization systems with Machine Learning
-                            </h2>
-                            <p class="article-excerpt">
-                                While analyzing some of YouTube channels, we discovered that suggested videos take 60% of total views, and in this case, it could be useful to know how this type of algorithm works and how we could benefit from it.
-                            </p>
-                            <div class="article-metadata">
-                                June 6, 2020 · 6 min read
-                            </div>
-                        </div>
-                    </div>
-                </a>
             
-                <a href="/post/marketing-research-and-spatial-planning-in-retail-with-r/" class="article-link"
-                >
-                    <div>
-                        <div class="image-container">
-                            <img src="/images/hero-27.jpg" class="article-image" />
-                        </div>
-                        <div>
-                            <h2 class="article-title">
-                                Glimpse on a MCI/MCI2 packages - market area models for retail and service locations
-                            </h2>
-                            <p class="article-excerpt">
-                                Market area models can be used in retail location analysis to ﬁnd new locations, to evaluate the existing outlets or to assess the impact of changes in the competitive landscape
-                            </p>
-                            <div class="article-metadata">
-                                May 5, 2020 · 4 min read
-                            </div>
-                        </div>
-                    </div>
-                </a>
             
-        </div>
+        
     </div>
-</section>
+    
+
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+        
+        <li class="page-item"><a href="/page/2/" rel="prev" class="page-link page-prev">Prev</a></li>
+        
+        
+        
+        <li class="page-item"><a href="/" class="page-link">1</a></li>
+        
+        
+        
+        <li class="page-item"><a href="/page/2/" class="page-link">2</a></li>
+        
+        
+        
+        <li class="page-item active"><a href="/page/3/" class="page-link">3</a></li>
+        
+        
+
+        
+    </ul>
+</nav>
 
 </section>
 
+  <div class="articles-paginator">
+    
+  </div>
+</Section>
+<div class="articles-gradient"></div>
 
- <script src="/js/progressBar.js"></script>
 
         
         <div class="footer-gradient"></div>

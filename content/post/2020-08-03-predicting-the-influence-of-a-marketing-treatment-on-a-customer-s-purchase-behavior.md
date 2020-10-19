@@ -1,5 +1,5 @@
 ---
-title: Predicting the influence of a marketing treatment on a customer's purchase behavior. Uplift and tools4uplift R packages overview 
+title: Predicting the influence of a marketing treatment on a customer's purchase behavior. Uplift R packages overview 
 authors: 
 - Hugo Authors
 date: '2020-08-03'
