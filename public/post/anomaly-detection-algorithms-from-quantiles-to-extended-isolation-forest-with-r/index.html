@@ -38,18 +38,18 @@ if (!doNotTrack) {
 
 
 
-<title>Anomaly detection algorithms. What is it? Which tools works better and how we can add weights and features to boost the accuracy with Extended Isolation Forest via R | Dmitrii Storozhenko</title>
-<meta name="description" content="Anomaly detection plays a critical role for any business. For instance, imagine that your streaming service suddenly experiencing some technical problems but the support team have no idea about what&rsquo;s going on, or you&rsquo;re running some on-line mailorder, and transactions or conversion rate dropped without any obvious reason. For these types of events we have to implement some sort of anomaly or changepoint detection systems.
-Generally speaking, anomaly detection is the process of identifying unexpected items or events, which differ from the normal ones.">
-<meta property="og:title" content="Anomaly detection algorithms. What is it? Which tools works better and how we can add weights and features to boost the accuracy with Extended Isolation Forest via R | Dmitrii Storozhenko">
+<title>Anomaly detection algorithms. What is it? Which tools work better and how we can add weights and features to boost the accuracy with Extended Isolation Forest via R | Dmitrii Storozhenko</title>
+<meta name="description" content="Anomaly detection plays a critical role in any business. For instance, imagine that your streaming service suddenly experiencing some technical problems but the support team has no idea about what&rsquo;s going on, or you&rsquo;re running some on-line mailorder, and transactions or conversion rate dropped without any obvious reason. For these types of events, we have to implement some sort of anomaly or changepoint detection systems.
+Generally speaking, anomaly detection is the process of identifying unexpected items or events, which differ from normal ones.">
+<meta property="og:title" content="Anomaly detection algorithms. What is it? Which tools work better and how we can add weights and features to boost the accuracy with Extended Isolation Forest via R | Dmitrii Storozhenko">
 <meta property="og:site_name" content="Dmitrii Storozhenko">
-<meta property="og:description" content="Anomaly detection plays a critical role for any business. For instance, imagine that your streaming service suddenly experiencing some technical problems but the support team have no idea about what&rsquo;s going on, or you&rsquo;re running some on-line mailorder, and transactions or conversion rate dropped without any obvious reason. For these types of events we have to implement some sort of anomaly or changepoint detection systems.
-Generally speaking, anomaly detection is the process of identifying unexpected items or events, which differ from the normal ones.">
+<meta property="og:description" content="Anomaly detection plays a critical role in any business. For instance, imagine that your streaming service suddenly experiencing some technical problems but the support team has no idea about what&rsquo;s going on, or you&rsquo;re running some on-line mailorder, and transactions or conversion rate dropped without any obvious reason. For these types of events, we have to implement some sort of anomaly or changepoint detection systems.
+Generally speaking, anomaly detection is the process of identifying unexpected items or events, which differ from normal ones.">
 <meta property="og:url" content="/post/anomaly-detection-algorithms-from-quantiles-to-extended-isolation-forest-with-r/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content='/images/hero-21.jpg'><meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Anomaly detection algorithms. What is it? Which tools works better and how we can add weights and features to boost the accuracy with Extended Isolation Forest via R | Dmitrii Storozhenko">
+<meta name="twitter:title" content="Anomaly detection algorithms. What is it? Which tools work better and how we can add weights and features to boost the accuracy with Extended Isolation Forest via R | Dmitrii Storozhenko">
 
 	<link rel="canonical" href="/post/anomaly-detection-algorithms-from-quantiles-to-extended-isolation-forest-with-r/">
 
@@ -57,8 +57,8 @@ Generally speaking, anomaly detection is the process of identifying unexpected i
 	<meta name="twitter:site" content="@https://twitter.com/dbs700">
 	<meta name="twitter:creator" content="@https://twitter.com/dbs700">
 
-	<meta name="twitter:description" content="Anomaly detection plays a critical role for any business. For instance, imagine that your streaming service suddenly experiencing some technical problems but the support team have no idea about what&rsquo;s going on, or you&rsquo;re running some on-line mailorder, and transactions or conversion rate dropped without any obvious reason. For these types of events we have to implement some sort of anomaly or changepoint detection systems.
-Generally speaking, anomaly detection is the process of identifying unexpected items or events, which differ from the normal ones.">
+	<meta name="twitter:description" content="Anomaly detection plays a critical role in any business. For instance, imagine that your streaming service suddenly experiencing some technical problems but the support team has no idea about what&rsquo;s going on, or you&rsquo;re running some on-line mailorder, and transactions or conversion rate dropped without any obvious reason. For these types of events, we have to implement some sort of anomaly or changepoint detection systems.
+Generally speaking, anomaly detection is the process of identifying unexpected items or events, which differ from normal ones.">
 <meta name="twitter:image" content="/images/hero-21.jpg">
 <meta property="article:published_time" content="2020-10-19T00:00:00&#43;00:00">
 	<meta property="article:updated_time" content="2020-10-19T00:00:00&#43;00:00">
@@ -130,7 +130,7 @@ Generally speaking, anomaly detection is the process of identifying unexpected i
     <section id="articleHero" class="section narrow">
     <div class="article-hero">
         <header class="article-header">
-            <h1 class="article-hero-heading">Anomaly detection algorithms. What is it? Which tools works better and how we can add weights and features to boost the accuracy with Extended Isolation Forest via R</h1>
+            <h1 class="article-hero-heading">Anomaly detection algorithms. What is it? Which tools work better and how we can add weights and features to boost the accuracy with Extended Isolation Forest via R</h1>
             <div class="article-hero-subtitle">
                 <div class="article-meta">
                     
@@ -184,33 +184,34 @@ Generally speaking, anomaly detection is the process of identifying unexpected i
 
 
     <article  id="articleContent" class="post-content" style="position:relative;">
-        <p>Anomaly detection plays a critical role for any business. For instance, imagine that your streaming service suddenly experiencing some technical problems but the support team have no idea about what&rsquo;s going on, or you&rsquo;re running some on-line mailorder, and transactions or conversion rate dropped without any obvious reason. For these types of events we have to implement some sort of anomaly or changepoint detection systems.</p>
-<p>Generally speaking, anomaly detection is the process of identifying unexpected items or events, which differ from the normal ones. Instead of this, changepoint detection looks for a probability distribution function. We&rsquo;ll try to cover the main tools that we have in the field, and also find out what works well for a different types of events.</p>
-<p>One of the main questions that we need to answer before applying these tools is to get an idea about the data.If we work with timeseries data, then the solution will based on type of time-series.</p>
-<p>Univariate Time Series. The term &ldquo;univariate time series&rdquo; refers to a time series that consists of single (scalar) observations recorded sequentially over equal time increments. (<a href="http://www.itl.nist.gov">www.itl.nist.gov</a>). Multivariate time series, on the other hand, has more than one time-dependent variable.</p>
-<p>Pinterest Engineering team, earlier classified the whole range of tools with 4 main categories:</p>
+        <p>Anomaly detection plays a critical role in any business. For instance, imagine that your streaming service suddenly experiencing some technical problems but the support team has no idea about what&rsquo;s going on, or you&rsquo;re running some on-line mailorder, and transactions or conversion rate dropped without any obvious reason. For these types of events, we have to implement some sort of anomaly or changepoint detection systems.</p>
+<p>Generally speaking, anomaly detection is the process of identifying unexpected items or events, which differ from normal ones. Instead of this, changepoint detection looks for a probability distribution function. We&rsquo;ll try to cover the main tools that we have in the field, and also find out what works well for different types of events.</p>
+<p>One of the main questions that we need to answer before applying these tools is to get an idea about the data. If we work with time-series data, then the solution will be based on the type of time-series.</p>
+<p>Univariate Time Series. The term &ldquo;univariate time series&rdquo; refers to a time series that consists of a single (scalar) observations recorded sequentially over equal time increments. (<a href="http://www.itl.nist.gov">www.itl.nist.gov</a>). Multivariate time series, on the other hand, has more than one time-dependent variable.</p>
+<p>Pinterest Engineering team earlier classified the whole range of tools with 4 main categories:</p>
 <ul>
-<li>State space models: exponential smoothing, Holt-Winters, ARIMA</li>
+<li>State-space models: exponential smoothing, Holt-Winters, ARIMA</li>
 <li>Decomposition: classical decomposition, STL</li>
 <li>Deep learning: recurrent neural networks</li>
 <li>Dimensionality reduction: RPCA, SOM, discords, piecewise linear</li>
 </ul>
-<p>They&rsquo;re all have pros and cons, and as always, the more deeper preprocessing and feature engineering you do, the better result you get.
+<p>They all have pros and cons, and as always, the deeper preprocessing and feature engineering you do, the better result you get.
 In the real world, we face problems like unbalanced data, lots of missing variables, mistypes, etc. So what worked well in my case?</p>
 <ul>
 <li>Labeling not existing hours</li>
-<li>Trend and seasonal decomposition</li>
+<li>Trend and Seasonal decomposition</li>
 <li>Adding rolling mean for time intervals</li>
 <li>Splitting data by day/night</li>
 <li>Creating categorical features</li>
 <li>Using other features like ratios based on weights</li>
 <li>Using Extended Isolation Forest</li>
 </ul>
-<p>According to Isolation Forest papers, the score produced by algorithm should be between 0 and 1. The anomaly score of an input sample is computed as the mean anomaly score of the trees in the forest.</p>
+<p>According to Isolation Forest papers, the score produced by the algorithm should be between 0 and 1. The anomaly score of an input sample is computed as the mean anomaly score of the trees in the forest.</p>
 <p><img src="/post/2020-10-19-anomaly-detection-algorithms-from-quantiles-to-extended-isolation-forest-with-r_files/anomaly1.jpg" alt="Extended Isolation Forest"></p>
-<p>The measure of normality of an observation given a tree is the depth of the leaf containing this observation, which is equivalent to the number of splittings required to isolate this point. The score is close to 1 could be described as anomalies. If the score is smaller than 0.5, then we could assume that this is normal instance.</p>
-<p>So approach like this worked good for my task, there is still a room for improvement. Trying more with STL by decomposing data with seasonal, trend, and remainder components based on different seasonal frequencies. Modeling time-series and working with residuals. Creating a threshold with 3 sigma SD as a ground truth metric for outlier detection. Applying changepoint detection algorithms like PELT.</p>
+<p>The measure of normality of an observation given a tree is the depth of the leaf containing this observation, which is equivalent to the number of splittings required to isolate this point. The score is close to 1 could be described as anomalies. If the score is smaller than 0.5, then we could assume that this is a normal instance.</p>
+<p>So approach like this worked good for my task, there is still room for improvement. Trying more with STL by decomposing data with seasonal, trend, and remainder components based on different seasonal frequencies. Modeling time-series and working with residuals. Creating a threshold with 3 sigma SD as a ground truth metric for outlier detection. Applying changepoint detection algorithms like PELT.</p>
 <p><a href="https://arxiv.org/pdf/1811.02141.pdf">Extended Isolation Forest</a></p>
+<p><a href="https://medium.com/pinterest-engineering/building-a-real-time-anomaly-detection-system-for-time-series-at-pinterest-a833e6856ddd">Building a real-time anomaly detection system for time series at Pinterest</a></p>
 
   
 
