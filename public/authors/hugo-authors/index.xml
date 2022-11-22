@@ -6,10 +6,20 @@
     <description>Recent content on Dmitrii Storozhenko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Nov 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ids.works/authors/hugo-authors/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How contrastive search can help generate Human-level text based on Transformers architecture</title>
+      <link>http://ids.works/post/contrastive-search-text-genearation/</link>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://ids.works/post/contrastive-search-text-genearation/</guid>
+      <description>Text generation is of great importance to many natural language processing applications. However, maximization-based decoding methods (e.g. beam search) of neural language models often lead to degenerate solutions &amp;ndash; the generated text is unnatural and contains undesirable repetitions
+One of the latest research paper by Yixuan Su, Tian Lan, Yan Wang, Dani Yogatama, Lingpeng Kong, Nigel Collier introduced new approach. SimCTG, a contrastive training objective to calibrate the model&amp;rsquo;s representation space, and a decoding method &amp;ndash; contrastive search &amp;ndash; to encourage diversity while maintaining coherence in the generated text.</description>
+    </item>
     
     <item>
       <title>Anomaly detection algorithms. What is it? Which tools work better and how we can add weights and features to boost the accuracy with Extended Isolation Forest via R</title>
