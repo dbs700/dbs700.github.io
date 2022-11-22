@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IDS.works on Dmitrii Storozhenko</title>
-    <link>/authors/ids-works/</link>
+    <link>http://ids.works/authors/ids-works/</link>
     <description>Recent content in IDS.works on Dmitrii Storozhenko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/authors/ids-works/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ids.works/authors/ids-works/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

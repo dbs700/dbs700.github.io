@@ -3,84 +3,74 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
+    <loc>http://ids.works/</loc>
     <lastmod>2020-10-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/anomaly-detection-algorithms-from-quantiles-to-extended-isolation-forest-with-r/</loc>
+    <loc>http://ids.works/post/anomaly-detection-algorithms-from-quantiles-to-extended-isolation-forest-with-r/</loc>
     <lastmod>2020-10-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/</loc>
+    <loc>http://ids.works/authors/</loc>
     <lastmod>2020-10-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/hugo-authors/</loc>
+    <loc>http://ids.works/authors/hugo-authors/</loc>
     <lastmod>2020-10-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>http://ids.works/post/</loc>
     <lastmod>2020-10-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/predicting-the-influence-of-a-marketing-treatment-on-a-customer-s-purchase-behavior/</loc>
+    <loc>http://ids.works/post/predicting-the-influence-of-a-marketing-treatment-on-a-customer-s-purchase-behavior/</loc>
     <lastmod>2020-08-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/how-netflix-and-youtube-builts-recommendation-and-personalization-systems-with-machine-learning/</loc>
+    <loc>http://ids.works/post/how-netflix-and-youtube-builts-recommendation-and-personalization-systems-with-machine-learning/</loc>
     <lastmod>2020-06-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/marketing-research-and-spatial-planning-in-retail-with-r/</loc>
+    <loc>http://ids.works/post/marketing-research-and-spatial-planning-in-retail-with-r/</loc>
     <lastmod>2020-05-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/how-to-get-insights-from-a-security-point-of-view-using-r/</loc>
+    <loc>http://ids.works/post/how-to-get-insights-from-a-security-point-of-view-using-r/</loc>
     <lastmod>2020-05-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/social-media-using-machine-learning/</loc>
+    <loc>http://ids.works/post/social-media-using-machine-learning/</loc>
     <lastmod>2020-05-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/aggregate-marketing-system-simulator/</loc>
+    <loc>http://ids.works/post/aggregate-marketing-system-simulator/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/ads/</loc>
-    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+    <loc>http://ids.works/about/</loc>
   </url>
   
   <url>
-    <loc>/post/huston/</loc>
-    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+    <loc>http://ids.works/authors/ids-works/</loc>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>http://ids.works/tags/</loc>
   </url>
   
   <url>
-    <loc>/authors/ids-works/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>/true/</loc>
+    <loc>http://ids.works/true/</loc>
   </url>
   
 </urlset>
