@@ -2,51 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Dmitrii Storozhenko</title>
-    <link>http://ids.works/post/</link>
+    <link>/post/</link>
     <description>Recent content in Posts on Dmitrii Storozhenko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Nov 2022 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://ids.works/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Contrastive search, Leadership and Transformers. What is in common between these three words?</title>
+      <link>/post/2022-11-25-contrastive-search-leadership-and-transformers-what-is-in-common-between-these-three-words/</link>
+      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2022-11-25-contrastive-search-leadership-and-transformers-what-is-in-common-between-these-three-words/</guid>
+      <description>Leadership part Leadership starts with a willingness to take risks. It doesn&amp;rsquo;t matter if you&amp;rsquo;re in a team of five or a group of hundreds. The point is to try new things that may be more successful or less successful. You should be willing to decide while dealing with uncertainty. This separates a leader from a jack of all trades and a master of none. Leaders know what they are good at and how to get the most out of their team and the people around them.</description>
+    </item>
+    
+    <item>
       <title>How contrastive search can help generate Human-level text based on Transformers architecture</title>
-      <link>http://ids.works/post/contrastive-search-text-genearation/</link>
+      <link>/post/contrastive-search-text-genearation/</link>
       <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ids.works/post/contrastive-search-text-genearation/</guid>
+      <guid>/post/contrastive-search-text-genearation/</guid>
       <description>Text generation is of great importance to many natural language processing applications. However, maximization-based decoding methods (e.g. beam search) of neural language models often lead to degenerate solutions &amp;ndash; the generated text is unnatural and contains undesirable repetitions
 One of the latest research paper by Yixuan Su, Tian Lan, Yan Wang, Dani Yogatama, Lingpeng Kong, Nigel Collier introduced new approach. SimCTG, a contrastive training objective to calibrate the model&amp;rsquo;s representation space, and a decoding method &amp;ndash; contrastive search &amp;ndash; to encourage diversity while maintaining coherence in the generated text.</description>
     </item>
     
     <item>
       <title>Anomaly detection algorithms. What is it? Which tools work better and how we can add weights and features to boost the accuracy with Extended Isolation Forest via R</title>
-      <link>http://ids.works/post/anomaly-detection-algorithms-from-quantiles-to-extended-isolation-forest-with-r/</link>
+      <link>/post/anomaly-detection-algorithms-from-quantiles-to-extended-isolation-forest-with-r/</link>
       <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://ids.works/post/anomaly-detection-algorithms-from-quantiles-to-extended-isolation-forest-with-r/</guid>
+      <guid>/post/anomaly-detection-algorithms-from-quantiles-to-extended-isolation-forest-with-r/</guid>
       <description>Anomaly detection plays a critical role in any business. For instance, imagine that your streaming service suddenly experiencing some technical problems but the support team has no idea about what&amp;rsquo;s going on, or you&amp;rsquo;re running some on-line mailorder, and transactions or conversion rate dropped without any obvious reason. For these types of events, we have to implement some sort of anomaly or changepoint detection systems.
 Generally speaking, anomaly detection is the process of identifying unexpected items or events, which differ from normal ones.</description>
     </item>
     
     <item>
       <title>Predicting the influence of a marketing treatment on a customer&#39;s purchase behavior. Uplift R packages overview</title>
-      <link>http://ids.works/post/predicting-the-influence-of-a-marketing-treatment-on-a-customer-s-purchase-behavior/</link>
+      <link>/post/predicting-the-influence-of-a-marketing-treatment-on-a-customer-s-purchase-behavior/</link>
       <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://ids.works/post/predicting-the-influence-of-a-marketing-treatment-on-a-customer-s-purchase-behavior/</guid>
+      <guid>/post/predicting-the-influence-of-a-marketing-treatment-on-a-customer-s-purchase-behavior/</guid>
       <description>Usually, the promotion of products occurs through communication with the client via various channels: push, SMS messages, etc. The formation of segments for promotion is solved by using machine learning. Today we will cover some of these approaches that solve the issue.
 Based on Wikipedia - Uplift modeling, also known as incremental modeling, true lift modeling, or net modeling is a predictive modeling technique that directly models the incremental impact of a treatment (such as a direct marketing action) on an individual&amp;rsquo;s behavior.</description>
     </item>
     
     <item>
       <title>How Netflix and YouTube built recommendation and personalization systems with Machine Learning</title>
-      <link>http://ids.works/post/how-netflix-and-youtube-builts-recommendation-and-personalization-systems-with-machine-learning/</link>
+      <link>/post/how-netflix-and-youtube-builts-recommendation-and-personalization-systems-with-machine-learning/</link>
       <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://ids.works/post/how-netflix-and-youtube-builts-recommendation-and-personalization-systems-with-machine-learning/</guid>
+      <guid>/post/how-netflix-and-youtube-builts-recommendation-and-personalization-systems-with-machine-learning/</guid>
       <description>While analyzing some of YouTube channels, we discovered that suggested videos take 60% of total views, and in this case, it could be useful to know how this type of algorithm works and how we could benefit from it.
 So what should we expect in the future?
 In the nearest future, we could expect that the share of suggested views may grow up to 80% (as it already turned out for Netflix).</description>
@@ -54,38 +63,38 @@ In the nearest future, we could expect that the share of suggested views may gro
     
     <item>
       <title>Glimpse on a MCI/MCI2 packages - market area models for retail and service locations</title>
-      <link>http://ids.works/post/marketing-research-and-spatial-planning-in-retail-with-r/</link>
+      <link>/post/marketing-research-and-spatial-planning-in-retail-with-r/</link>
       <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://ids.works/post/marketing-research-and-spatial-planning-in-retail-with-r/</guid>
+      <guid>/post/marketing-research-and-spatial-planning-in-retail-with-r/</guid>
       <description>Every time when we go to the grocery store or any other shop, we leave some data. On a micro scale this includes any checkout at a retail store. On a macro scale data is collected from groups of retailers. Generally, the point of sale data is collected by a business when some transaction happens.
 This type of data could tell us a lot about consumer preferences and behaviour, but also we could imply market area models.</description>
     </item>
     
     <item>
       <title>Checking websites for hidden artifacts using R, with packages developed by top influencers in IT security</title>
-      <link>http://ids.works/post/how-to-get-insights-from-a-security-point-of-view-using-r/</link>
+      <link>/post/how-to-get-insights-from-a-security-point-of-view-using-r/</link>
       <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://ids.works/post/how-to-get-insights-from-a-security-point-of-view-using-r/</guid>
+      <guid>/post/how-to-get-insights-from-a-security-point-of-view-using-r/</guid>
       <description>Recently I came across some cybersecurity articles written by Mckinsey, but then I suddenly remembered one of the brilliant resources focused on R and cybersecurity research, DFIR, risk analysis, and much more. The person behind this resource is Bob Rudis* who wrote a book along with Jay Jacobs - &amp;ldquo;Data, Driven Security: Analysis, Visualization and Dashboards&amp;rdquo;. Bob Rudis is the Director of Enterprise Information Security &amp;amp; IT Risk Management at Liberty Mutual Insurance and was named one of the Top 25 Influencers in Information Security by Tripwire.</description>
     </item>
     
     <item>
       <title>How to get insights from Social Media using Machine Learning or why you shouldn&#39;t trust everything you see</title>
-      <link>http://ids.works/post/social-media-using-machine-learning/</link>
+      <link>/post/social-media-using-machine-learning/</link>
       <pubDate>Sat, 02 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://ids.works/post/social-media-using-machine-learning/</guid>
+      <guid>/post/social-media-using-machine-learning/</guid>
       <description>Preface Today I would like to share some insights based on influencer marketing and digital performance. Wikipedia says influencer marketing (a.k.a. influence marketing) is a form of social media marketing involving endorsements and product placement from influencers, people, and organizations who have a purported expert level of knowledge or social influence in their field. Influencer content may be framed as testimonial advertising; influencers play the role of a potential buyer or may be involved as third parties.</description>
     </item>
     
     <item>
       <title>Aggregate marketing system simulator for different scenarios and channels</title>
-      <link>http://ids.works/post/aggregate-marketing-system-simulator/</link>
+      <link>/post/aggregate-marketing-system-simulator/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://ids.works/post/aggregate-marketing-system-simulator/</guid>
+      <guid>/post/aggregate-marketing-system-simulator/</guid>
       <description>Preface Running a business is like running a race, and in this term every item is important, so if you have powerful tools and bright minds, you will definitely get in a better position. Google are not only well-known for producing high quality products for users, but also for producing tools that helps us gain lot of insights from any type of data.
 Today we&amp;rsquo;ll explore one of them for simulating aggregated marketing times series data.</description>
     </item>

@@ -1,5 +1,4 @@
 theme = "hugo-theme-novela"
-baseURL = "http://ids.works"
 languageCode = "en-us"
 paginate = 4
 enableRobotsTXT = true
@@ -7,5 +6,5 @@ googleAnalytics = "UA-166935370-2"
 title = "Dmitrii Storozhenko"
   [taxonomies]
       tag = "tags"
-      author = "Dmitrii Storozhenko"
+      author = "authors"
       preserveTaxonomyNames = true
