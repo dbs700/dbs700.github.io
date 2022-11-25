@@ -8,7 +8,17 @@
   </url>
   
   <url>
+    <loc>/authors/</loc>
+    <lastmod>2022-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2022-11-25-contrastive-search-leadership-and-transformers-what-is-in-common-between-these-three-words/</loc>
+    <lastmod>2022-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/dmitrii-storozhenko/</loc>
     <lastmod>2022-11-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -18,7 +28,7 @@
   </url>
   
   <url>
-    <loc>/post/contrastive-search-text-genearation/</loc>
+    <loc>/post/contrastive-search-text-generation/</loc>
     <lastmod>2022-11-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -59,10 +69,6 @@
   
   <url>
     <loc>/about/</loc>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
   </url>
   
   <url>

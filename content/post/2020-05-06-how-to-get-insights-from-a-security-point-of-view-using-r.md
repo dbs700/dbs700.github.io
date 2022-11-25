@@ -1,7 +1,8 @@
 ---
 title: Checking websites for hidden artifacts using R, with packages developed by
   top influencers in IT security
-author: ''
+authors: 
+- Dmitrii Storozhenko
 date: '2020-05-06'
 slug: how-to-get-insights-from-a-security-point-of-view-using-r
 hero: /images/hero-12.jpg

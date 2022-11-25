@@ -1,9 +1,10 @@
 ---
 title: How contrastive search can help generate Human-level text based on Transformers
   architecture
-author: 'authors'
+authors: 
+- Dmitrii Storozhenko
 date: '2022-11-22'
-slug: contrastive-search-text-genearation
+slug: contrastive-search-text-generation
 hero: /images/hero-27.jpg
 excerpt: Text generation is of great importance to many natural language processing
   applications. However, maximization-based decoding methods (e.g. beam search) of

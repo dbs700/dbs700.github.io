@@ -22,10 +22,10 @@
     
     <item>
       <title>How contrastive search can help generate Human-level text based on Transformers architecture</title>
-      <link>/post/contrastive-search-text-genearation/</link>
+      <link>/post/contrastive-search-text-generation/</link>
       <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>/post/contrastive-search-text-genearation/</guid>
+      <guid>/post/contrastive-search-text-generation/</guid>
       <description>Text generation is of great importance to many natural language processing applications. However, maximization-based decoding methods (e.g. beam search) of neural language models often lead to degenerate solutions &amp;ndash; the generated text is unnatural and contains undesirable repetitions
 One of the latest research paper by Yixuan Su, Tian Lan, Yan Wang, Dani Yogatama, Lingpeng Kong, Nigel Collier introduced new approach. SimCTG, a contrastive training objective to calibrate the model&amp;rsquo;s representation space, and a decoding method &amp;ndash; contrastive search &amp;ndash; to encourage diversity while maintaining coherence in the generated text.</description>
     </item>

@@ -1,7 +1,8 @@
 ---
 title: How Netflix and YouTube built recommendation and personalization systems with
   Machine Learning
-author: ''
+authors: 
+- Dmitrii Storozhenko
 date: '2020-06-10'
 slug: how-netflix-and-youtube-builts-recommendation-and-personalization-systems-with-machine-learning
 hero: /images/hero-610.jpg

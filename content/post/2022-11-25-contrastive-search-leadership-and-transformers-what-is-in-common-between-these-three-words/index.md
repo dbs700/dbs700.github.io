@@ -1,13 +1,14 @@
 ---
 title: Contrastive search, Leadership and Transformers. What is in common between
   these three words?
-author: ''
+authors: 
+- Dmitrii Storozhenko
 date: '2022-11-25'
 slug: []
 categories: []
 tags: []
-hero: /images/hero-3.jpg
-excerpt: ~
+hero: /images/hero-14.jpg
+excerpt: Leadership starts with a willingness to take risks. It doesn't matter if you're managing a team of five or hundreds of people. The point is to try new things that may be more successful or less successful. You should be willing to decide while dealing with uncertainty.
 ---
 
 ### Leadership part

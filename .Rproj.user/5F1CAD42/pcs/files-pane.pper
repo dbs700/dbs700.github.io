@@ -1,9 +1,9 @@
 {
-    "path" : "C:/D/dbs700.github.io",
-    "sortOrder" : [
+    "path": "C:/D/dbs700.github.io",
+    "sortOrder": [
         {
-            "ascending" : true,
-            "columnIndex" : 2
+            "columnIndex": 2,
+            "ascending": true
         }
     ]
 }

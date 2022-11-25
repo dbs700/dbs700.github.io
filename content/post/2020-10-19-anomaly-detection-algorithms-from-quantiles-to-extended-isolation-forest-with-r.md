@@ -2,7 +2,8 @@
 title: Anomaly detection algorithms. What is it? Which tools work better and how we
   can add weights and features to boost the accuracy with Extended Isolation Forest
   via R
-author: ''
+authors: 
+- Dmitrii Storozhenko
 date: '2020-10-19'
 slug: anomaly-detection-algorithms-from-quantiles-to-extended-isolation-forest-with-r
 hero: /images/hero-21.jpg

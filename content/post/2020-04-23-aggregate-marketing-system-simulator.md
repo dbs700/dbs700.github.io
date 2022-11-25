@@ -1,6 +1,7 @@
 ---
 title: Aggregate marketing system simulator for different scenarios and channels
-author: ''
+authors: 
+- Dmitrii Storozhenko
 date: '2020-04-23'
 slug: aggregate-marketing-system-simulator
 hero: /images/hero-17.jpg

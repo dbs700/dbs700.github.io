@@ -1,7 +1,8 @@
 ---
 title: Glimpse on a MCI/MCI2 packages - market area models for retail and service
   locations
-author: ''
+authors: 
+- Dmitrii Storozhenko
 date: '2020-05-23'
 excerpt: Market area models can be used in retail location analysis to ﬁnd new locations,
   to evaluate the existing outlets or to assess the impact of changes in the competitive

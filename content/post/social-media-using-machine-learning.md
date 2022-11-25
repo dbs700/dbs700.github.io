@@ -1,7 +1,8 @@
 ---
 title: How to get insights from Social Media using Machine Learning or why you shouldn't
   trust everything you see
-author: ''
+authors: 
+- Dmitrii Storozhenko
 date: '2020-05-02'
 slug: social-media-using-machine-learning
 hero: /images/hero-16.jpg

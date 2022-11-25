@@ -1,7 +1,8 @@
 ---
 title: Predicting the influence of a marketing treatment on a customer's purchase
   behavior. Uplift R packages overview
-author: ''
+authors: 
+- Dmitrii Storozhenko
 date: '2020-08-03'
 slug: predicting-the-influence-of-a-marketing-treatment-on-a-customer-s-purchase-behavior
 hero: /images/hero-0555.jpg
