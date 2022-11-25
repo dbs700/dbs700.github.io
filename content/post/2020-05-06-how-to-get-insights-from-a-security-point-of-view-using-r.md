@@ -1,13 +1,13 @@
 ---
-title: Checking websites for hidden artifacts using R, with packages developed by top influencers in IT security
-authors:
-- Hugo Authors
+title: Checking websites for hidden artifacts using R, with packages developed by
+  top influencers in IT security
+author: ''
 date: '2020-05-06'
 slug: how-to-get-insights-from-a-security-point-of-view-using-r
-categories: []
-tags: []
 hero: /images/hero-12.jpg
-excerpt: Recently I came across some cybersecurity articles written by Mckinsey, but then I suddenly remembered one of the brilliant resources focused on R and cybersecurity research
+excerpt: Recently I came across some cybersecurity articles written by Mckinsey, but
+  then I suddenly remembered one of the brilliant resources focused on R and cybersecurity
+  research
 ---
 
 Recently I came across some cybersecurity articles written by Mckinsey, but then I suddenly remembered one of the brilliant resources focused on R and cybersecurity research, DFIR, risk analysis, and much more. The person behind this resource is Bob Rudis* who wrote a book along with Jay Jacobs - "Data, Driven Security: Analysis, Visualization and Dashboards". Bob Rudis is the Director of Enterprise Information Security & IT Risk Management at Liberty Mutual Insurance and was named one of the Top 25 Influencers in Information Security by Tripwire.

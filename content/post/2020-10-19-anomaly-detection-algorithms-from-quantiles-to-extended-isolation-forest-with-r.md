@@ -1,14 +1,17 @@
 ---
-title: 'Anomaly detection algorithms. What is it? Which tools work better and how we can add weights and features to boost the accuracy with Extended Isolation Forest
-  via R'
-authors: 
-- Hugo Authors
+title: Anomaly detection algorithms. What is it? Which tools work better and how we
+  can add weights and features to boost the accuracy with Extended Isolation Forest
+  via R
+author: ''
 date: '2020-10-19'
 slug: anomaly-detection-algorithms-from-quantiles-to-extended-isolation-forest-with-r
-categories: []
-tags: []
 hero: /images/hero-21.jpg
-excerpt: Anomaly detection plays a critical role in any business. For instance, imagine that your streaming service suddenly experiencing some technical problems but the support team has no idea about what's going on, or you're running some on-line mailorder, and transactions or conversion rate dropped without any obvious reason. For these types of events, we have to implement some sort of anomaly or changepoint detection systems.
+excerpt: Anomaly detection plays a critical role in any business. For instance, imagine
+  that your streaming service suddenly experiencing some technical problems but the
+  support team has no idea about what's going on, or you're running some on-line mailorder,
+  and transactions or conversion rate dropped without any obvious reason. For these
+  types of events, we have to implement some sort of anomaly or changepoint detection
+  systems.
 ---
 
 

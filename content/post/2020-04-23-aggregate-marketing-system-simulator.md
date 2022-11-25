@@ -1,13 +1,12 @@
 ---
 title: Aggregate marketing system simulator for different scenarios and channels
-authors:
-- Hugo Authors
+author: ''
 date: '2020-04-23'
 slug: aggregate-marketing-system-simulator
-categories: []
-tags: []
 hero: /images/hero-17.jpg
-excerpt: Running a business is like running a race, and in this term every item is important, so if you have powerful tools and bright minds, you will definitely get in a better position.
+excerpt: Running a business is like running a race, and in this term every item is
+  important, so if you have powerful tools and bright minds, you will definitely get
+  in a better position.
 ---
 
 ## Preface

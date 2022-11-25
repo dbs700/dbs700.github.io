@@ -1,13 +1,13 @@
 ---
-title: How to get insights from Social Media using Machine Learning or why you shouldn't trust everything you see
-authors:
-- Hugo Authors
+title: How to get insights from Social Media using Machine Learning or why you shouldn't
+  trust everything you see
+author: ''
 date: '2020-05-02'
 slug: social-media-using-machine-learning
-categories: []
-tags: []
 hero: /images/hero-16.jpg
-excerpt: Wikipedia says influencer marketing is a form of social media marketing involving endorsements and product placement from influencers, people and organizations who have a purported expert level of knowledge or social influence in their field.
+excerpt: Wikipedia says influencer marketing is a form of social media marketing involving
+  endorsements and product placement from influencers, people and organizations who
+  have a purported expert level of knowledge or social influence in their field.
 ---
 
 ## Preface

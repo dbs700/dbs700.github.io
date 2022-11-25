@@ -1,14 +1,13 @@
 ---
 title: How Netflix and YouTube built recommendation and personalization systems with
   Machine Learning
-authors: 
-- Hugo Authors
+author: ''
 date: '2020-06-10'
 slug: how-netflix-and-youtube-builts-recommendation-and-personalization-systems-with-machine-learning
-categories: []
-tags: []
 hero: /images/hero-610.jpg
-excerpt: While analyzing some of YouTube channels, we discovered that suggested videos take 60% of total views, and in this case, it could be useful to know how this type of algorithm works and how we could benefit from it.
+excerpt: While analyzing some of YouTube channels, we discovered that suggested videos
+  take 60% of total views, and in this case, it could be useful to know how this type
+  of algorithm works and how we could benefit from it.
 ---
 
 While analyzing some of YouTube channels, we discovered that suggested videos take 60% of total views, and in this case, it could be useful to know how this type of algorithm works and how we could benefit from it.

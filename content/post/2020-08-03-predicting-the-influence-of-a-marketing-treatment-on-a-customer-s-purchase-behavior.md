@@ -1,13 +1,14 @@
 ---
-title: Predicting the influence of a marketing treatment on a customer's purchase behavior. Uplift R packages overview 
-authors: 
-- Hugo Authors
+title: Predicting the influence of a marketing treatment on a customer's purchase
+  behavior. Uplift R packages overview
+author: ''
 date: '2020-08-03'
 slug: predicting-the-influence-of-a-marketing-treatment-on-a-customer-s-purchase-behavior
-categories: []
-tags: []
 hero: /images/hero-0555.jpg
-excerpt: Usually, the promotion of products occurs through communication with the client via various channels, push, SMS messages, etc. The formation of segments for promotion is solved by using machine learning. Today we will cover some of these approaches that solve the issue.
+excerpt: Usually, the promotion of products occurs through communication with the
+  client via various channels, push, SMS messages, etc. The formation of segments
+  for promotion is solved by using machine learning. Today we will cover some of these
+  approaches that solve the issue.
 ---
 
 
