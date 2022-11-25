@@ -7,5 +7,5 @@ googleAnalytics = "UA-166935370-2"
 title = "Dmitrii Storozhenko"
   [taxonomies]
       tag = "tags"
-      author = "authors"
+      author = "Dmitrii Storozhenko"
       preserveTaxonomyNames = true
