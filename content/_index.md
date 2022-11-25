@@ -1,6 +1,6 @@
 ---
 hero:
-  heading: Making the right data-driven decisions.
+  heading: Ideas that work.
   maxWidthPX: 652
 seo:
   image: /images/hero-16.jpg
