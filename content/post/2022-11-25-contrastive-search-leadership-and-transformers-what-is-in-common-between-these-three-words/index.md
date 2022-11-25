@@ -3,7 +3,7 @@ title: Contrastive search, Leadership and Transformers. What is in common betwee
   these three words?
 authors: 
 - Dmitrii Storozhenko
-date: '2022-11-25'
+date: '2022-11-08'
 slug: []
 categories: []
 tags: []
@@ -30,3 +30,8 @@ Text generation is of great importance to many natural language processing appli
 One of the latest research paper by Yixuan Su, Tian Lan, Yan Wang, Dani Yogatama, Lingpeng Kong, Nigel Collier introduced new approach.  SimCTG, a contrastive training objective to calibrate the model's representation space, and a decoding method -- contrastive search -- to encourage diversity while maintaining coherence in the generated text. Extensive experiments and analyses on three benchmarks from two languages demonstrate that our proposed approach significantly outperforms current state-of-the-art text generation methods as evaluated by both human and automatic metrics.
 
 Contrastive Search is now available on 🤗 Transformers, both on PyTorch and TensorFlow.
+
+
+
+
+{{<subscribe email = "your@email.com">}}

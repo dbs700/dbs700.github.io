@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Dmitrii Storozhenko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Nov 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,20 +14,19 @@
     <item>
       <title>Contrastive search, Leadership and Transformers. What is in common between these three words?</title>
       <link>/post/2022-11-25-contrastive-search-leadership-and-transformers-what-is-in-common-between-these-three-words/</link>
-      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>/post/2022-11-25-contrastive-search-leadership-and-transformers-what-is-in-common-between-these-three-words/</guid>
       <description>Leadership part Leadership starts with a willingness to take risks. It doesn&amp;rsquo;t matter if you&amp;rsquo;re in a team of five or a group of hundreds. The point is to try new things that may be more successful or less successful. You should be willing to decide while dealing with uncertainty. This separates a leader from a jack of all trades and a master of none. Leaders know what they are good at and how to get the most out of their team and the people around them.</description>
     </item>
     
     <item>
-      <title>How contrastive search can help generate Human-level text based on Transformers architecture</title>
-      <link>/post/contrastive-search-text-generation/</link>
-      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
+      <title>Leveraging Sentence-Bert and Cosine Similarity for finding clusters of similar emails</title>
+      <link>/post/2022-10-07-leveraging-sentence-bert-and-cosine-similarity-for-finding-clusters-of-emails/</link>
+      <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>/post/contrastive-search-text-generation/</guid>
-      <description>Text generation is of great importance to many natural language processing applications. However, maximization-based decoding methods (e.g. beam search) of neural language models often lead to degenerate solutions &amp;ndash; the generated text is unnatural and contains undesirable repetitions
-One of the latest research paper by Yixuan Su, Tian Lan, Yan Wang, Dani Yogatama, Lingpeng Kong, Nigel Collier introduced new approach. SimCTG, a contrastive training objective to calibrate the model&amp;rsquo;s representation space, and a decoding method &amp;ndash; contrastive search &amp;ndash; to encourage diversity while maintaining coherence in the generated text.</description>
+      <guid>/post/2022-10-07-leveraging-sentence-bert-and-cosine-similarity-for-finding-clusters-of-emails/</guid>
+      <description>What is the difference between a phishing e-mail and an ordinary e-mail you receive from a colleague, friend, or even family member? One can say that the difference is in the way the message is presented to the recipient. This is a good point, but there are a few things to remember before making the distinction. There are many articles and papers about how to identify a phishing email. For instance:</description>
     </item>
     
     <item>

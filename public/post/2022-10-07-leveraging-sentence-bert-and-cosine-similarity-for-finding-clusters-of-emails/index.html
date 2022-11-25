@@ -32,34 +32,33 @@ if (!doNotTrack) {
 
 
 
-	
 
 	
 
 
 
 
-<title>Posts | Dmitrii Storozhenko</title>
-<meta name="description" content="">
-<meta property="og:title" content="Posts | Dmitrii Storozhenko">
+<title>Leveraging Sentence-Bert and Cosine Similarity for finding clusters of similar emails | Dmitrii Storozhenko</title>
+<meta name="description" content="What is the difference between a phishing e-mail and an ordinary e-mail you receive from a colleague, friend, or even family member? One can say that the difference is in the way the message is presented to the recipient. This is a good point, but there are a few things to remember before making the distinction. There are many articles and papers about how to identify a phishing email. For instance:">
+<meta property="og:title" content="Leveraging Sentence-Bert and Cosine Similarity for finding clusters of similar emails | Dmitrii Storozhenko">
 <meta property="og:site_name" content="Dmitrii Storozhenko">
-<meta property="og:description" content="">
-<meta property="og:url" content="/post/">
+<meta property="og:description" content="What is the difference between a phishing e-mail and an ordinary e-mail you receive from a colleague, friend, or even family member? One can say that the difference is in the way the message is presented to the recipient. This is a good point, but there are a few things to remember before making the distinction. There are many articles and papers about how to identify a phishing email. For instance:">
+<meta property="og:url" content="/post/2022-10-07-leveraging-sentence-bert-and-cosine-similarity-for-finding-clusters-of-emails/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content='/uploads/default.jpg'><meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Posts | Dmitrii Storozhenko">
+<meta property="og:image" content='/images/hero-22.jpg'><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Leveraging Sentence-Bert and Cosine Similarity for finding clusters of similar emails | Dmitrii Storozhenko">
 
-	<link rel="canonical" href="/post/">
+	<link rel="canonical" href="/post/2022-10-07-leveraging-sentence-bert-and-cosine-similarity-for-finding-clusters-of-emails/">
 
 
 	<meta name="twitter:site" content="@https://twitter.com/dbs700">
 	<meta name="twitter:creator" content="@https://twitter.com/dbs700">
 
-	<meta name="twitter:description" content="">
-<meta name="twitter:image" content="/uploads/default.jpg">
-<meta property="article:published_time" content="2022-11-08T00:00:00&#43;00:00">
-	<meta property="article:updated_time" content="2022-11-08T00:00:00&#43;00:00">
+	<meta name="twitter:description" content="What is the difference between a phishing e-mail and an ordinary e-mail you receive from a colleague, friend, or even family member? One can say that the difference is in the way the message is presented to the recipient. This is a good point, but there are a few things to remember before making the distinction. There are many articles and papers about how to identify a phishing email. For instance:">
+<meta name="twitter:image" content="/images/hero-22.jpg">
+<meta property="article:published_time" content="2022-10-07T00:00:00&#43;00:00">
+	<meta property="article:updated_time" content="2022-10-07T00:00:00&#43;00:00">
 
 
 
@@ -122,239 +121,212 @@ if (!doNotTrack) {
 <script src="/js/copyUrl.js"></script>
 
         
-  <Section class="section" relative id="Articles__Hero">
-    <div class="heading-container" style="maxWidth: px;">
-        <h1 class="hero-heading"></h1>
-    </div>
-    <div class="subheading-container">
-            <div class="bio-container">
-        
-            
-                
-                    <a href="/authors/dmitrii-storozhenko/" class="bio-link">
-                        
-                            <div class="bio-avatar">
-                                <div class="bio-avatar-inner">
-                                    <img class="author-avatar" src="/images/profile.jpg" />
-                                </div>
-                            </div>
-                        
-                        
-                            <p class="bio-text">Hello, my name is Dmitrii Storozhenko and I&#39;m passionate about emerging technologies, identifying unmet needs in various domains, working in diverse and cross-functional teams, bridging the gap between data, business, technology, and help people to grow.  
-</p>
-                        
-                    </a>
-                
-            
-        
-    </div>
-        <div class="grid-controls-container">
-            <button id="btnGrid" class="grid-button">
-                <svg 
-width="26"
-height="26"
-viewBox="0 0 26 26"
-fill="none"
-xmlns="http://www.w3.org/2000/svg"
->
-<path id="tiles"
-  fill="#000"
-  d="M4.33337 13.8424H12.0371V5.4165H4.33337V13.8424ZM4.33337 20.5832H12.0371V15.5276H4.33337V20.5832ZM13.963 20.5832H21.6667V12.1572H13.963V20.5832ZM13.963 5.4165V10.4721H21.6667V5.4165H13.963Z"
-/>
-</svg>
-            </button>
-            <button id="btnRows" class="grid-button">
-                <svg 
-width="26"
-height="26"
-viewBox="0 0 26 26"
-fill="none"
-xmlns="http://www.w3.org/2000/svg"
->
-<path id="rows"
-  fill="#000"
-  d="M4.33331 15.1665H8.41174V10.8332H4.33331V15.1665ZM4.33331 20.5832H8.41174V16.2498H4.33331V20.5832ZM4.33331 9.74984H8.41174V5.4165H4.33331V9.74984ZM9.43135 15.1665H21.6666V10.8332H9.43135V15.1665ZM9.43135 20.5832H21.6666V16.2498H9.43135V20.5832ZM9.43135 5.4165V9.74984H21.6666V5.4165H9.43135Z"
-/>
-</svg>
-            </button>
-        </div>
-    </div>
-</Section>
+
+<section class="section narrow">
+
+    <section id="articleHero" class="section narrow">
+    <div class="article-hero">
+        <header class="article-header">
+            <h1 class="article-hero-heading">Leveraging Sentence-Bert and Cosine Similarity for finding clusters of similar emails</h1>
+            <div class="article-hero-subtitle">
+                <div class="article-meta">
+                    
 
 
-<script src="/js/toggleLayout.js"></script>
-  
-<Section className="section narrow">
-  <section class="section nartrow">
-    <div id="articlesList" class="articles-list-container show-details">
-        
-        
-        
-        
-        
-            
-            
-                <div class="post-row">
-            
-            <a href="/post/how-netflix-and-youtube-builts-recommendation-and-personalization-systems-with-machine-learning/" class="article-link"
-            
-              
-                id="article-link-bigger"
+    
+            <a href="/authors/dmitrii-storozhenko/" class="article-author-link">
                 
-              
-            >
-              <div class="article-data-outer">
-                <div class="image-container">
-                  <img src="/images/hero-610.jpg" class="article-image" />
-                </div>
-                <div class="article-data">
-                  <h2 class="article-title">
-                    How Netflix and YouTube built recommendation and personalization systems with Machine Learning
-                  </h2>
-                  <p class="article-excerpt">
-                    While analyzing some of YouTube channels, we discovered that suggested videos take 60% of total views, and in this case, it could be useful to know how this type of algorithm works and how we could benefit from it.
-                  </p>
-                  <div class="article-metadata">
-                    June 10, 2020 • 6 min read
-                  </div>
-                </div>
-              </div>
+                    <div class="article-author-avatar">
+                        <img src="/images/profile.jpg" />
+                    </div>
+                
+                
+                <strong>Dmitrii Storozhenko</strong>
+                
+                <span class="hide-on-mobile">,&nbsp;</span>
             </a>
-            
-            
-            
-        
-            
-            
-            <a href="/post/marketing-research-and-spatial-planning-in-retail-with-r/" class="article-link"
-            >
-              <div class="article-data-outer">
-                <div class="image-container">
-                  <img src="/images/hero-27.jpg" class="article-image" />
-                </div>
-                <div class="article-data">
-                  <h2 class="article-title">
-                    Glimpse on a MCI/MCI2 packages - market area models for retail and service locations
-                  </h2>
-                  <p class="article-excerpt">
-                    Market area models can be used in retail location analysis to ﬁnd new locations, to evaluate the existing outlets or to assess the impact of changes in the competitive landscape
-                  </p>
-                  <div class="article-metadata">
-                    May 23, 2020 • 4 min read
-                  </div>
-                </div>
-              </div>
-            </a>
-            
-            
-            
-                </div>
-                
-                
-                  
-                
-            
-        
-            
-            
-                <div class="post-row">
-            
-            <a href="/post/how-to-get-insights-from-a-security-point-of-view-using-r/" class="article-link"
-            
-              
-            >
-              <div class="article-data-outer">
-                <div class="image-container">
-                  <img src="/images/hero-12.jpg" class="article-image" />
-                </div>
-                <div class="article-data">
-                  <h2 class="article-title">
-                    Checking websites for hidden artifacts using R, with packages developed by top influencers in IT security
-                  </h2>
-                  <p class="article-excerpt">
-                    Recently I came across some cybersecurity articles written by Mckinsey, but then I suddenly remembered one of the brilliant resources focused on R and cybersecurity research
-                  </p>
-                  <div class="article-metadata">
-                    May 6, 2020 • 3 min read
-                  </div>
-                </div>
-              </div>
-            </a>
-            
-            
-            
-        
-            
-            
-            <a href="/post/social-media-using-machine-learning/" class="article-link"
-            
-              
-                id="article-link-bigger"
-                
-              
-            >
-              <div class="article-data-outer">
-                <div class="image-container">
-                  <img src="/images/hero-16.jpg" class="article-image" />
-                </div>
-                <div class="article-data">
-                  <h2 class="article-title">
-                    How to get insights from Social Media using Machine Learning or why you shouldn&#39;t trust everything you see
-                  </h2>
-                  <p class="article-excerpt">
-                    Wikipedia says influencer marketing is a form of social media marketing involving endorsements and product placement from influencers, people and organizations who have a purported expert level of knowledge or social influence in their field.
-                  </p>
-                  <div class="article-metadata">
-                    May 2, 2020 • 5 min read
-                  </div>
-                </div>
-              </div>
-            </a>
-            
-            
-            
-                </div>
-                
-                
-                  
-                
-            
-        
-    </div>
     
 
-<nav aria-label="Page navigation">
-    <ul class="pagination">
-        
-        <li class="page-item"><a href="/post/" rel="prev" class="page-link page-prev">Prev</a></li>
-        
-        
-        
-        <li class="page-item"><a href="/post/" class="page-link">1</a></li>
-        
-        
-        
-        <li class="page-item active"><a href="/post/page/2/" class="page-link">2</a></li>
-        
-        
-        
-        <li class="page-item"><a href="/post/page/3/" class="page-link">3</a></li>
-        
-        
 
+
+<script src="/js/collapseAuthors.js"></script>
+                    October 7, 2022
+                    • 4 min read
+                </div>
+            </div>
+        </header>
         
-        <li class="page-item"><a href="/post/page/3/" rel="next" class="page-link page-next">Next</a></li>
+        <div class="article-hero-image" id="ArticleImage__Hero">
+            <img src="/images/hero-22.jpg">
+        </div>
         
-    </ul>
-</nav>
+    </div>
+</section>
+
+
+    <aside id="progressBar" class="aside-container">
+    <div class="aside-align">
+      <div>
+        <div class="overlap-container">
+        </div>
+      </div>
+    </div>
+
+    <div class="progress-container" tabIndex={-1}>
+        <div class="track-line" aria-hidden="true">
+            <div id="progressIndicator" class="progress-line"></div>
+        </div>
+    </div>
+</aside>
+
+
+    <article  id="articleContent" class="post-content" style="position:relative;">
+        <p>What is the difference between a phishing e-mail and an ordinary e-mail you receive from a colleague, friend, or even family member? One can say that the difference is in the way the message is presented to the recipient. This is a good point, but there are a few things to remember before making the distinction. There are many articles and papers about how to identify a phishing email. For instance:</p>
+<ul>
+<li>Legit companies don’t request your sensitive information via email</li>
+<li>Legit companies usually call you by your name</li>
+<li>Legit companies have domain emails</li>
+<li>Legit companies know how to spell</li>
+<li>Legit companies don’t force you to their website</li>
+<li>Legit companies don’t send unsolicited attachments</li>
+</ul>
+<p>And even considering all those things, it&rsquo;s still difficult to distinguish between an ordinary e-mail and a phishing e-mail. But if you receive not one but a thousand emails every day, how can you ensure that you haven&rsquo;t missed or misclassified anything?</p>
+<p>Let&rsquo;s assume that phishing emails could be very similar, especially within a phishing campaign.</p>
+<p>After research, we ended up with a model that combines the strengths of masked and permuted language modeling for language understanding based on Sentence Transformers. Sentence Transformers is a Python framework for state-of-the-art sentence, text, and image embeddings. The initial work is described in the paper Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks.</p>
+<p>An embedding is a relatively low-dimensional space into which you can translate high-dimensional vectors. Embeddings make it easier to do machine learning on large inputs like sparse vectors representing words.
+When we have a vector representation for each email&rsquo;s data, we can compare it with each other and use cosine similarity. This is a measure of similarity between two sequences of numbers. To define it, the sequences are viewed as vectors in an inner product space, and the cosine similarity is defined as the cosine of the angle between them, that is, the dot product of the vectors divided by the product of their lengths.</p>
+<p>The similarity increases when the distance between the vectors decreases. We can also configure the cosine similarity threshold for which we consider two sentences are similar. Also, we can specify the minimum size for a local community. This allows us to get either large coarse-grained clusters or small fine-grained clusters.</p>
+<p>What about the inference time? For instance, using SBERT fast_clustering.py we have a clustering algorithm that is tuned for large datasets (50k sentences in less than 5 seconds). In a large list of sentences it searches for local communities. In our case, the time was ~5 min based on structure and amount of data. Then we went with a different approach, using the same SBERT capabilities:</p>
+<p>sentence_transformers.util.semantic_search</p>
+<p>This function performs a cosine similarity search between a list of query embeddings and a list of corpus embeddings. It can be used for Information Retrieval / Semantic Search for corpora up to about 1 Million entries.</p>
+<p>Parameters</p>
+<ul>
+<li>query_embeddings – A 2 dimensional tensor with the query embeddings.</li>
+<li>corpus_embeddings – A 2 dimensional tensor with the corpus embeddings.</li>
+<li>query_chunk_size – Process 100 queries simultaneously. Increasing that value increases the speed, but requires more memory.</li>
+<li>corpus_chunk_size – Scans the corpus 100k entries at a time. Increasing that value increases the speed, but requires more memory.</li>
+<li>top_k – Retrieve top k matching entries.</li>
+<li>score_function – Function for computing scores. By default, cosine similarity.</li>
+</ul>
+<p>Returns a list with one entry for each query. Each entry is a list of dictionaries with the keys ‘corpus_id’ and ‘score’, sorted by decreasing cosine similarity scores.</p>
+<p>This approach helped to increase the inference time and the efficiency, at the same time empower us to identify more groups of similar emails with ease.</p>
+<p><a href="https://www.sbert.net/examples/applications/semantic-search/README.html">SBERT:Semantic Search</a>
+<a href="https://arxiv.org/abs/1908.10084">Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks</a></p>
+
+  
+
+<section id="subscriptionSection" class="section narrow">
+    <div class="subscription-container">
+        <div class="subscription-content">
+            <h3 class="subscription-heading">
+                Join our email list and get notified about new content
+            </h3>
+            <p class="subscription-text">
+                Be the first to receive our latest content with the ability to
+                opt-out at anytime. We promise to not spam your inbox or share your
+                email with any third parties.
+            </p>
+            <form id="subscriptionForm" class="subscription-form" action="https://formspree.io/your@email.com.tld" method="POST">
+                <input
+                  id="emailInput"
+                  class="subscription-input"
+                  placeholder="your@email.com"
+                  name="email"
+                  type="email"
+                  required
+                  pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$"
+                />
+                <button id="submitButton"
+                  class="submit-button"
+                  type="submit"
+                >
+                    Subscribe
+                </button>
+                <div class="subscription-error-message">
+                    The email you entered is not valid.
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<script src="/js/addFormStyles.js"></script>
+
+
+
+    </article>
+
+
+    
+
+
+
+
+
+    
+    
+    
+        
+    
+
+
+
+
+<section id="articleNext" class="section nartrow">
+    <h3 class="footer-next-heading">More articles from Dmitrii Storozhenko</h3>
+    <div class="footer-spacer"></div>
+    <div class="next-articles-grid" numberOfArticles={numberOfArticles}>
+        <div class="post-row">
+            
+                <a href="/post/anomaly-detection-algorithms-from-quantiles-to-extended-isolation-forest-with-r/" class="article-link"
+                 id="article-link-bigger">
+                    <div>
+                        <div class="image-container">
+                            <img src="/images/hero-21.jpg" class="article-image" />
+                        </div>
+                        <div>
+                            <h2 class="article-title">
+                                Anomaly detection algorithms. What is it? Which tools work better and how we can add weights and features to boost the accuracy with Extended Isolation Forest via R
+                            </h2>
+                            <p class="article-excerpt">
+                                Anomaly detection plays a critical role in any business. For instance, imagine that your streaming service suddenly experiencing some technical problems but the support team has no idea about what&#39;s going on, or you&#39;re running some on-line mailorder, and transactions or conversion rate dropped without any obvious reason. For these types of events, we have to implement some sort of anomaly or changepoint detection systems.
+                            </p>
+                            <div class="article-metadata">
+                                October 10, 2020 · 3 min read
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            
+                <a href="/post/predicting-the-influence-of-a-marketing-treatment-on-a-customer-s-purchase-behavior/" class="article-link"
+                >
+                    <div>
+                        <div class="image-container">
+                            <img src="/images/hero-0555.jpg" class="article-image" />
+                        </div>
+                        <div>
+                            <h2 class="article-title">
+                                Predicting the influence of a marketing treatment on a customer&#39;s purchase behavior. Uplift R packages overview
+                            </h2>
+                            <p class="article-excerpt">
+                                Usually, the promotion of products occurs through communication with the client via various channels, push, SMS messages, etc. The formation of segments for promotion is solved by using machine learning. Today we will cover some of these approaches that solve the issue.
+                            </p>
+                            <div class="article-metadata">
+                                August 8, 2020 · 4 min read
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            
+        </div>
+    </div>
+</section>
 
 </section>
 
-  <div class="articles-paginator">
-    
-  </div>
-</Section>
-<div class="articles-gradient"></div>
+
+ <script src="/js/progressBar.js"></script>
 
         
         <div class="footer-gradient"></div>
