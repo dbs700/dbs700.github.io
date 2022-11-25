@@ -1,13 +1,15 @@
 ---
-title: Glimpse on a MCI/MCI2 packages - market area models for retail and service locations
-authors:
-- Hugo Authors
-date: '2020-05-23'
-slug: marketing-research-and-spatial-planning-in-retail-with-r
+title: Glimpse on a MCI/MCI2 packages - market area models for retail and service
+  locations
 categories: []
-tags: []
+date: '2020-05-23'
+excerpt: Market area models can be used in retail location analysis to ﬁnd new locations,
+  to evaluate the existing outlets or to assess the impact of changes in the competitive
+  landscape
 hero: /images/hero-27.jpg
-excerpt: Market area models can be used in retail location analysis to ﬁnd new locations, to evaluate the existing outlets or to assess the impact of changes in the competitive landscape 
+slug: marketing-research-and-spatial-planning-in-retail-with-r
+tags: []
+authors: Hugo Authors
 ---
 
 Every time when we go to the grocery store or any other shop, we leave some data. On a micro scale this includes any checkout at a retail store. On a macro scale data is collected from groups of retailers. Generally, the point of sale data is collected by a business when some transaction happens.  
