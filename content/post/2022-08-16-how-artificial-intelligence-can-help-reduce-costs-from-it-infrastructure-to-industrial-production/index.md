@@ -50,6 +50,7 @@ But to make it successful, any sector should have clear expectations and be conf
 Only by addressing these issues before starting the new technology adoption companies may have success. And only by knowing the limitations of emerging technologies, the company can see the real value behind any AI-backed-up product.
 
 [Why 87% of Machine learning Projects Fail](https://hackernoon.com/why-87percent-of-machine-learning-projects-fail-sp343uhj)
+
 [Alums From Google's DeepMind Want to Bring AI Energy Controls to Industrial Giants](https://www.datacenterknowledge.com/sustainability/alums-googles-deepmind-want-bring-ai-energy-controls-industrial-giants)
 
 
