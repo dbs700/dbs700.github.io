@@ -23,6 +23,8 @@ Reduction of overprovisioning to handle spikes due to CPU throttling to reduce c
 
 The impact mentioned above was achieved in FAANG type of companies. But looking at other industries, it's hard to imagine that the environment and maturity level will be the same as in Google or Meta.
 
+![](images/cpu-util.jpg)
+
 Based on historical data that had already been collected by thousands of sensors within the data center, data such as temperatures, power, pump speeds, setpoints, etc. and using it to train an ensemble of deep neural networks Google was able to improve data center energy efficiency. 
 
 They trained the neural networks on the average future PUE (Power Usage Effectiveness), which is defined as the ratio of the total building energy usage to the IT energy usage. They also trained two additional ensembles of deep neural networks to predict the future temperature and pressure of the data center over the next hour. The purpose of these predictions is to simulate the recommended actions from the PUE model, to ensure that they do not go beyond any operating constraints.
