@@ -38,16 +38,16 @@ if (!doNotTrack) {
 
 
 
-<title>Leveraging Sentence-Bert and Cosine Similarity for finding clusters of similar emails | Dmitrii Storozhenko</title>
+<title>Leveraging SBERT and Cosine Similarity for finding clusters of similar emails | Dmitrii Storozhenko</title>
 <meta name="description" content="What is the difference between a phishing e-mail and an ordinary e-mail you receive from a colleague, friend, or even family member? One can say that the difference is in the way the message is presented to the recipient. This is a good point, but there are a few things to remember before making the distinction. There are many articles and papers about how to identify a phishing email. For instance:">
-<meta property="og:title" content="Leveraging Sentence-Bert and Cosine Similarity for finding clusters of similar emails | Dmitrii Storozhenko">
+<meta property="og:title" content="Leveraging SBERT and Cosine Similarity for finding clusters of similar emails | Dmitrii Storozhenko">
 <meta property="og:site_name" content="Dmitrii Storozhenko">
 <meta property="og:description" content="What is the difference between a phishing e-mail and an ordinary e-mail you receive from a colleague, friend, or even family member? One can say that the difference is in the way the message is presented to the recipient. This is a good point, but there are a few things to remember before making the distinction. There are many articles and papers about how to identify a phishing email. For instance:">
 <meta property="og:url" content="/post/2022-10-07-leveraging-sentence-bert-and-cosine-similarity-for-finding-clusters-of-emails/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content='/images/hero-22.jpg'><meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Leveraging Sentence-Bert and Cosine Similarity for finding clusters of similar emails | Dmitrii Storozhenko">
+<meta name="twitter:title" content="Leveraging SBERT and Cosine Similarity for finding clusters of similar emails | Dmitrii Storozhenko">
 
 	<link rel="canonical" href="/post/2022-10-07-leveraging-sentence-bert-and-cosine-similarity-for-finding-clusters-of-emails/">
 
@@ -127,7 +127,7 @@ if (!doNotTrack) {
     <section id="articleHero" class="section narrow">
     <div class="article-hero">
         <header class="article-header">
-            <h1 class="article-hero-heading">Leveraging Sentence-Bert and Cosine Similarity for finding clusters of similar emails</h1>
+            <h1 class="article-hero-heading">Leveraging SBERT and Cosine Similarity for finding clusters of similar emails</h1>
             <div class="article-hero-subtitle">
                 <div class="article-meta">
                     
@@ -197,7 +197,7 @@ if (!doNotTrack) {
 When we have a vector representation for each email&rsquo;s data, we can compare it with each other and use cosine similarity. This is a measure of similarity between two sequences of numbers. To define it, the sequences are viewed as vectors in an inner product space, and the cosine similarity is defined as the cosine of the angle between them, that is, the dot product of the vectors divided by the product of their lengths.</p>
 <p>The similarity increases when the distance between the vectors decreases. We can also configure the cosine similarity threshold for which we consider two sentences are similar. Also, we can specify the minimum size for a local community. This allows us to get either large coarse-grained clusters or small fine-grained clusters.</p>
 <p>What about the inference time? For instance, using SBERT fast_clustering.py we have a clustering algorithm that is tuned for large datasets (50k sentences in less than 5 seconds). In a large list of sentences it searches for local communities. In our case, the time was ~5 min based on structure and amount of data. Then we went with a different approach, using the same SBERT capabilities:</p>
-<p>sentence_transformers.util.semantic_search</p>
+<h2 id="sentence_transformersutilsemantic_search">sentence_transformers.util.semantic_search</h2>
 <p>This function performs a cosine similarity search between a list of query embeddings and a list of corpus embeddings. It can be used for Information Retrieval / Semantic Search for corpora up to about 1 Million entries.</p>
 <p>Parameters</p>
 <ul>

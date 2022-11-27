@@ -1,6 +1,5 @@
 ---
-title: Contrastive search, Leadership and Transformers. What is in common between
-  these three words?
+title: Contrastive search and Leadership. What is in common between these words?
 authors: 
 - Dmitrii Storozhenko
 date: '2022-11-08'

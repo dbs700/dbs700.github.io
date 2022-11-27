@@ -1,5 +1,5 @@
 ---
-title: Leveraging Sentence-Bert and Cosine Similarity for finding clusters of similar emails
+title: Leveraging SBERT and Cosine Similarity for finding clusters of similar emails
 authors: 
 - Dmitrii Storozhenko
 date: '2022-10-07'
@@ -34,7 +34,7 @@ The similarity increases when the distance between the vectors decreases. We can
 What about the inference time? For instance, using SBERT fast_clustering.py we have a clustering algorithm that is tuned for large datasets (50k sentences in less than 5 seconds). In a large list of sentences it searches for local communities. In our case, the time was ~5 min based on structure and amount of data. Then we went with a different approach, using the same SBERT capabilities:
 
 
-sentence_transformers.util.semantic_search
+## sentence_transformers.util.semantic_search
 
 
 This function performs a cosine similarity search between a list of query embeddings and a list of corpus embeddings. It can be used for Information Retrieval / Semantic Search for corpora up to about 1 Million entries.
