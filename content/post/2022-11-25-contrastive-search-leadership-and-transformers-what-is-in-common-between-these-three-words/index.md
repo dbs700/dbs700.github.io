@@ -11,7 +11,7 @@ hero: /images/hero-14.jpg
 excerpt: Leadership starts with a willingness to take risks. It doesn't matter if you're managing a team of five or hundreds of people. The point is to try new things that may be more successful or less successful. You should be willing to decide while dealing with uncertainty.
 ---
 
-### Leadership part
+## Leadership part
 
 Leadership starts with a willingness to take risks. It doesn't matter if you're managing a team of five or hundreds of people. The point is to try new things that may be more successful or less successful. You should be willing to decide while dealing with uncertainty.
 This separates a leader from a jack of all trades and a master of none. Leaders know what they are good at and how to get the most out of their team and the people around them. The best leaders are the ones who have an understanding of the problems they're trying to solve and they have a skills and knowledge to implement. They can learn from their mistakes. It also means they can be creative and adaptable to new situations without losing their focus on the task. This trait is hard to come by in the business world and makes leaders more valuable than their organizational status would suggest.
@@ -22,7 +22,7 @@ Leadership is not about being the best at everything but being the best at what 
 
 This kind of leadership will help you be a better leader in the long run. I have a hard time believing that any of us will have the time to learn all the skills we need to succeed in our leadership roles. Hence, it's essential to get the most out of your time and energy by focusing on what you can do better, same for the people around you. If you want to be a leader, you have to do the best you can, which means taking a step back and asking yourself, "What can I do better?" This is a big step, but it's one you can take and make a big difference in your life. You don't have to be the best leader in the world, but you have to be the best man you can be.
 
-### Transformers part
+## Transformers part
 
 What you have just read was generated using novel approach called Contrastive Search with a GPT-2 XL model, 1.5B parameter version of GPT-2.
 
