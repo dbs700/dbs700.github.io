@@ -2,7 +2,7 @@
 title: Dmitrii Storozhenko
 avatar: /images/profile.jpg
 bio: |
- Hello, my name is Dmitrii Storozhenko and I'm passionate about emerging technologies and helping people grow.  
+ Human in the Loop of Machine Learning.  
 featured: true
 
 
