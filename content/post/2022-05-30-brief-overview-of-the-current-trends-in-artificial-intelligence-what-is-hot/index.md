@@ -7,7 +7,7 @@ slug: []
 categories: []
 tags: []
 hero: /images/hero-19.jpg
-excerpt: ~
+excerpt: One of the hottest topics in AI for 2022 is likely to be explainable AI (XAI), which involves developing AI systems that can explain their decisions and actions in a way that is understandable to humans
 ---
 
 ### Explainable AI (XAI)
