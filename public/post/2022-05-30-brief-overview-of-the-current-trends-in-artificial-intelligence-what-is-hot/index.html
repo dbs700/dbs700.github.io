@@ -38,27 +38,30 @@ if (!doNotTrack) {
 
 
 
-<title>Leveraging SBERT and Cosine Similarity for finding clusters of similar emails | Dmitrii Storozhenko</title>
-<meta name="description" content="What is the difference between a phishing e-mail and an ordinary e-mail you receive from a colleague, friend, or even family member? One can say that the difference is in the way the message is presented to the recipient. This is a good point, but there are a few things to remember before making the distinction. There are many articles and papers about how to identify a phishing email. For instance:">
-<meta property="og:title" content="Leveraging SBERT and Cosine Similarity for finding clusters of similar emails | Dmitrii Storozhenko">
+<title>Brief overview of the five top trends in Artificial Intelligence | Dmitrii Storozhenko</title>
+<meta name="description" content="Explainable AI (XAI) One of the hottest topics in AI for 2022 is likely to be explainable AI (XAI), which involves developing AI systems that can explain their decisions and actions in a way that is understandable to humans. This is becoming increasingly important as AI systems are used in more critical and sensitive applications, such as healthcare, finance, and criminal justice.
+Recent developments in XAI include the development of new methods and algorithms for explaining and interpreting AI models, such as model agnostic explanation methods and post-hoc explanation techniques.">
+<meta property="og:title" content="Brief overview of the five top trends in Artificial Intelligence | Dmitrii Storozhenko">
 <meta property="og:site_name" content="Dmitrii Storozhenko">
-<meta property="og:description" content="What is the difference between a phishing e-mail and an ordinary e-mail you receive from a colleague, friend, or even family member? One can say that the difference is in the way the message is presented to the recipient. This is a good point, but there are a few things to remember before making the distinction. There are many articles and papers about how to identify a phishing email. For instance:">
-<meta property="og:url" content="/post/2022-10-07-leveraging-sentence-bert-and-cosine-similarity-for-finding-clusters-of-emails/">
+<meta property="og:description" content="Explainable AI (XAI) One of the hottest topics in AI for 2022 is likely to be explainable AI (XAI), which involves developing AI systems that can explain their decisions and actions in a way that is understandable to humans. This is becoming increasingly important as AI systems are used in more critical and sensitive applications, such as healthcare, finance, and criminal justice.
+Recent developments in XAI include the development of new methods and algorithms for explaining and interpreting AI models, such as model agnostic explanation methods and post-hoc explanation techniques.">
+<meta property="og:url" content="/post/2022-05-30-brief-overview-of-the-current-trends-in-artificial-intelligence-what-is-hot/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content='/images/hero-22.jpg'><meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Leveraging SBERT and Cosine Similarity for finding clusters of similar emails | Dmitrii Storozhenko">
+<meta property="og:image" content='/images/hero-19.jpg'><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Brief overview of the five top trends in Artificial Intelligence | Dmitrii Storozhenko">
 
-	<link rel="canonical" href="/post/2022-10-07-leveraging-sentence-bert-and-cosine-similarity-for-finding-clusters-of-emails/">
+	<link rel="canonical" href="/post/2022-05-30-brief-overview-of-the-current-trends-in-artificial-intelligence-what-is-hot/">
 
 
 	<meta name="twitter:site" content="@https://twitter.com/dbs700">
 	<meta name="twitter:creator" content="@https://twitter.com/dbs700">
 
-	<meta name="twitter:description" content="What is the difference between a phishing e-mail and an ordinary e-mail you receive from a colleague, friend, or even family member? One can say that the difference is in the way the message is presented to the recipient. This is a good point, but there are a few things to remember before making the distinction. There are many articles and papers about how to identify a phishing email. For instance:">
-<meta name="twitter:image" content="/images/hero-22.jpg">
-<meta property="article:published_time" content="2022-10-07T00:00:00&#43;00:00">
-	<meta property="article:updated_time" content="2022-10-07T00:00:00&#43;00:00">
+	<meta name="twitter:description" content="Explainable AI (XAI) One of the hottest topics in AI for 2022 is likely to be explainable AI (XAI), which involves developing AI systems that can explain their decisions and actions in a way that is understandable to humans. This is becoming increasingly important as AI systems are used in more critical and sensitive applications, such as healthcare, finance, and criminal justice.
+Recent developments in XAI include the development of new methods and algorithms for explaining and interpreting AI models, such as model agnostic explanation methods and post-hoc explanation techniques.">
+<meta name="twitter:image" content="/images/hero-19.jpg">
+<meta property="article:published_time" content="2022-05-30T00:00:00&#43;00:00">
+	<meta property="article:updated_time" content="2022-05-30T00:00:00&#43;00:00">
 
 
 
@@ -127,7 +130,7 @@ if (!doNotTrack) {
     <section id="articleHero" class="section narrow">
     <div class="article-hero">
         <header class="article-header">
-            <h1 class="article-hero-heading">Leveraging SBERT and Cosine Similarity for finding clusters of similar emails</h1>
+            <h1 class="article-hero-heading">Brief overview of the five top trends in Artificial Intelligence</h1>
             <div class="article-hero-subtitle">
                 <div class="article-meta">
                     
@@ -150,14 +153,14 @@ if (!doNotTrack) {
 
 
 <script src="/js/collapseAuthors.js"></script>
-                    October 7, 2022
-                    • 4 min read
+                    May 30, 2022
+                    • 7 min read
                 </div>
             </div>
         </header>
         
         <div class="article-hero-image" id="ArticleImage__Hero">
-            <img src="/images/hero-22.jpg">
+            <img src="/images/hero-19.jpg">
         </div>
         
     </div>
@@ -181,79 +184,35 @@ if (!doNotTrack) {
 
 
     <article  id="articleContent" class="post-content" style="position:relative;">
-        <p>What is the difference between a phishing e-mail and an ordinary e-mail you receive from a colleague, friend, or even family member? One can say that the difference is in the way the message is presented to the recipient. This is a good point, but there are a few things to remember before making the distinction. There are many articles and papers about how to identify a phishing email. For instance:</p>
-<ul>
-<li>Legit companies don’t request your sensitive information via email</li>
-<li>Legit companies usually call you by your name</li>
-<li>Legit companies have domain emails</li>
-<li>Legit companies know how to spell</li>
-<li>Legit companies don’t force you to their website</li>
-<li>Legit companies don’t send unsolicited attachments</li>
-</ul>
-<p>And even considering all those things, it&rsquo;s still difficult to distinguish between an ordinary e-mail and a phishing e-mail. But if you receive not one but a thousand emails every day, how can you ensure that you haven&rsquo;t missed or misclassified anything?</p>
-<p>Let&rsquo;s assume that phishing emails could be very similar, especially within a phishing campaign.</p>
-<p>After research, we ended up with a model that combines the strengths of masked and permuted language modeling for language understanding based on Sentence Transformers. Sentence Transformers is a Python framework for state-of-the-art sentence, text, and image embeddings. The initial work is described in the paper Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks.</p>
-<p>An embedding is a relatively low-dimensional space into which you can translate high-dimensional vectors. Embeddings make it easier to do machine learning on large inputs like sparse vectors representing words.
-When we have a vector representation for each email&rsquo;s data, we can compare it with each other and use cosine similarity. This is a measure of similarity between two sequences of numbers. To define it, the sequences are viewed as vectors in an inner product space, and the cosine similarity is defined as the cosine of the angle between them, that is, the dot product of the vectors divided by the product of their lengths.</p>
-<p>The similarity increases when the distance between the vectors decreases. We can also configure the cosine similarity threshold for which we consider two sentences are similar. Also, we can specify the minimum size for a local community. This allows us to get either large coarse-grained clusters or small fine-grained clusters.</p>
-<p>What about the inference time? For instance, using SBERT fast_clustering.py we have a clustering algorithm that is tuned for large datasets (50k sentences in less than 5 seconds). In a large list of sentences it searches for local communities. In our case, the time was ~5 min based on structure and amount of data. Then we went with a different approach, using the same SBERT capabilities:</p>
-<h2 id="sentence_transformersutilsemantic_search">sentence_transformers.util.semantic_search</h2>
-<p>This function performs a cosine similarity search between a list of query embeddings and a list of corpus embeddings. It can be used for Information Retrieval / Semantic Search for corpora up to about 1 Million entries.</p>
-<p>Parameters</p>
-<ul>
-<li>query_embeddings – A 2 dimensional tensor with the query embeddings.</li>
-<li>corpus_embeddings – A 2 dimensional tensor with the corpus embeddings.</li>
-<li>query_chunk_size – Process 100 queries simultaneously. Increasing that value increases the speed, but requires more memory.</li>
-<li>corpus_chunk_size – Scans the corpus 100k entries at a time. Increasing that value increases the speed, but requires more memory.</li>
-<li>top_k – Retrieve top k matching entries.</li>
-<li>score_function – Function for computing scores. By default, cosine similarity.</li>
-</ul>
-<p>Returns a list with one entry for each query. Each entry is a list of dictionaries with the keys ‘corpus_id’ and ‘score’, sorted by decreasing cosine similarity scores.</p>
-<p>This approach helped to increase the inference time and the efficiency, at the same time empower us to identify more groups of similar emails with ease.</p>
-<p><a href="https://www.sbert.net/examples/applications/semantic-search/README.html">SBERT:Semantic Search</a>
-<a href="https://arxiv.org/abs/1908.10084">Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks</a></p>
-
-  
-
-<section id="subscriptionSection" class="section narrow">
-    <div class="subscription-container">
-        <div class="subscription-content">
-            <h3 class="subscription-heading">
-                Join our email list and get notified about new content
-            </h3>
-            <p class="subscription-text">
-                Be the first to receive our latest content with the ability to
-                opt-out at anytime. We promise to not spam your inbox or share your
-                email with any third parties.
-            </p>
-            <form id="subscriptionForm" class="subscription-form" action="https://formspree.io/your@email.com.tld" method="POST">
-                <input
-                  id="emailInput"
-                  class="subscription-input"
-                  placeholder="your@email.com"
-                  name="email"
-                  type="email"
-                  required
-                  pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$"
-                />
-                <button id="submitButton"
-                  class="submit-button"
-                  type="submit"
-                >
-                    Subscribe
-                </button>
-                <div class="subscription-error-message">
-                    The email you entered is not valid.
-                </div>
-            </form>
-        </div>
-    </div>
-</section>
-
-
-<script src="/js/addFormStyles.js"></script>
-
-
+        <h3 id="explainable-ai-xai">Explainable AI (XAI)</h3>
+<p>One of the hottest topics in AI for 2022 is likely to be explainable AI (XAI), which involves developing AI systems that can explain their decisions and actions in a way that is understandable to humans. This is becoming increasingly important as AI systems are used in more critical and sensitive applications, such as healthcare, finance, and criminal justice.</p>
+<p>Recent developments in XAI include the development of new methods and algorithms for explaining and interpreting AI models, such as model agnostic explanation methods and post-hoc explanation techniques. These methods allow AI systems to provide more transparent and interpretable explanations of their decisions, making them more trustworthy and accountable.</p>
+<p>The value of XAI is that it can help to increase the transparency and accountability of AI systems, reducing the risk of bias and discrimination and increasing public trust in AI. It can also help to improve the performance and accuracy of AI systems, by providing insights into how they make decisions and allowing for more effective debugging and model debugging.</p>
+<p>However, there are also limitations to XAI, such as the complexity and computational cost of generating explanations, and the challenge of explaining complex and non-linear models. Additionally, there is a risk that XAI methods could be used to manipulate or deceive users, or to obfuscate or hide biases and flaws in AI models.</p>
+<h3 id="reinforcement-learning">Reinforcement learning</h3>
+<p>Reinforcement learning is a hot for a long time, as it involves using algorithms and techniques to train AI systems to learn and adapt to changing environments and situations. This is valuable because it allows AI systems to become more flexible and adaptable, allowing them to perform a wider range of tasks and handle more complex and dynamic scenarios.</p>
+<p>Recent developments in reinforcement learning include the use of deep reinforcement learning algorithms, which can learn from large amounts of data and improve their performance over time. These developments are valuable because they enable AI systems to learn and adapt more quickly and effectively, allowing them to achieve better performance and accuracy on a wider range of tasks.</p>
+<p>However, there are also limitations to reinforcement learning, such as the need for large amounts of data and computational resources, and the potential for the AI systems to learn bad or dangerous behaviors. These limitations require further research and development to address, in order to fully realize the potential of reinforcement learning.</p>
+<p>Another area of recent development in reinforcement learning is the use of multi-agent reinforcement learning, which involves training multiple AI agents to collaborate and compete in order to achieve a common goal. This is valuable because it allows AI systems to learn and adapt to complex and dynamic environments, such as those found in real-world scenarios.</p>
+<p>To sum up, reinforcement learning is a promising and valuable area of AI research and development, with many potential applications and benefits. However, it also presents challenges and limitations that need to be addressed in order to fully realize its potential.</p>
+<h3 id="ai-powered-security">AI-powered security</h3>
+<p>The current progress with AI-powered security is significant and has the potential to revolutionize the security industry. AI technology is being used in various ways to improve the efficiency, accuracy, and effectiveness of security services, and to provide new and innovative solutions to security challenges.</p>
+<p>Some key developments and progress in AI-powered security include:</p>
+<p>The use of AI in threat detection and prevention: AI technology is being used to detect and prevent security threats, by leveraging machine learning algorithms and data analytics to identify and flag suspicious activities and patterns. This is helping to reduce the incidence and impact of security threats, such as cyber attacks and fraud, and to protect the interests of individuals, organizations, and governments.</p>
+<p>The application of AI in surveillance and monitoring: AI technology is being used to automate and improve the process of surveillance and monitoring, by leveraging data and analytics to identify and track suspicious activities and behaviors. For example, AI-powered surveillance systems are being used to monitor public spaces and critical infrastructure, and to identify and alert security personnel of potential threats.</p>
+<p>The development of AI-powered security systems: AI technology is being used to develop new and innovative security systems, such as AI-powered access control systems, and AI-powered intrusion detection and prevention systems. These AI-powered systems are providing consumers and organizations with enhanced security and protection.</p>
+<p>The current progress with AI-powered security is significant, and is helping to improve the efficiency, accuracy, and effectiveness of security services. However, there are also challenges and concerns related to the use of AI in security, such as data privacy and ethics, and the potential for misuse and abuse of AI technology. These challenges and concerns need to be addressed in order to realize the full potential of AI in security.</p>
+<h3 id="ai-ethics-and-governance">AI ethics and governance</h3>
+<p>The current progress with AI ethics and governance is significant and has gained increasing attention and focus in recent years. This is due to the rapid growth and development of AI technology, and to the increasing awareness of the potential ethical, social, and legal implications of AI.</p>
+<p>The emergence of AI ethics frameworks and guidelines: Various organizations and institutions, such as the European Commission and the MIT Media Lab, have developed AI ethics frameworks and guidelines that outline the ethical principles and considerations that should be applied to AI development and use. These frameworks and guidelines provide a common set of principles and standards that can help to ensure the responsible and ethical use of AI.</p>
+<p>The establishment of AI ethics committees and bodies: Some organizations and institutions, such as the World Economic Forum and the IEEE Global Initiative on Ethics of Autonomous and Intelligent Systems, have established AI ethics committees and bodies that are dedicated to addressing the ethical, social, and legal implications of AI. These committees and bodies provide a forum for discussing and addressing the challenges and opportunities of AI ethics and governance.</p>
+<p>The integration of AI ethics into AI education and research: AI ethics is increasingly being integrated into AI education and research, with many universities and research institutions offering courses and programs on AI ethics, and with AI researchers incorporating ethical considerations into their work. This is helping to ensure that the next generation of AI professionals are aware of and trained in AI ethics.</p>
+<p>Overall, the current progress with AI ethics and governance is significant, and is helping to ensure that AI is developed and used in a responsible and ethical manner. However, there is still much work to be done in this area, and it is important for organizations, institutions, and individuals to continue to focus on and address the ethical, social, and legal implications of AI.</p>
+<h3 id="generative-adversarial-networks">Generative adversarial networks</h3>
+<p>Generative adversarial networks (GANs) are a type of deep learning algorithm used for generating new data samples that are similar to a given dataset. GANs consist of two parts: a generator network, which generates new samples, and a discriminator network, which tries to distinguish the generated samples from the real samples in the dataset.</p>
+<p>One of the main advantages of GANs is that they can produce high-quality synthetic data that can be used for a variety of purposes, such as data augmentation, image generation, and more. This can be especially useful in cases where the amount of real data available is limited.</p>
+<p>However, GANs also have some disadvantages. One of the biggest challenges with GANs is that they can be difficult to train, and getting them to work well can require a lot of experimentation and fine-tuning. Additionally, GANs can be computationally intensive, which can make them impractical for use on very large datasets or in real-time applications.</p>
+<p>For sure, the list can be way much longer including major success stories in finance, military, manufacturing, robotics, aerospace industries, etc., and here we covered just the top of the iceberg. However, all the modern solutions require more and more resources, so the best approach will be to make the AI more sustainable.</p>
 
     </article>
 
@@ -279,41 +238,41 @@ When we have a vector representation for each email&rsquo;s data, we can compare
     <div class="next-articles-grid" numberOfArticles={numberOfArticles}>
         <div class="post-row">
             
-                <a href="/post/2022-08-16-how-artificial-intelligence-can-help-reduce-costs-from-it-infrastructure-to-industrial-production/" class="article-link"
+                <a href="/post/anomaly-detection-algorithms-from-quantiles-to-extended-isolation-forest-with-r/" class="article-link"
                  id="article-link-bigger">
                     <div>
                         <div class="image-container">
-                            <img src="/images/hero-18.jpg" class="article-image" />
+                            <img src="/images/hero-21.jpg" class="article-image" />
                         </div>
                         <div>
                             <h2 class="article-title">
-                                What is the role of Artificial Intelligence in sustainable IT infrastructure and what are the challenges?
+                                Anomaly detection algorithms. What is it? Which tools work better and how we can add weights and features to boost the accuracy with Extended Isolation Forest via R
                             </h2>
                             <p class="article-excerpt">
-                                Google’s data centers around the world use about twice as much electricity as the city of San Francisco. At the same time, any Google data center is twice as energy efficient as a typical
+                                Anomaly detection plays a critical role in any business. For instance, imagine that your streaming service suddenly experiencing some technical problems but the support team has no idea about what&#39;s going on, or you&#39;re running some on-line mailorder, and transactions or conversion rate dropped without any obvious reason. For these types of events, we have to implement some sort of anomaly or changepoint detection systems.
                             </p>
                             <div class="article-metadata">
-                                August 8, 2022 · 4 min read
+                                October 10, 2020 · 3 min read
                             </div>
                         </div>
                     </div>
                 </a>
             
-                <a href="/post/2022-05-30-brief-overview-of-the-current-trends-in-artificial-intelligence-what-is-hot/" class="article-link"
+                <a href="/post/predicting-the-influence-of-a-marketing-treatment-on-a-customer-s-purchase-behavior/" class="article-link"
                 >
                     <div>
                         <div class="image-container">
-                            <img src="/images/hero-19.jpg" class="article-image" />
+                            <img src="/images/hero-0555.jpg" class="article-image" />
                         </div>
                         <div>
                             <h2 class="article-title">
-                                Brief overview of the five top trends in Artificial Intelligence
+                                Predicting the influence of a marketing treatment on a customer&#39;s purchase behavior. Uplift R packages overview
                             </h2>
                             <p class="article-excerpt">
-                                
+                                Usually, the promotion of products occurs through communication with the client via various channels, push, SMS messages, etc. The formation of segments for promotion is solved by using machine learning. Today we will cover some of these approaches that solve the issue.
                             </p>
                             <div class="article-metadata">
-                                May 5, 2022 · 7 min read
+                                August 8, 2020 · 4 min read
                             </div>
                         </div>
                     </div>

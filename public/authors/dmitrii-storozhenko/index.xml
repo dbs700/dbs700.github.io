@@ -58,6 +58,16 @@ Why we need it? First of all, because they can capture the complex and nuanced p
     </item>
     
     <item>
+      <title>Brief overview of the five top trends in Artificial Intelligence</title>
+      <link>/post/2022-05-30-brief-overview-of-the-current-trends-in-artificial-intelligence-what-is-hot/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2022-05-30-brief-overview-of-the-current-trends-in-artificial-intelligence-what-is-hot/</guid>
+      <description>Explainable AI (XAI) One of the hottest topics in AI for 2022 is likely to be explainable AI (XAI), which involves developing AI systems that can explain their decisions and actions in a way that is understandable to humans. This is becoming increasingly important as AI systems are used in more critical and sensitive applications, such as healthcare, finance, and criminal justice.
+Recent developments in XAI include the development of new methods and algorithms for explaining and interpreting AI models, such as model agnostic explanation methods and post-hoc explanation techniques.</description>
+    </item>
+    
+    <item>
       <title>Anomaly detection algorithms. What is it? Which tools work better and how we can add weights and features to boost the accuracy with Extended Isolation Forest via R</title>
       <link>/post/anomaly-detection-algorithms-from-quantiles-to-extended-isolation-forest-with-r/</link>
       <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
