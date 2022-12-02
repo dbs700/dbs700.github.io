@@ -78,3 +78,6 @@ Integration of large language models with other technologies, such as augmented 
 Continued research and development into the ethical and societal implications of large language models, including issues related to bias and fairness.
 
 Development of more efficient and scalable methods for training and deploying large language models, allowing them to be used in a wider range of scenarios and contexts.
+
+
+https://huggingface.co/blog/large-language-models 

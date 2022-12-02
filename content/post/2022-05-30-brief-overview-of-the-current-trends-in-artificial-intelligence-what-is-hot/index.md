@@ -1,5 +1,5 @@
 ---
-title: Brief overview of the five top trends in Artificial Intelligence
+title: Brief overview of the top five trends in Artificial Intelligence
 authors: 
 - Dmitrii Storozhenko
 date: '2022-05-30'
