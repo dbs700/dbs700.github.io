@@ -40,6 +40,15 @@ Why we need it? First of all, because they can capture the complex and nuanced p
     </item>
     
     <item>
+      <title>Reinforcement Learning overview and use cases. Architecture and limitations</title>
+      <link>/post/2022-10-21-reinforcement-learning-overview-and-use-cases-architecture-and-limitations/</link>
+      <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2022-10-21-reinforcement-learning-overview-and-use-cases-architecture-and-limitations/</guid>
+      <description>You can be surprised, but one of the first things that we call Artificial Intelligence was created more than 70 years ago. The first reinforcement learning algorithm was published in the 1950s by a group of researchers at the University of Michigan, including Herbert Simon and Richard Bellman. Their work built on earlier research in the field of control theory, which had been developed in the 1940s and 1950s. The algorithm they developed, known as the Bellman equation, is still widely used in reinforcement learning today.</description>
+    </item>
+    
+    <item>
       <title>Leveraging SBERT and Cosine Similarity for finding clusters of similar emails</title>
       <link>/post/2022-10-07-leveraging-sentence-bert-and-cosine-similarity-for-finding-clusters-of-emails/</link>
       <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
@@ -58,7 +67,7 @@ Why we need it? First of all, because they can capture the complex and nuanced p
     </item>
     
     <item>
-      <title>Brief overview of the five top trends in Artificial Intelligence</title>
+      <title>Brief overview of the top five trends in Artificial Intelligence</title>
       <link>/post/2022-05-30-brief-overview-of-the-current-trends-in-artificial-intelligence-what-is-hot/</link>
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
