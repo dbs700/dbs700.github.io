@@ -10,7 +10,7 @@ hero: /images/arch.jpg
 excerpt: Large language model is a machine learning model that is trained on a large amount of text data to generate human-like text. These models are typically used for natural language processing tasks, such as language translation, text summarization, and dialogue generation
 ---
 
-Large language model is a machine learning model that is trained on a large amount of text data to generate human-like text. These models are typically used for natural language processing tasks, such as language translation, text summarization, and dialogue generation.
+Large language model is a machine learning model that is trained on a large amount of text data to generate human-like text. These models are typically used for natural language processing tasks, such as language translation, text summarization, and conversational AI/chatbots.
 
 Why we need it? First of all, because they can capture the complex and nuanced patterns and structures of natural language, allowing them to generate more accurate and human-like text than smaller models. They can also handle a wider range of languages, domains, and tasks, making them more versatile and adaptable to different scenarios. Additionally, large language models can learn from a large amount of data, allowing them to improve their performance and accuracy over time.
 
@@ -32,17 +32,17 @@ Overall, the architecture of GPT-3 is highly complex and sophisticated, enabling
 
 Some applications of large language models that have demonstrated their value include:
 
-Language translation: Large language models can be trained on parallel text data in different languages, allowing them to accurately translate text from one language to another.
+- Language translation: Large language models can be trained on parallel text data in different languages, allowing them to accurately translate text from one language to another.
 
-Text summarization: Large language models can be used to automatically summarize long or complex text documents, reducing the time and effort required to read and understand them.
+- Text summarization: Large language models can be used to automatically summarize long or complex text documents, reducing the time and effort required to read and understand them.
 
-Dialogue generation: Large language models can be used to create conversational agents, such as chatbots or virtual assistants, that can engage in natural language dialogue with users.
+- Dialogue generation: Large language models can be used to create conversational agents, such as chatbots or virtual assistants, that can engage in natural language dialogue with users.
 
-Sentiment analysis: Large language models can be used to automatically classify the sentiment of a given text as positive, negative, or neutral, allowing businesses to track and respond to customer feedback.
+- Sentiment analysis: Large language models can be used to automatically classify the sentiment of a given text as positive, negative, or neutral, allowing businesses to track and respond to customer feedback.
 
-Text classification: Large language models can be used to automatically classify text into different categories or topics, allowing organizations to organize and manage large volumes of unstructured text data.
+- Text classification: Large language models can be used to automatically classify text into different categories or topics, allowing organizations to organize and manage large volumes of unstructured text data.
 
-Speech recognition: Large language models can be used to accurately transcribe spoken language into text, allowing businesses to automate and improve the efficiency of their customer service processes.
+- Speech recognition: Large language models can be used to accurately transcribe spoken language into text, allowing businesses to automate and improve the efficiency of their customer service processes.
 
 
 ### What are the limitations of large language models
