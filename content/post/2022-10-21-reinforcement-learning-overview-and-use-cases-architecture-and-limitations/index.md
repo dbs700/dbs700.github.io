@@ -51,7 +51,8 @@ The reward function is a mathematical function that determines the value of the 
 The set of actions available to the agent is determined by the environment and the specific task that the agent is trying to accomplish. For example, in a game of chess, the set of actions might include moving a piece to a specific square on the board.
 
 ![](images/rl-sim.png)
-Deep reinforcement learning architecture for tuning the vehicles' speeds in the simulator.Joint Modeling of Dense and Incomplete Trajectories for Citywide Traffic Volume Inference. Xianfeng Tang, Boqing Gong, Yanwei Yu. DOI:10.1145/3308558.3313621
+
+Deep reinforcement learning architecture for tuning the vehicles' speeds in the simulator. Joint Modeling of Dense and Incomplete Trajectories for Citywide Traffic Volume Inference. Xianfeng Tang, Boqing Gong, Yanwei Yu. https://www.researchgate.net/publication/331344124_Joint_Modeling_of_Dense_and_Incomplete_Trajectories_for_Citywide_Traffic_Volume_Inference
 
 The goal of a reinforcement learning system is to train the agent to take the most effective actions in a given environment in order to maximize the reward. This is typically achieved through a process of trial and error, in which the agent takes actions, receives feedback in the form of a reward, and learns from this feedback to improve its performance over time.
 

@@ -1,5 +1,5 @@
 ---
-title: Why do we need Large Language Models? Current state of Large Language Models, architecture, applications and limitations
+title: Why do we need Large Language Models? Current state and applications
 authors: 
 - Dmitrii Storozhenko
 date: '2022-12-02'
