@@ -7,7 +7,7 @@ slug: []
 categories: []
 tags: []
 hero: /images/arch.jpg
-excerpt: ~
+excerpt: Large language model is a machine learning model that is trained on a large amount of text data to generate human-like text. These models are typically used for natural language processing tasks, such as language translation, text summarization, and dialogue generation
 ---
 
 Large language model is a machine learning model that is trained on a large amount of text data to generate human-like text. These models are typically used for natural language processing tasks, such as language translation, text summarization, and dialogue generation.
