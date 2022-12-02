@@ -38,30 +38,30 @@ if (!doNotTrack) {
 
 
 
-<title>Aggregate marketing system simulator for different scenarios and channels | Dmitrii Storozhenko</title>
-<meta name="description" content="Preface Running a business is like running a race, and in this term every item is important, so if you have powerful tools and bright minds, you will definitely get in a better position. Google are not only well-known for producing high quality products for users, but also for producing tools that helps us gain lot of insights from any type of data.
-Today we&rsquo;ll explore one of them for simulating aggregated marketing times series data.">
-<meta property="og:title" content="Aggregate marketing system simulator for different scenarios and channels | Dmitrii Storozhenko">
+<title>Why do we need Large Language Models? Current state of Large Language Models, architecture, applications and limitations | Dmitrii Storozhenko</title>
+<meta name="description" content="Large language model is a machine learning model that is trained on a large amount of text data to generate human-like text. These models are typically used for natural language processing tasks, such as language translation, text summarization, and dialogue generation.
+Why we need it? First of all, because they can capture the complex and nuanced patterns and structures of natural language, allowing them to generate more accurate and human-like text than smaller models.">
+<meta property="og:title" content="Why do we need Large Language Models? Current state of Large Language Models, architecture, applications and limitations | Dmitrii Storozhenko">
 <meta property="og:site_name" content="Dmitrii Storozhenko">
-<meta property="og:description" content="Preface Running a business is like running a race, and in this term every item is important, so if you have powerful tools and bright minds, you will definitely get in a better position. Google are not only well-known for producing high quality products for users, but also for producing tools that helps us gain lot of insights from any type of data.
-Today we&rsquo;ll explore one of them for simulating aggregated marketing times series data.">
-<meta property="og:url" content="/post/aggregate-marketing-system-simulator/">
+<meta property="og:description" content="Large language model is a machine learning model that is trained on a large amount of text data to generate human-like text. These models are typically used for natural language processing tasks, such as language translation, text summarization, and dialogue generation.
+Why we need it? First of all, because they can capture the complex and nuanced patterns and structures of natural language, allowing them to generate more accurate and human-like text than smaller models.">
+<meta property="og:url" content="/post/2022-12-02-current-state-of-large-language-models-and-their-limitations/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content='/images/hero-17.jpg'><meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Aggregate marketing system simulator for different scenarios and channels | Dmitrii Storozhenko">
+<meta property="og:image" content='/images/arch.jpg'><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Why do we need Large Language Models? Current state of Large Language Models, architecture, applications and limitations | Dmitrii Storozhenko">
 
-	<link rel="canonical" href="/post/aggregate-marketing-system-simulator/">
+	<link rel="canonical" href="/post/2022-12-02-current-state-of-large-language-models-and-their-limitations/">
 
 
 	<meta name="twitter:site" content="@https://twitter.com/dbs700">
 	<meta name="twitter:creator" content="@https://twitter.com/dbs700">
 
-	<meta name="twitter:description" content="Preface Running a business is like running a race, and in this term every item is important, so if you have powerful tools and bright minds, you will definitely get in a better position. Google are not only well-known for producing high quality products for users, but also for producing tools that helps us gain lot of insights from any type of data.
-Today we&rsquo;ll explore one of them for simulating aggregated marketing times series data.">
-<meta name="twitter:image" content="/images/hero-17.jpg">
-<meta property="article:published_time" content="2020-04-23T00:00:00&#43;00:00">
-	<meta property="article:updated_time" content="2020-04-23T00:00:00&#43;00:00">
+	<meta name="twitter:description" content="Large language model is a machine learning model that is trained on a large amount of text data to generate human-like text. These models are typically used for natural language processing tasks, such as language translation, text summarization, and dialogue generation.
+Why we need it? First of all, because they can capture the complex and nuanced patterns and structures of natural language, allowing them to generate more accurate and human-like text than smaller models.">
+<meta name="twitter:image" content="/images/arch.jpg">
+<meta property="article:published_time" content="2022-12-02T00:00:00&#43;00:00">
+	<meta property="article:updated_time" content="2022-12-02T00:00:00&#43;00:00">
 
 
 
@@ -130,7 +130,7 @@ Today we&rsquo;ll explore one of them for simulating aggregated marketing times 
     <section id="articleHero" class="section narrow">
     <div class="article-hero">
         <header class="article-header">
-            <h1 class="article-hero-heading">Aggregate marketing system simulator for different scenarios and channels</h1>
+            <h1 class="article-hero-heading">Why do we need Large Language Models? Current state of Large Language Models, architecture, applications and limitations</h1>
             <div class="article-hero-subtitle">
                 <div class="article-meta">
                     
@@ -153,14 +153,14 @@ Today we&rsquo;ll explore one of them for simulating aggregated marketing times 
 
 
 <script src="/js/collapseAuthors.js"></script>
-                    April 23, 2020
-                    • 3 min read
+                    December 2, 2022
+                    • 5 min read
                 </div>
             </div>
         </header>
         
         <div class="article-hero-image" id="ArticleImage__Hero">
-            <img src="/images/hero-17.jpg">
+            <img src="/images/arch.jpg">
         </div>
         
     </div>
@@ -184,83 +184,36 @@ Today we&rsquo;ll explore one of them for simulating aggregated marketing times 
 
 
     <article  id="articleContent" class="post-content" style="position:relative;">
-        <h2 id="preface">Preface</h2>
-<p>Running a business is like running a race, and in this term every item is important, so if you have powerful tools and bright minds, you will definitely get in a better position. Google are not only well-known for producing high quality products for users, but also for producing tools that helps us gain lot of insights from any type of data.</p>
-<p>Today we&rsquo;ll explore one of them for simulating aggregated marketing times series data. The Aggregate Marketing System Simulator is a simulation tool capable of generating channel-level marketing spend, website visits, competitor spend, pricing, sales volume, etc. It is flexible enough to model a wide variety of marketing situations like types of ad targeting, sales seasonality, competitor activity, and much more.</p>
-<p>Additionally, AMSS generates ground truth for marketing performance metrics, including return on advertising spend (ROAS) and marginal ROAS (mROAS). The capabilities provided by AMSS create a foundation for evaluating and improving measurement methods, including media mix models (MMMs), campaign optimization, and geo experiments, across complex modeling scenarios.</p>
-<p>So what this tool is good for &lsquo;what if&rsquo; analysis such as:</p>
-<ul>
-<li>
-<p>Estimate the impact of various media strategies (the media mix) on revenue or some other key performance indicator (KPI).</p>
-</li>
-<li>
-<p>Forecast the impact of future media strategies on the KPI.</p>
-</li>
-<li>
-<p>Recommend media strategies to optimize future KPIs.</p>
-</li>
-</ul>
-<p>We could create multiple years of weekly marketing data including consumer behaviour that could be naturally changed over time. 
-Next step would be settig up budget cycle for all media channels as well as each channel behavior. 
-For example, TV causes changes in consumer mindset by increasing brand awareness and brand favorability. In our tool, we could specifiy this patterns for traditional media and paid or search channels differently.</p>
-<p>The last step would be to set the parameters for Sales module including, but not limited to:</p>
-<ul>
-<li>
-<p>The price of the advertiser&rsquo;s product at each time point. A constant price can be written as a single number.</p>
-</li>
-<li>
-<p>The linear relationship between price and demand for consumers who have reached the &lsquo;purchase&rsquo; activity state. The demand curve differs by brand state (brand favorability, brand loyalty, and brand availability).</p>
-</li>
-<li>
-<p>The strength of competitor effects is also specified here. Demand for the competitor&rsquo;s product differs by brand loyalty state.</p>
-</li>
-</ul>
-<p>After that we could see the simulated data and modify scenarios for different budget allocations. 
-And now the brilliant thing implemented in this library - Calculating Return on Ad Spent. It&rsquo;s not just calculated KPI but also it compares revenue under two simulation settings (the original, and a counterfactual of what would have happened if the advertiser had set a different budget for the relevant media channel).</p>
-<p>Also, we could calculate marginal Return on Ad Spent by setting budget proportion ratio, and see different results like if we had 5% decrease or increase for each marketing channel spend.</p>
-<p>So, summing it all up, and keeping in mind that this is unofficial Google product, it still helps us to create a really useful insights from simulated data before we actually spend any money.</p>
-
-  
-
-<section id="subscriptionSection" class="section narrow">
-    <div class="subscription-container">
-        <div class="subscription-content">
-            <h3 class="subscription-heading">
-                Join our email list and get notified about new content
-            </h3>
-            <p class="subscription-text">
-                Be the first to receive our latest content with the ability to
-                opt-out at anytime. We promise to not spam your inbox or share your
-                email with any third parties.
-            </p>
-            <form id="subscriptionForm" class="subscription-form" action="https://formspree.io/your@email.com.tld" method="POST">
-                <input
-                  id="emailInput"
-                  class="subscription-input"
-                  placeholder="your@email.com"
-                  name="email"
-                  type="email"
-                  required
-                  pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$"
-                />
-                <button id="submitButton"
-                  class="submit-button"
-                  type="submit"
-                >
-                    Subscribe
-                </button>
-                <div class="subscription-error-message">
-                    The email you entered is not valid.
-                </div>
-            </form>
-        </div>
-    </div>
-</section>
-
-
-<script src="/js/addFormStyles.js"></script>
-
-
+        <p>Large language model is a machine learning model that is trained on a large amount of text data to generate human-like text. These models are typically used for natural language processing tasks, such as language translation, text summarization, and dialogue generation.</p>
+<p>Why we need it? First of all, because they can capture the complex and nuanced patterns and structures of natural language, allowing them to generate more accurate and human-like text than smaller models. They can also handle a wider range of languages, domains, and tasks, making them more versatile and adaptable to different scenarios. Additionally, large language models can learn from a large amount of data, allowing them to improve their performance and accuracy over time.</p>
+<p>One of the most popular model is GPT-3. While there is already GPT-4, that should be the next big thing, let&rsquo;s quickly see what is actually inside the model.</p>
+<p>GPT-3 (Generative Pretrained Transformer 3) is a large language model developed by OpenAI that has been trained on a massive dataset of text data to generate human-like text. The architecture of GPT-3 is based on the transformer model, which uses self-attention mechanisms to process the input data and generate the output.</p>
+<p>This model consists of several layers of transformer blocks, each of which consists of a multi-headed self-attention layer, a feed-forward neural network, and a layer normalization function. The self-attention layer allows the model to capture the long-term dependencies and context in the input data, while the feed-forward neural network processes the self-attention outputs and generates the final outputs.</p>
+<p>It  also includes a vocabulary and tokenization layer, which converts the input text into a sequence of tokens that are then fed into the transformer blocks. The model also has an output layer, which maps the transformer outputs to the final output text.</p>
+<p>In addition to the transformer architecture, GPT-3 also uses several techniques to improve its performance and efficiency, such as weight tying, dynamic control, and conditional computation. These techniques allow the model to better capture the patterns and structures of natural language and generate more accurate and human-like text.</p>
+<p>Overall, the architecture of GPT-3 is highly complex and sophisticated, enabling it to perform a wide range of natural language processing tasks with impressive accuracy and performance.</p>
+<h3 id="what-are-the-applications-of-large-language-models">What are the applications of large language models?</h3>
+<p>Some applications of large language models that have demonstrated their value include:</p>
+<p>Language translation: Large language models can be trained on parallel text data in different languages, allowing them to accurately translate text from one language to another.</p>
+<p>Text summarization: Large language models can be used to automatically summarize long or complex text documents, reducing the time and effort required to read and understand them.</p>
+<p>Dialogue generation: Large language models can be used to create conversational agents, such as chatbots or virtual assistants, that can engage in natural language dialogue with users.</p>
+<p>Sentiment analysis: Large language models can be used to automatically classify the sentiment of a given text as positive, negative, or neutral, allowing businesses to track and respond to customer feedback.</p>
+<p>Text classification: Large language models can be used to automatically classify text into different categories or topics, allowing organizations to organize and manage large volumes of unstructured text data.</p>
+<p>Speech recognition: Large language models can be used to accurately transcribe spoken language into text, allowing businesses to automate and improve the efficiency of their customer service processes.</p>
+<h3 id="what-are-the-limitations-of-large-language-models">What are the limitations of large language models</h3>
+<p>Computational power and data requirements: To train large language models, a significant amount of computational power and data are needed, which can be expensive and resource-intensive. Solutions to this include using more efficient algorithms and techniques, such as transfer learning and distillation, to reduce the amount of data and computational resources required.</p>
+<p>Efficiency and speed: Large language models can be slow and inefficient, leading to delays and reduced performance when used in real-time applications. Solutions to this include using more efficient algorithms and techniques, such as pruning and quantization, to reduce the model size and improve its performance.</p>
+<p>Overfitting: Large language models can be prone to overfitting, where the model becomes too specialized to the training data and fails to generalize well to new inputs. Solutions to this include using regularization techniques, such as dropout and weight decay, to prevent overfitting and improve the model&rsquo;s ability to generalize.</p>
+<p>Bias: Large language models can reflect the biases present in the training data and potentially lead to unfair or discriminatory outputs. Solutions to this include using bias detection and mitigation techniques, such as debiasing algorithms and data augmentation, to reduce the impact of bias on the model&rsquo;s outputs.</p>
+<p>Nonsensical outputs: Large language models can produce outputs that are nonsensical or unrelated to the input, due to the inherent limitations of natural language processing and the complexity of the model. Solutions to this include using techniques, such as beam search and sampling, to improve the model&rsquo;s ability to generate coherent and relevant outputs.</p>
+<p>Interpretability and understanding: Large language models can be difficult to interpret and understand, making it challenging to explain their outputs and decision-making processes. Solutions to this include using techniques, such as attention and visualization, to better understand the model&rsquo;s internal workings and improve its interpretability.</p>
+<h3 id="where-are-we-going-with-large-language-models">Where are we going with large language models?</h3>
+<p>The future of large language models is likely to involve continued improvements in performance and accuracy, as well as the development of new applications and capabilities. Some potential developments in the field include:</p>
+<p>Increased use of large language models in a wider range of industries and domains, such as finance, healthcare, and education.</p>
+<p>Development of more advanced and sophisticated language models that can handle complex and nuanced language tasks, such as sarcasm detection and irony recognition.</p>
+<p>Integration of large language models with other technologies, such as augmented reality and robotics, to enable more natural and intuitive human-machine interactions.</p>
+<p>Continued research and development into the ethical and societal implications of large language models, including issues related to bias and fairness.</p>
+<p>Development of more efficient and scalable methods for training and deploying large language models, allowing them to be used in a wider range of scenarios and contexts.</p>
 
     </article>
 
@@ -271,12 +224,14 @@ And now the brilliant thing implemented in this library - Calculating Return on 
 
 
 
-
-
-
     
     
     
+        
+    
+
+
+
 
 <section id="articleNext" class="section nartrow">
     <h3 class="footer-next-heading">More articles from Dmitrii Storozhenko</h3>
@@ -284,28 +239,8 @@ And now the brilliant thing implemented in this library - Calculating Return on 
     <div class="next-articles-grid" numberOfArticles={numberOfArticles}>
         <div class="post-row">
             
-                <a href="/post/2022-12-02-current-state-of-large-language-models-and-their-limitations/" class="article-link"
-                 id="article-link-bigger">
-                    <div>
-                        <div class="image-container">
-                            <img src="/images/arch.jpg" class="article-image" />
-                        </div>
-                        <div>
-                            <h2 class="article-title">
-                                Why do we need Large Language Models? Current state of Large Language Models, architecture, applications and limitations
-                            </h2>
-                            <p class="article-excerpt">
-                                
-                            </p>
-                            <div class="article-metadata">
-                                December 12, 2022 · 5 min read
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            
                 <a href="/post/2022-11-27-how-to-make-ai-more-sustainable-carbon-emissions-tracking-and-reduction-for-ai-ml-applications/" class="article-link"
-                >
+                 id="article-link-bigger">
                     <div>
                         <div class="image-container">
                             <img src="/images/hero-555.jpg" class="article-image" />
@@ -319,6 +254,26 @@ And now the brilliant thing implemented in this library - Calculating Return on 
                             </p>
                             <div class="article-metadata">
                                 November 11, 2022 · 8 min read
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            
+                <a href="/post/2022-11-25-contrastive-search-leadership-and-transformers-what-is-in-common-between-these-three-words/" class="article-link"
+                >
+                    <div>
+                        <div class="image-container">
+                            <img src="/images/hero-14.jpg" class="article-image" />
+                        </div>
+                        <div>
+                            <h2 class="article-title">
+                                Contrastive search and Leadership. What is in common between these words?
+                            </h2>
+                            <p class="article-excerpt">
+                                Leadership starts with a willingness to take risks. It doesn&#39;t matter if you&#39;re managing a team of five or hundreds of people. The point is to try new things that may be more successful or less successful. You should be willing to decide while dealing with uncertainty.
+                            </p>
+                            <div class="article-metadata">
+                                November 11, 2022 · 3 min read
                             </div>
                         </div>
                     </div>

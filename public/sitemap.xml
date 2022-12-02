@@ -4,26 +4,31 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2022-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2022-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/dmitrii-storozhenko/</loc>
-    <lastmod>2022-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2022-11-27-how-to-make-ai-more-sustainable-carbon-emissions-tracking-and-reduction-for-ai-ml-applications/</loc>
-    <lastmod>2022-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
+    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2022-12-02-current-state-of-large-language-models-and-their-limitations/</loc>
+    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2022-11-27-how-to-make-ai-more-sustainable-carbon-emissions-tracking-and-reduction-for-ai-ml-applications/</loc>
     <lastmod>2022-11-27T00:00:00+00:00</lastmod>
   </url>
   

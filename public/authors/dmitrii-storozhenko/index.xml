@@ -6,10 +6,20 @@
     <description>Recent content on Dmitrii Storozhenko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Dec 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/dmitrii-storozhenko/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Why do we need Large Language Models? Current state of Large Language Models, architecture, applications and limitations</title>
+      <link>/post/2022-12-02-current-state-of-large-language-models-and-their-limitations/</link>
+      <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2022-12-02-current-state-of-large-language-models-and-their-limitations/</guid>
+      <description>Large language model is a machine learning model that is trained on a large amount of text data to generate human-like text. These models are typically used for natural language processing tasks, such as language translation, text summarization, and dialogue generation.
+Why we need it? First of all, because they can capture the complex and nuanced patterns and structures of natural language, allowing them to generate more accurate and human-like text than smaller models.</description>
+    </item>
     
     <item>
       <title>How to make AI more sustainable? Following the best practices for carbon emissions tracking of AI/ML applications</title>
