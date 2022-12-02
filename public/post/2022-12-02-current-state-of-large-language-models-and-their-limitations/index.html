@@ -39,11 +39,11 @@ if (!doNotTrack) {
 
 
 <title>Why do we need Large Language Models? Current state of Large Language Models, architecture, applications and limitations | Dmitrii Storozhenko</title>
-<meta name="description" content="Large language model is a machine learning model that is trained on a large amount of text data to generate human-like text. These models are typically used for natural language processing tasks, such as language translation, text summarization, and dialogue generation.
+<meta name="description" content="Large language model is a machine learning model that is trained on a large amount of text data to generate human-like text. These models are typically used for natural language processing tasks, such as language translation, text summarization, and conversational AI/chatbots.
 Why we need it? First of all, because they can capture the complex and nuanced patterns and structures of natural language, allowing them to generate more accurate and human-like text than smaller models.">
 <meta property="og:title" content="Why do we need Large Language Models? Current state of Large Language Models, architecture, applications and limitations | Dmitrii Storozhenko">
 <meta property="og:site_name" content="Dmitrii Storozhenko">
-<meta property="og:description" content="Large language model is a machine learning model that is trained on a large amount of text data to generate human-like text. These models are typically used for natural language processing tasks, such as language translation, text summarization, and dialogue generation.
+<meta property="og:description" content="Large language model is a machine learning model that is trained on a large amount of text data to generate human-like text. These models are typically used for natural language processing tasks, such as language translation, text summarization, and conversational AI/chatbots.
 Why we need it? First of all, because they can capture the complex and nuanced patterns and structures of natural language, allowing them to generate more accurate and human-like text than smaller models.">
 <meta property="og:url" content="/post/2022-12-02-current-state-of-large-language-models-and-their-limitations/">
 <meta property="og:type" content="website">
@@ -57,7 +57,7 @@ Why we need it? First of all, because they can capture the complex and nuanced p
 	<meta name="twitter:site" content="@https://twitter.com/dbs700">
 	<meta name="twitter:creator" content="@https://twitter.com/dbs700">
 
-	<meta name="twitter:description" content="Large language model is a machine learning model that is trained on a large amount of text data to generate human-like text. These models are typically used for natural language processing tasks, such as language translation, text summarization, and dialogue generation.
+	<meta name="twitter:description" content="Large language model is a machine learning model that is trained on a large amount of text data to generate human-like text. These models are typically used for natural language processing tasks, such as language translation, text summarization, and conversational AI/chatbots.
 Why we need it? First of all, because they can capture the complex and nuanced patterns and structures of natural language, allowing them to generate more accurate and human-like text than smaller models.">
 <meta name="twitter:image" content="/images/arch.jpg">
 <meta property="article:published_time" content="2022-12-02T00:00:00&#43;00:00">
@@ -184,7 +184,7 @@ Why we need it? First of all, because they can capture the complex and nuanced p
 
 
     <article  id="articleContent" class="post-content" style="position:relative;">
-        <p>Large language model is a machine learning model that is trained on a large amount of text data to generate human-like text. These models are typically used for natural language processing tasks, such as language translation, text summarization, and dialogue generation.</p>
+        <p>Large language model is a machine learning model that is trained on a large amount of text data to generate human-like text. These models are typically used for natural language processing tasks, such as language translation, text summarization, and conversational AI/chatbots.</p>
 <p>Why we need it? First of all, because they can capture the complex and nuanced patterns and structures of natural language, allowing them to generate more accurate and human-like text than smaller models. They can also handle a wider range of languages, domains, and tasks, making them more versatile and adaptable to different scenarios. Additionally, large language models can learn from a large amount of data, allowing them to improve their performance and accuracy over time.</p>
 <p>One of the most popular model is GPT-3. While there is already GPT-4, that should be the next big thing, let&rsquo;s quickly see what is actually inside the model.</p>
 <p>GPT-3 (Generative Pretrained Transformer 3) is a large language model developed by OpenAI that has been trained on a massive dataset of text data to generate human-like text. The architecture of GPT-3 is based on the transformer model, which uses self-attention mechanisms to process the input data and generate the output.</p>
@@ -194,14 +194,30 @@ Why we need it? First of all, because they can capture the complex and nuanced p
 <p>Overall, the architecture of GPT-3 is highly complex and sophisticated, enabling it to perform a wide range of natural language processing tasks with impressive accuracy and performance.</p>
 <h3 id="what-are-the-applications-of-large-language-models">What are the applications of large language models?</h3>
 <p>Some applications of large language models that have demonstrated their value include:</p>
+<ul>
+<li>
 <p>Language translation: Large language models can be trained on parallel text data in different languages, allowing them to accurately translate text from one language to another.</p>
+</li>
+<li>
 <p>Text summarization: Large language models can be used to automatically summarize long or complex text documents, reducing the time and effort required to read and understand them.</p>
+</li>
+<li>
 <p>Dialogue generation: Large language models can be used to create conversational agents, such as chatbots or virtual assistants, that can engage in natural language dialogue with users.</p>
+</li>
+<li>
 <p>Sentiment analysis: Large language models can be used to automatically classify the sentiment of a given text as positive, negative, or neutral, allowing businesses to track and respond to customer feedback.</p>
+</li>
+<li>
 <p>Text classification: Large language models can be used to automatically classify text into different categories or topics, allowing organizations to organize and manage large volumes of unstructured text data.</p>
+</li>
+<li>
 <p>Speech recognition: Large language models can be used to accurately transcribe spoken language into text, allowing businesses to automate and improve the efficiency of their customer service processes.</p>
+</li>
+</ul>
 <h3 id="what-are-the-limitations-of-large-language-models">What are the limitations of large language models</h3>
-<p>Computational power and data requirements: To train large language models, a significant amount of computational power and data are needed, which can be expensive and resource-intensive. Solutions to this include using more efficient algorithms and techniques, such as transfer learning and distillation, to reduce the amount of data and computational resources required.</p>
+<p>As mentioned in a lot of blog posts recently, we&rsquo;re facing a new Moore&rsquo;s law. Large Language Model size has been increasing 10x every year for the last few years.</p>
+<p><img src="images/model-evo.jpg" alt=""></p>
+<p>And the first limitation, is obviously computational power and data requirements limitations. To train large language models, a significant amount of computational power and data are needed, which can be expensive and resource-intensive. Solutions to this include using more efficient algorithms and techniques, such as transfer learning and distillation, to reduce the amount of data and computational resources required.</p>
 <p>Efficiency and speed: Large language models can be slow and inefficient, leading to delays and reduced performance when used in real-time applications. Solutions to this include using more efficient algorithms and techniques, such as pruning and quantization, to reduce the model size and improve its performance.</p>
 <p>Overfitting: Large language models can be prone to overfitting, where the model becomes too specialized to the training data and fails to generalize well to new inputs. Solutions to this include using regularization techniques, such as dropout and weight decay, to prevent overfitting and improve the model&rsquo;s ability to generalize.</p>
 <p>Bias: Large language models can reflect the biases present in the training data and potentially lead to unfair or discriminatory outputs. Solutions to this include using bias detection and mitigation techniques, such as debiasing algorithms and data augmentation, to reduce the impact of bias on the model&rsquo;s outputs.</p>
@@ -247,7 +263,7 @@ Why we need it? First of all, because they can capture the complex and nuanced p
                         </div>
                         <div>
                             <h2 class="article-title">
-                                How to make AI more sustainable? Following the best practices for carbon emissions tracking of AI/ML applications
+                                How to make AI sustainable? Best practices for CO2 tracking of AI/ML applications
                             </h2>
                             <p class="article-excerpt">
                                 What does sustainable AI/ML look like? How to measure carbon emissions, and at the same time, how to reduce energy consumption? These questions have become one of the hottest topics recently due to multiple factors
