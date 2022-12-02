@@ -1,5 +1,5 @@
 ---
-title: How to make AI more sustainable? Following the best practices for carbon emissions tracking of AI/ML applications
+title: How to make AI more sustainable? Best practices for CO2 tracking of AI/ML applications
 authors: 
 - Dmitrii Storozhenko
 date: '2022-11-27'
