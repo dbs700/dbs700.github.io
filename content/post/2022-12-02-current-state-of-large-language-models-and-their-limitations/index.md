@@ -47,8 +47,11 @@ Some applications of large language models that have demonstrated their value in
 
 ### What are the limitations of large language models
 
+As mentioned in a lot of blog posts recently, we're facing a new Moore's law. Large Language Model size has been increasing 10x every year for the last few years.
 
-Computational power and data requirements: To train large language models, a significant amount of computational power and data are needed, which can be expensive and resource-intensive. Solutions to this include using more efficient algorithms and techniques, such as transfer learning and distillation, to reduce the amount of data and computational resources required.
+![](images/model-evo.jpg)
+
+And the first limitation, is obviously computational power and data requirements limitations. To train large language models, a significant amount of computational power and data are needed, which can be expensive and resource-intensive. Solutions to this include using more efficient algorithms and techniques, such as transfer learning and distillation, to reduce the amount of data and computational resources required.
 
 Efficiency and speed: Large language models can be slow and inefficient, leading to delays and reduced performance when used in real-time applications. Solutions to this include using more efficient algorithms and techniques, such as pruning and quantization, to reduce the model size and improve its performance.
 
