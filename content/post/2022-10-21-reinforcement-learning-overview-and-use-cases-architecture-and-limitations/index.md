@@ -52,7 +52,7 @@ The set of actions available to the agent is determined by the environment and t
 
 ![](images/rl-sim.png)
 
-Deep reinforcement learning architecture for tuning the vehicles' speeds in the simulator. Joint Modeling of Dense and Incomplete Trajectories for Citywide Traffic Volume Inference. Xianfeng Tang, Boqing Gong, Yanwei Yu. https://www.researchgate.net/publication/331344124_Joint_Modeling_of_Dense_and_Incomplete_Trajectories_for_Citywide_Traffic_Volume_Inference
+Deep reinforcement learning architecture for tuning the vehicles' speeds in the simulator. Joint Modeling of Dense and Incomplete Trajectories for Citywide Traffic Volume Inference. Xianfeng Tang, Boqing Gong, Yanwei Yu. 
 
 The goal of a reinforcement learning system is to train the agent to take the most effective actions in a given environment in order to maximize the reward. This is typically achieved through a process of trial and error, in which the agent takes actions, receives feedback in the form of a reward, and learns from this feedback to improve its performance over time.
 
