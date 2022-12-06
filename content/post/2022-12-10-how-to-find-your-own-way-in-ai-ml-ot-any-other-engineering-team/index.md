@@ -20,29 +20,25 @@ In addition to being honest with yourself and developing a plan, it is also impo
 
 So how to find your own way, for instance working in a AI/ML team where everyone is talented, bright minded person? This points is not only specifically for AI type of person, but also works as a general guide for everyone.
 
-- Be honest with yourself. Sounds simple, hard to get, even harder to keep
+- Be honest with yourself. Sounds simple, hard to get to this state, even harder to keep this state
 
 - Develop a deep understanding of the business value and applications of AI, and be prepared to share your knowledge and expertise with others on the team
 
 - Be proactive in seeking out opportunities to learn and grow, and be willing to take on new challenges and responsibilities that allow you to develop your skills and expertise. Collaborate with other team members, and be willing to share your ideas, thoughts, and concerns openly. Take on leadership roles and responsibilities within the team, and be willing to support and guide other team members
 
-- Build strong relationships with other professionals in the field, and seek out mentors and advisors who can provide guidance, support, and advice to help you grow and succeed in your career. Participate in professional development activities, such as attending workshops and conferences, earning certifications, and pursuing advanced degrees, to stay current and competitive in the field
+- Build strong relationships with other professionals in the field, and seek out mentors and advisors who can provide guidance, support, and advice to help you grow and succeed in your career. Participate in professional development activities, such as attending workshops and conferences, earning certifications, and pursuing advanced degrees, to stay current and competitive in the field. Means, you need to know the latest tools and technologies by experimenting with open-source platforms and frameworks, participating in hackathons and other community events
 
-- Stay up to date with the latest tools and technologies by experimenting with open-source platforms and frameworks, participating in hackathons and other community events, and attending conferences and workshops
-
-- Be proactive in seeking out new opportunities and challenges, and be willing to take risks and try new approaches and techniques to solve problems and drive value. Be flexible and adaptable, and be willing to change and evolve as the field of AI develops and changes over time
-
-- Build a strong portfolio of work and achievements, and be prepared to share your skills, experiences, and accomplishments with others through resumes, interviews, and networking events.Stay connected with the broader AI community by attending meetups, conferences, and other events, and participating in online forums and communities to share knowledge and learn from others
+- Be willing to take risks and try new approaches and techniques to solve problems and drive value. Be flexible and adaptable, and be willing to change and evolve as the field of AI develops and changes over time
 
 - Be open to new ideas and perspectives, and be willing to learn from others and adapt to new developments and trends in the field. Develop strong technical and problem-solving skills, and be willing to take on complex and challenging problems that require creative and innovative solutions
 
 - Be passionate and committed to your work in AI, and be willing to put in the time, effort, and dedication needed to succeed in this dynamic and rapidly-evolving field
 
-- Stay informed about ethical and societal issues related to AI, such as bias, privacy, and the impact on employment, and participate in discussions and debates about these topics
+- Stay informed about ethical and societal issues related to AI, such as bias, privacy, and the impact on employment, and even participate in discussions and debates about these topics
 
 - Explore interdisciplinary applications of AI by collaborating with professionals in other fields, such as medicine, finance, or robotics, and learning about how AI is being used in these areas
 
-- Be an advocate for AI and its potential to drive value and improve business processes, and be prepared to share your knowledge and expertise with others to promote the field
+- Be an advocate for AI and its potential to drive value and improve business processes, and be prepared to share your knowledge and expertise with others to promote the field using "their" language
 
 
 The key to self-realization and achieving your goals is to be honest with yourself and others, and to have a clear plan in place to help guide you towards your desired outcomes. By being honest and having a plan in place, you can stay focused and motivated, and can also build trust and improve relationships in both your personal and professional life.
