@@ -47,7 +47,7 @@ Some applications of large language models that have demonstrated their value in
 
 ### What are the limitations of large language models
 
-As mentioned in a lot of blog posts recently, we're facing a new Moore's law. Large Language Model size has been increasing 10x every year for the last few years.
+As mentioned in many blog posts recently, we're facing a new Moore's law. Large Language Model size has been increasing 10x every year for the last few years.
 
 ![](images/model-evo.jpg)
 
