@@ -20,7 +20,7 @@ In addition to being honest with yourself and developing a plan, it is also impo
 
 So how to find your own way, for instance working in a AI/ML team where everyone is talented, bright minded person? This points is not only specifically for AI type of person, but also works as a general guide for everyone.
 
-- Start building honesty with yourself
+- Be honest with yourself. Sounds simple, hard to get, even harder to keep
 
 - Develop a deep understanding of the business value and applications of AI, and be prepared to share your knowledge and expertise with others on the team
 
