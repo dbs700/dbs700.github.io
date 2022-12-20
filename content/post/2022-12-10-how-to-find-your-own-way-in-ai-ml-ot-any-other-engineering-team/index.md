@@ -1,5 +1,5 @@
 ---
-title: How to find your own way in Artificial Intelligence, Machine Learning or any other team?
+title: How to find your own way in Machine Learning or any other team?
 authors: 
 - Dmitrii Storozhenko
 date: '2022-12-06'
