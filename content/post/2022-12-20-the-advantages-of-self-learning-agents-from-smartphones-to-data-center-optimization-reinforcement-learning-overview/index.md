@@ -1,5 +1,5 @@
 ---
-title: The Advantages of self-learning agents - from Smartphones to Data Center Optimization with Reinforcement Learning 
+title: The advantages of self-learning agents - from Smartphones to Data Centers Optimization with Reinforcement Learning 
 authors: 
 - Dmitrii Storozhenko
 date: '2022-12-20'
