@@ -6,7 +6,7 @@ date: '2022-12-20'
 slug: []
 categories: []
 tags: []
-hero: /images/slzb.png
+hero: /images/rlrl.png
 excerpt: Did you know that your mobile device, IOS or Android has a built-in self-learning agent? Your iPhone learns from your daily charging habits to improve the lifespan of your battery. For Android, the company that stands behind these type of features - Deepmind, helped to make the system more energy efficient by creating Adaptive Battery and Adaptive Brightness.
 ---
 
