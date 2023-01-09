@@ -53,7 +53,7 @@ ML Engineer/MLOps Engineer: This role combines aspects of several roles and has 
 ![MLOps](images/mlops.png)
 End-to-end MLOps architecture and workflow with functional components and roles. Machine Learning Operations (MLOps): Overview, Definition, and Architecture. Dominik Kreuzberger, Niklas Kühl, Sebastian Hirschl
 
-In Microsoft's "AI Maturity and organizations" white paper written by Eric Charran – Chief Architect Data & AI and Steve Sweetman – Director AI Programs, authors explained the most important factors and milestones of the company maturity level evolution. [3]
+In Microsoft's "AI Maturity and organizations" white paper written by Eric Charran – Chief Architect Data & AI and Steve Sweetman – Director AI Programs, authors explained the most important milestones and patterns of the company's maturity evolution. [3]
 
 ### Foundational organizations
 
