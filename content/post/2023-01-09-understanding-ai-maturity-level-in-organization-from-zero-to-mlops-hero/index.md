@@ -1,5 +1,5 @@
 ---
-title: Understanding AI maturity level in organization, from zero to MLOps hero
+title: Understanding AI maturity level in organization, from zero to MLOps hero, from Data Scientist to Software Engineer 
 authors: 
 - Dmitrii Storozhenko
 date: '2023-01-09'
