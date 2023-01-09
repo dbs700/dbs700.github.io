@@ -14,16 +14,15 @@ In recent years, the concept of DevOps has gained popularity as a way to address
 
 The adoption of continuous software engineering practices, like DevOps, has allowed organizations to quickly deploy new features as they are developed, leading to more frequent updates to their systems. With a growing interest in applying these practices to the rapid deployment of machine learning features, majority started using MLOps terminology.
 
-So whats is MLOps and why we need it? 
+### MLOps definition 
 
 The term MLOps can be defined as “the extension of the DevOps methodology to include Machine Learning and Data Science assets as first-class citizens within the DevOps ecology” Source: MLOps SIG. [1]
 
 While this statement is true, we're still missing few important concepts. More detailed explanation were mentioned in "Machine Learning Operations (MLOps): Overview, Definition, and Architecture" paper [2]:
 
->MLOps (Machine Learning Operations) is a paradigm, including aspects like best practices, sets of concepts, as well as a development culture when it comes to the end-to-end conceptualization, implementation, monitoring, deployment, and scalability of machine learning products. Most of all, it is an engineering practice that leverages three contributing disciplines: machine learning, software engineering (especially DevOps), and data engineering. MLOps is aimed at productionizing machine learning systems by bridging the gap between development (Dev) and operations (Ops). Essentially, MLOps aims to facilitate the creation of machine learning products by leveraging these principles: CI/CD automation, workflow orchestration, reproducibility; versioning of data, model, and code; collaboration; continuous ML training and evaluation; ML metadata tracking and logging; continuous monitoring; and feedback loops.
+MLOps (Machine Learning Operations) is a paradigm, including aspects like best practices, sets of concepts, as well as a development culture when it comes to the end-to-end conceptualization, implementation, monitoring, deployment, and scalability of machine learning products. Most of all, it is an engineering practice that leverages three contributing disciplines: machine learning, software engineering (especially DevOps), and data engineering. MLOps is aimed at productionizing machine learning systems by bridging the gap between development (Dev) and operations (Ops). Essentially, MLOps aims to facilitate the creation of machine learning products by leveraging these principles: CI/CD automation, workflow orchestration, reproducibility; versioning of data, model, and code; collaboration; continuous ML training and evaluation; ML metadata tracking and logging; continuous monitoring; and feedback loops.
 
-
-This is more precise explanation that covers majority of the items from MLOps lifecycle. 	But before starting the creation of MLOps, it's better to review the organization's Data Science/ML/AI maturity level.
+This is more precise explanation that covers majority of the items from MLOps lifecycle. 	But before starting thinking of MLOps, it's better to review the organization's Data Science/ML/AI maturity level.
 
 In Microsoft AI Maturity and organizations Understanding AI maturity paper written by Eric Charran – Chief Architect Data & AI and Steve Sweetman – Director AI Programs, they explained the most important factors and milestones of the company maturity level evolution. [3]
 
@@ -58,6 +57,7 @@ DevOps Engineer: This role bridges the gap between development and operations, a
 ML Engineer/MLOps Engineer: This role combines aspects of several roles and has cross-domain knowledge, including skills from data scientists, data engineers, software engineers, DevOps engineers, and backend engineers. This role builds and operates the ML infrastructure, manages the automated ML workflow pipelines and model deployment to production, and monitors both the model and the ML infrastructure.
 
 ![MLOps](images/mlops.png)
+End-to-end MLOps architecture and workflow with functional components and roles. Machine Learning Operations (MLOps): Overview, Definition, and Architecture. Dominik Kreuzberger, Niklas Kühl, Sebastian Hirschl
 
 In paper "Who Needs MLOps: What Data Scientists Seek to Accomplish and How Can MLOps Help?" [4], authors studied the importance of MLOps in the context of data scientists’ daily activities. As concrete results, they presented a survey representing responses from 331 professionals working in the ML domain, indicating on what they were working on in the last three months, and study the role MLOps might play in their daily activities.
 
@@ -75,8 +75,9 @@ To successfully integrate artificial intelligence into digital experience, compa
 
 [1] https://github.com/cdfoundation/sig-mlops/blob/master/roadmap/2020/MLOpsRoadmap2020.md 
 
-[2] https://arxiv.org/ftp/arxiv/papers/2205/2205.02302.pdf 
+[2] Machine Learning Operations (MLOps): Overview, Definition, and Architecture. Dominik Kreuzberger, Niklas Kühl, Sebastian Hirschl. https://doi.org/10.48550/arXiv.2205.02302 
 
 [3] https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4DIvg
 
-[4] https://arxiv.org/pdf/2103.08942.pdf
+[4] Who Needs MLOps: What Data Scientists Seek to Accomplish and How Can MLOps Help? Sasu Mäkinen, Henrik Skogström, Eero Laaksonen, Tommi Mikkonen. https://doi.org/10.48550/arXiv.2103.08942 
+
