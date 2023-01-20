@@ -14,7 +14,7 @@ Large language model is a machine learning model that is trained on a large amou
 
 Why we need it? First of all, because they can capture the complex and nuanced patterns and structures of natural language, allowing them to generate more accurate and human-like text than smaller models. They can also handle a wider range of languages, domains, and tasks, making them more versatile and adaptable to different scenarios. Additionally, large language models can learn from a large amount of data, allowing them to improve their performance and accuracy over time.
 
-One of the most popular model is GPT-3. While there is already GPT-4, that should be the next big thing, let's quickly see what is actually inside the model.
+One of the most popular model is GPT-3. While there is already rumors about GPT-4, and that should be the next big thing, let's quickly see what is actually inside this model.
 
 GPT-3 (Generative Pretrained Transformer 3) is a large language model developed by OpenAI that has been trained on a massive dataset of text data to generate human-like text. The architecture of GPT-3 is based on the transformer model, which uses self-attention mechanisms to process the input data and generate the output.
 
@@ -53,16 +53,15 @@ As mentioned in many blog posts recently, we're facing a new Moore's law. Large 
 
 And the first limitation, is obviously computational power and data requirements limitations. To train large language models, a significant amount of computational power and data are needed, which can be expensive and resource-intensive. Solutions to this include using more efficient algorithms and techniques, such as transfer learning and distillation, to reduce the amount of data and computational resources required.
 
-Efficiency and speed: Large language models can be slow and inefficient, leading to delays and reduced performance when used in real-time applications. Solutions to this include using more efficient algorithms and techniques, such as pruning and quantization, to reduce the model size and improve its performance.
+Efficiency and speed: these models can be slow and inefficient, leading to delays and reduced performance when used in real-time applications. Solutions to this include using more efficient algorithms and techniques, such as pruning and quantization, to reduce the model size and improve its performance.
 
-Overfitting: Large language models can be prone to overfitting, where the model becomes too specialized to the training data and fails to generalize well to new inputs. Solutions to this include using regularization techniques, such as dropout and weight decay, to prevent overfitting and improve the model's ability to generalize.
+Overfitting: they can be prone to overfitting, where the model becomes too specialized to the training data and fails to generalize well to new inputs. Solutions to this include using regularization techniques, such as dropout and weight decay, to prevent overfitting and improve the model's ability to generalize.
 
-Bias: Large language models can reflect the biases present in the training data and potentially lead to unfair or discriminatory outputs. Solutions to this include using bias detection and mitigation techniques, such as debiasing algorithms and data augmentation, to reduce the impact of bias on the model's outputs.
+Bias: large language models can reflect the biases present in the training data and potentially lead to unfair or discriminatory outputs. Solutions to this include using bias detection and mitigation techniques, such as debiasing algorithms and data augmentation, to reduce the impact of bias on the model's outputs.
 
-Nonsensical outputs: Large language models can produce outputs that are nonsensical or unrelated to the input, due to the inherent limitations of natural language processing and the complexity of the model. Solutions to this include using techniques, such as beam search and sampling, to improve the model's ability to generate coherent and relevant outputs.
+Nonsensical outputs: sometimes they can produce outputs that are nonsensical or unrelated to the input, due to the inherent limitations of natural language processing and the complexity of the model. Solutions to this include using techniques, such as beam search and sampling, to improve the model's ability to generate coherent and relevant outputs.
 
-Interpretability and understanding: Large language models can be difficult to interpret and understand, making it challenging to explain their outputs and decision-making processes. Solutions to this include using techniques, such as attention and visualization, to better understand the model's internal workings and improve its interpretability.
-
+Interpretability and understanding: sometimes it can be difficult to interpret and understand, making it challenging to explain their outputs and decision-making processes. 
 
 
 ### Where are we going with large language models?
@@ -81,3 +80,5 @@ Development of more efficient and scalable methods for training and deploying la
 
 
 https://huggingface.co/blog/large-language-models 
+
+Part of this post was written with a support of chatGPT model and reviewed by author.

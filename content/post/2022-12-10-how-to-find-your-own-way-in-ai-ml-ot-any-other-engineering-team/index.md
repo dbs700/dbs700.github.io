@@ -42,3 +42,5 @@ So how to find your own way, for instance working in a AI/ML team where everyone
 
 
 The key to self-realization and achieving your goals is to be honest with yourself and others, and to have a clear plan in place to help guide you towards your desired outcomes. By being honest and having a plan in place, you can stay focused and motivated, and can also build trust and improve relationships in both your personal and professional life.
+
+Part of this post was written with a support of chatGPT model and reviewed by author.

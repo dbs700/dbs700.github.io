@@ -40,7 +40,7 @@ Business Stakeholder (similar roles: Product Owner, Project Manager): This role 
 
 Solution Architect (similar role: IT Architect): This role designs the architecture and defines the technologies to be used, following a thorough evaluation.
 
-Data Scientist (similar roles: ML Engineer, ML Developer): This role translates the business problem into an ML problem and handles model engineering, including selecting the best-performing algorithm and hyperparameters.
+Data Scientist (similar roles: ML Engineer, ML Developer): This role translates the business problem into an ML problem and handles model engineering, including selecting the best-performing algorithm and hyper-parameters.
 
 Data Engineer (similar role: DataOps Engineer): This role builds and manages data and feature engineering pipelines, and ensures proper data ingestion to the databases of the feature store system.
 
