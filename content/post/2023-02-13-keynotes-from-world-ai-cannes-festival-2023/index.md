@@ -18,6 +18,8 @@ The experts also emphasized not to be afraid of generative models, reminding tha
 
 Deep learning will become more complex and cover end-to-end processes, from database operations to the end user solution, in a single run.
 
+>"The real world does not run faster than a real time, and you can't backpropogate gradient to it" - Yann LeCun
+
 Transformers, although still relevant, may soon be disrupted by the emergence of state space models, also we should remember universal transformers. Universal transformers - underrated. Large models should be trained in a multiple regions/countries to avoid biases.
 
 Transforming and scaling Data Science in organization can be done in six months, however requires a very strong support from Process Management and IT Infrastructure.
