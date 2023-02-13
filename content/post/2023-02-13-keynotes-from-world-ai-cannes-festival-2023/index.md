@@ -24,6 +24,10 @@ Transforming and scaling Data Science in organization can be done in six months,
 
 We can use images for time series predictions, as demonstrated in JP Morgan's Mondrian project.
 
+Allianz created very simple and useful solution for car damage detection using CV, without any app installation.
+
+Great initiative: Neuropin - software for augmented neuroradiology.
+
 Sustainability was also a topic of discussion, with the experts highlighting that there are many ways to make AI more sustainable with lower costs, but the current environment and mindset often puts sustainability on the backburner.
 
 Top challenges for AI: no hierarchical planning in general, learning representations and predictive models of the world, learning to reason, learning to plan complex action sequences. The cost efficiency of model training needs enhancement.

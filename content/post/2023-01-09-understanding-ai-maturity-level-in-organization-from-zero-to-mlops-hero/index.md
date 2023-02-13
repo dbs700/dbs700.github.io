@@ -1,5 +1,5 @@
 ---
-title: Understanding AI maturity level in organization 
+title: The AI Maturity Model
 authors: 
 - Dmitrii Storozhenko
 date: '2023-01-09'
