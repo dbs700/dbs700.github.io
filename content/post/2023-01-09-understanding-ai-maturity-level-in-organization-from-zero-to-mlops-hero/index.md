@@ -1,5 +1,5 @@
 ---
-title: The AI Maturity Model
+title: The AI Maturity Model, do we really need MLOps?
 authors: 
 - Dmitrii Storozhenko
 date: '2023-01-09'
