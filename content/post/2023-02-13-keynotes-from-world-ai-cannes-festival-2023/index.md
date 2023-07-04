@@ -1,5 +1,5 @@
 ---
-title: Keynotes from World AI Cannes Festival 2023
+title: World AI Cannes Festival 2023
 authors: 
 - Dmitrii Storozhenko
 date: '2023-02-13'

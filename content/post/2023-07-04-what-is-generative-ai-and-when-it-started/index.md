@@ -29,8 +29,10 @@ Multimodal generation is about creating a model that can generate different type
 
 
 ![](images/kosmos.png)
+
 KOSMOS-1 a Multimodal Large Language Model (MLLM) that can perceive
 general modalities, learn in context, and follow instructions https://arxiv.org/pdf/2302.14045.pdf
+By the way, Kosmos-2 was also introduced few days ago. https://github.com/microsoft/unilm/tree/master/kosmos-2
 
 Inside GPT-4, a system called Visual ChatGPT, incorporating different Visual Foundation Models, that enables the user to interact with the model by 1) sending and receiving not only languages but also images 2) providing complex visual questions or visual editing instructions that require the collaboration of multiple AI models with multi-steps. 3) providing feedback and asking for corrected results. We can use this system in a way where the model will help us extract the information from the image, guide the user on what to do next with it, or even take some simple action based on the extracted information.  
 
@@ -45,8 +47,10 @@ As AI becomes more widespread, concerns have arisen about potential bias and eth
 Still compelling and cost-effective models for downstream tasks and advanced analysis of any unstructured information
 
 
+
 >2022: large models trained on millions of tasks
 Next generation of Large Language Models that can generalize on unseen tasks and outperform basic models in content creation
+
 
 
 >2023: towards Artificial General Intelligence
