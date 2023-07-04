@@ -43,18 +43,13 @@ We're moving towards AGI - Artificial General Intelligence. The model will be ab
 
 As AI becomes more widespread, concerns have arisen about potential bias and ethical implications. One worry is that AI-generated content, such as language or images, may amplify existing societal biases. This could adversely affect areas such as hiring or loan approvals, perpetuating discrimination and inequities. This can be solved by having more transparency.  Keeping code, datasets, and models private hinders the overall progress in keeping AI systems safe. By sharing such information, users and researchers alike can point out the harms and potential solutions in these multifaceted systems.
 
->2017-2021: base models predicting next word
-Still compelling and cost-effective models for downstream tasks and advanced analysis of any unstructured information
+-2017-2021: base models predicting next word. Still compelling and cost-effective models for downstream tasks and advanced analysis of any unstructured information
 
 
-
->2022: large models trained on millions of tasks
-Next generation of Large Language Models that can generalize on unseen tasks and outperform basic models in content creation
+-2022: large models trained on millions of tasks. Next generation of Large Language Models that can generalize on unseen tasks and outperform basic models in content creation
 
 
-
->2023: towards Artificial General Intelligence
-Models that can use tools, search for information, operate with multiple modalities, and learn from AI feedback 
+-2023: towards Artificial General Intelligence. Models that can use tools, search for information, operate with multiple modalities, and learn from AI feedback 
 
 In the world of technology, there is a race to create AI models (for instance, on March 14th, 2023, both Open AI, Anthropic, and Google released APIs for their new models on the same day). This poses a threat to industry leaders who are slow to adapt. Models-as-a-Service (MaaS) vendors will emerge to provide foundational models that businesses can build upon, making it easier and more affordable to develop new AI applications. However, some industries require more accurate models than the foundational ones provided by MaaS companies.
 
